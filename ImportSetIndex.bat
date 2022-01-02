@@ -1,0 +1,1 @@
+mysqlimport --user root -p --local --fields-terminated-by="," --lines-terminated-by="\r\n" stock C:\A8\data\SetIndex.csv

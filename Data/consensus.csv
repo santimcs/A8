@@ -1,0 +1,28 @@
+name,price,target,upside,buy,hold,sell,market,sector,subsector,volume,beta,yield
+BCH,20.1,26.17,30,13,3,0,SET100 / SETWB    ,Services,Health Care Services,489.95,-0.1,4.8
+BGRIM,40.5,54.0,33,10,2,0,SET50 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,475.22,1.17,1.2
+CKP,5.0,6.44,29,4,0,0,SET100 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,128.81,1.16,2.5
+DOHOME,23.3,30.91,33,6,0,0,SET100 / SETWB    ,Services,Commerce,244.53,0.86,2.2
+EPG,11.2,15.27,36,8,0,0,SET    ,Property & Construction,Construction Materials,200.52,0.58,2.6
+GLOBAL,20.0,26.25,31,3,1,0,SET50 / SETCLMV / SETWB    ,Services,Commerce,277.23,0.66,1.4
+IMH,12.6,19.2,52,1,0,0,mai    ,Services,,34.04,0.36,5.3
+IP,19.5,26.6,36,3,0,0,mai    ,Consumer Products,Consumer Products,31.25,0.85,1.0
+IVL,43.25,54.38,26,3,1,0,SET50 / SETTHSI    ,Industrials,Petrochemicals & Chemicals,1063.3,1.49,3.4
+KBANK,142.0,170.0,20,6,0,0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,3500.79,1.58,2.6
+KCE,88.0,102.7,17,3,0,0,SET50    ,Technology,Electronic Components,1172.64,0.48,1.5
+MCS,14.8,21.0,42,1,0,0,sSET    ,Industrials,Steel and Metal Products,56.53,0.52,9.5
+MEGA,50.5,57.11,13,7,4,0,SET100 / SETCLMV / SETWB    ,Services,Commerce,240.15,0.56,2.3
+NER,7.0,10.36,48,5,0,0,sSET    ,Agro & Food Industry,Agribusiness,318.94,0.45,5.5
+PTL,23.8,29.0,22,1,0,0,SET100    ,Industrials,Packaging,123.14,0.69,4.2
+PTT,38.0,49.52,30,9,0,0,SET50 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,2503.06,0.96,4.5
+RATCH,45.0,54.47,21,5,2,1,SET50 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,277.21,0.64,5.7
+RCL,48.0,58.0,21,1,0,0,SETCLMV    ,Services,Transportation & Logistics,684.22,0.68,7.2
+ROJNA,6.65,8.05,21,3,0,0,sSET    ,Property & Construction,Property Development,72.23,0.98,4.7
+SAT,21.8,26.8,23,4,1,0,sSET / SETTHSI    ,Industrials,Automotive,61.05,0.58,6.3
+SMT,6.5,8.24,27,2,0,0,sSET    ,Technology,Electronic Components,77.18,1.25,1.5
+STA,31.0,41.33,33,3,0,0,SET50 / SETTHSI / SETWB    ,Agro & Food Industry,Agribusiness,961.45,0.1,13.6
+SVI,7.9,9.8,24,1,1,0,SET    ,Technology,Electronic Components,76.19,0.81,2.1
+TKS,15.3,22.0,44,1,0,0,sSET    ,Services,Media & Publishing,90.55,1.58,3.7
+TOP,49.5,64.33,30,3,0,0,SET50 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,700.67,1.31,2.9
+TQM,97.0,145.0,49,6,0,0,SET100    ,Financials,Insurance,123.0,0.49,2.7
+TSE,2.62,3.44,31,3,0,0,sSET    ,Resources,Energy & Utilities,71.38,0.7,3.3

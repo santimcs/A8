@@ -1,0 +1,4 @@
+name,fm_date,to_date,days,fm_price,to_price,chg,chg%,max_price,min_price,status,market
+SIS,2021-12-22,2021-12-29,7,46.5,44.0,-2.5,-5,45.0,42.0,B,sSET
+TOP,2021-12-27,2021-12-29,2,48.25,49.75,1.5,3,49.75,48.5,I,SET50 / SETCLMV / SETTHSI
+STA,2021-12-20,2021-12-29,9,29.75,31.25,1.5,5,31.75,29.75,B,SET50 / SETTHSI / SETWB
