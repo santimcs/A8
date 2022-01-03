@@ -1,4 +1,4 @@
-name,price,target,upside,buy,hold,sell,market,sector,subsector,volume,beta,yield
+name,price,target,upside,buy,hold,sell,market,sector,subsector,dly_vol,beta,yield
 BCH,20.1,26.17,30,13,3,0,SET100 / SETWB    ,Services,Health Care Services,489.95,-0.1,4.8
 BGRIM,40.5,54.0,33,10,2,0,SET50 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,475.22,1.17,1.2
 CKP,5.0,6.44,29,4,0,0,SET100 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,128.81,1.16,2.5
