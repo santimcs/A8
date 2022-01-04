@@ -148,6 +148,7 @@ show = true
 order_price = 0
 last_trade = 0
 spreads = 0
+jjj = 0
 
 fi = File.open(file_in, "r")
 while true do
@@ -155,6 +156,8 @@ while true do
     puts   "----------------------------------------------------------"
 
     fi.each do |line|
+
+        if (jjj > 0)
         ary_in = line.split(",")
         stock_name = ary_in[1]  
         # puts stock_name
@@ -232,12 +235,14 @@ while true do
             sleep(5)
         end     # active
         end # ary_out
+    end # jjj
+    jjj += 1
     end # end of each line 
 
     items = 0
     # plus = 0
     sleep(10)
     fi.rewind
-
+    jjj = 0
 end
 fi.close
