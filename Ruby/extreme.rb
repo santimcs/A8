@@ -83,7 +83,7 @@ while true do
 
     items = 0
     plus = 0
-    sleep(10)
+    sleep(60)
     fi.rewind
 
 end
