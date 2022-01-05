@@ -68,7 +68,7 @@ fi.each do |line|
     ary_out[5] = strip_comma(array[12])
 
     if (ary_out[2] != '-')
-        out_line = ary_out.join('|')
+        out_line = ary_out.join(',')
         out_line = out_line + "\n"
         fo.write(out_line)
     end

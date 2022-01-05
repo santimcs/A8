@@ -156,7 +156,7 @@
     out_array[9] = qty   
     out_array[10] = opnp
 
-    out_line = out_array.join("|")
+    out_line = out_array.join(",")
     out_line = out_line + "\n"
     puts out_line
     fo.write out_line
