@@ -4,7 +4,8 @@
  fo = File.open(file_out,"w")
  
  file.each do |line|
-    ary = line.split("|")
+
+    ary = line.split(",")
     name = ary[0]
     date = ary[1]
     price = ary[2].to_f
@@ -14,7 +15,9 @@
     qty = ary[5].to_i
     div = 0.0
     gap = maxp - minp
+
     case maxp
+
     	when 0.00..2.00 then 
         begin
           div = 0.01 
@@ -131,17 +134,19 @@
     			   up_spd += (maxp - (div * 100)) / div
     			else
     			   up_spd = (maxp - price)/div
-           end             
-    		end         
+           end   
+
+    	end     
+
     end	
 
-       dw_spd = spd - up_spd
+    dw_spd = spd - up_spd
 
-#    puts name
-#    puts maxp
-#    puts minp
-#    puts gap
-#    puts spd.round
+	#    puts name
+	#    puts maxp
+	#    puts minp
+	#    puts gap
+	#    puts spd.round
     
     out_array = []
     out_array[0] = name
@@ -160,5 +165,6 @@
     out_line = out_line + "\n"
     puts out_line
     fo.write out_line
+	
  end
 
