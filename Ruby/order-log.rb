@@ -152,6 +152,13 @@ fo = File.open(file_out, "w")
 fp = File.open(file_out2, "w")
 fi = File.open(file_in, "r")
 
+        if (jjj == 0)
+            hdr_line ='trade,name,spd,reason,market,qty,target,current,change,percent,active' + "\n"
+            fo.write hdr_line
+            fp.write hdr_line
+            puts hdr_line
+        end
+
     fi.each do |line|
 
         if (jjj > 0)
@@ -230,11 +237,7 @@ fi = File.open(file_in, "r")
 
         end
 
-        if (jjj == 0)
-            hdr_line ='trade,name,spd,reason,market,qty,target,current,change,percent,active' + "\n"
-            fo.write hdr_line
-            fp.write hdr_line
-        end
+
 
         jjj += 1
 
