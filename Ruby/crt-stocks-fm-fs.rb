@@ -40,6 +40,14 @@ end
 
 ft.close
 
+# Column Header
+header = 'Name,Market,Price,Max,Min,PE,PBV,Paid-up,Market Cap,Dly Vol,Beta'
+header += "\n"
+fo.write(header) #   '..\data\stocks.csv
+fp.write(header) #   'c:\ruby\portlt\db\stocks.csv'
+fq.write(header) #   'c:\ruby\portmy\db\stocks.csv'    
+fr.write(header) #   'c:\ruby\portpg\db\stocks.csv'    
+
 time = Time.new
 puts 'Start at: ' + time.strftime("%I:%M %p")
 

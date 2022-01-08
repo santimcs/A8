@@ -19,8 +19,18 @@ fq = File.open(file_out3,"w")
 fr = File.open(file_out4,"w") 
 fs = File.open(file_out5,"w") 
 
+# Column Header
+header = 'Name,Price,Buy,Hold,Sell,EPS_a,EPS_b,PE,PBV,DIV%,Target,Sts'
+header += "\n"
+fo.write(header) #   '..\data\consensus.csv
+fp.write(header) #   'c:\ruby\portlt\db\consensus.csv'
+fq.write(header) #   'c:\ruby\port_lite\db\consensus.csv'    
+fr.write(header) #   'c:\ruby\portmy\db\consensus.csv'    
+fs.write(header) #   'c:\ruby\portpg\db\consensus.csv'
+
 time = Time.new
 puts 'Start at: ' + time.strftime("%A, %b %d %I:%M %p") 
+puts header 
 
 fi.each do |line|
 
