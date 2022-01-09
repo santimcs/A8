@@ -237,8 +237,6 @@ fi = File.open(file_in, "r")
 
         end
 
-
-
         jjj += 1
 
     end
