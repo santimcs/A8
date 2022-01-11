@@ -3,14 +3,12 @@ require 'nokogiri'
 require 'open-uri'
 load './my_utils.rb'
 
-file_in = '..\data\name-ttl.csv'
-file_out = '..\data\consensus.csv'
+file_in   = '..\data\name-ttl.csv'
+file_out  = '..\data\consensus.csv'
 file_out2 = 'c:\ruby\portlt\db\consensus.csv'
-file_out3 = 'c:\ruby\port_lite\db\consensus.csv'
-file_out4 = 'c:\ruby\portmy\db\consensus.csv'
-file_out5 = 'c:\ruby\portpg\db\consensus.csv'
-
-j = 0
+file_out3 = 'c:\ruby\portmy\db\consensus.csv'
+file_out4 = 'c:\ruby\portpg\db\consensus.csv'
+file_out5 = 'c:\ruby\port_lite\db\consensus.csv'
 
 fi = File.open(file_in, "r")
 fo = File.open(file_out,"w") 
@@ -31,6 +29,8 @@ fs.write(header) #   'c:\ruby\portpg\db\consensus.csv'
 time = Time.new
 puts 'Start at: ' + time.strftime("%A, %b %d %I:%M %p") 
 puts header 
+
+j = 0 # record number to display at the end of the line
 
 fi.each do |line|
 
@@ -95,21 +95,20 @@ fi.each do |line|
 
       end
 
-      #    ary_out[i+3] = str
       case i
 
         when 2
-          ary_out[5] = str
+          ary_out[5]  = str  # EPS_a
         when 4
-          ary_out[6] = str
+          ary_out[6]  = str  # EPS_b
         when 6
-          ary_out[7] = str
+          ary_out[7]  = str  # P/E
         when 7
-          ary_out[8] = str
+          ary_out[8]  = str  # P/BV
         when 8
-          ary_out[9] = str
+          ary_out[9]  = str  # DIV%
         when 9
-          ary_out[10] = str  
+          ary_out[10] = str  # Target Price
 
       end
 
@@ -117,10 +116,8 @@ fi.each do |line|
 
   end
 
-  if (ary_out[5] != nil)
+  if (ary_out[5] != nil)  # EPS_a
 
-    j += 1
-    #    ary_out[11] = j
     out_line = ary_out.join(',')
     out_line += "\n"
     fo.write(out_line)
@@ -128,6 +125,9 @@ fi.each do |line|
     fq.write(out_line)        
     fr.write(out_line)        
     fs.write(out_line)  
+
+    j += 1
+    
     printf "%-8s %6.2f %2d %2d %2d %6.2f %6.2f %9.1f %9.1f %5s %6.2f %1s %3d\n", 
     ary_out[0], ary_out[1], ary_out[2], ary_out[3],
     ary_out[4], ary_out[5], ary_out[6], ary_out[7],
