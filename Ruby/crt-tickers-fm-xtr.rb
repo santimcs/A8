@@ -25,7 +25,7 @@ if (process == '-o')
 	ft.write stock_name
 else
 	fi.each do |line|
-		array = line.chomp.split(",")
+		array = line.chomp.split("|")
 		stock_name = array[0]
 		out_line = stock_name + "\n"
 	#	puts out_line
@@ -35,7 +35,7 @@ end
 ft.close
 
 # Column Header
-header = 'Name,Full Name,Sector,Sub Sector,Market,Website'
+header = 'Name|Full Name|Sector|Sub Sector|Market|Website'
 header += "\n"
 fo.write(header) #   '..\data\tickers.csv
 fp.write(header) #   'c:\ruby\portlt\db\tickers.csv'
@@ -102,7 +102,7 @@ fi.each do |line|
 	arcs[5] = array[5]
 
 	arcs[0] = stock_name_old
-	out_line = arcs.join(',') 
+	out_line = arcs.join('|') 
 	out_line += "\n"
 	puts out_line
 	fo.write out_line

@@ -28,7 +28,7 @@ else
 
 	fi.each do |line|
 
-		array = line.chomp.split(",")
+		array = line.chomp.split("|")
 		stock_name = array[0]
 		out_line = stock_name + "\n"
 	#	puts out_line
@@ -41,7 +41,7 @@ end
 ft.close
 
 # Column Header
-header = 'Name,Full Name,Sector,Sub Sector,Market,Website'
+header = 'Name|Full Name|Sector|Sub Sector|Market|Website'
 header += "\n"
 fo.write(header) #   '..\data\tickers.csv
 fp.write(header) #   'c:\ruby\portlt\db\tickers.csv'
