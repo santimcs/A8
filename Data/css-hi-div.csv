@@ -1,13 +1,7 @@
 name,yield,price,target,upside,buy,hold,sell,score,mrkt,sector,subsector,volume,beta
-BANPU,6.6,10.6,15.12,43,6,0,0,18,SET100,Resources,Energy & Utilities,1460.6,0.87
-BCP,7.5,25.25,35.5,41,4,0,0,12,SET100,Resources,Energy & Utilities,172.63,1.62
-BTSGIF,6.8,4.34,6.06,40,4,1,0,13,SET999,Services,Transportation & Logistics,19.64,0.44
-KKP,5.2,59.75,70.88,19,4,0,0,12,SET100,Financials,Banking,245.76,0.95
-LALIN,6.2,9.3,12.43,34,4,0,0,12,SET999,Property & Construction,Property Development,6.14,0.78
-MAJOR,5.3,20.0,25.02,25,6,0,0,18,SET100,Services,Media & Publishing,130.01,0.89
-NER,5.5,7.0,10.36,48,5,0,0,15,SET999,Agro & Food Industry,Agribusiness,318.94,0.45
-PTTGC,6.6,58.75,74.38,27,5,3,0,18,SET50,Industrials,Petrochemicals & Chemicals,1262.11,1.15
-RATCH,5.7,45.0,54.47,21,5,2,1,14,SET50,Resources,Energy & Utilities,277.21,0.64
-SAT,6.3,21.8,26.8,23,4,1,0,13,SET999,Industrials,Automotive,61.05,0.58
-SC,5.8,3.36,4.19,25,8,0,0,24,SET999,Property & Construction,Property Development,16.88,0.71
-SENA,6.3,4.06,5.16,27,4,0,0,12,SET999,Property & Construction,Property Development,7.62,0.8
+DCC,6.3,3.04,3.58,18,5,0,0,15,SET999,Property & Construction,Construction Materials,75.27,0.61
+LALIN,6.4,9.9,12.43,26,4,0,0,12,SET999,Property & Construction,Property Development,17.79,0.75
+LH,6.3,8.75,10.04,15,9,0,0,27,SET50,Property & Construction,Property Development,311.1,0.73
+ORI,5.5,11.2,13.49,20,6,1,0,19,SET100,Property & Construction,Property Development,130.29,1.03
+SC,5.8,3.7,4.25,15,5,0,0,15,SET999,Property & Construction,Property Development,28.87,0.69
+SENA,6.9,4.2,5.16,23,4,0,0,12,SET999,Property & Construction,Property Development,9.51,0.8
