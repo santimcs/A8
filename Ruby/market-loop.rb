@@ -219,7 +219,7 @@ while true do
             #        end
 
             if ary_out[4] != '-'
-                if active >= inp_digit
+                if (active == inp_digit)
                     #  puts show
                     if show
 

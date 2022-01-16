@@ -1,4 +1,4 @@
-name,price,target,upside,buy,hold,sell,market,sector,subsector,dly_vol,beta,yield
+name,price,target_price,upside,buy,hold,sell,market,sector,subsector,dly_vol,beta,yield
 AEONTS,188.0,236.0,26,7,2,0,SET100    ,Financials,Finance & Securities,106.38,1.38,2.8
 BCH,20.0,26.65,33,7,1,0,SET100 / SETWB    ,Services,Health Care Services,783.32,-0.25,2.4
 BGRIM,39.25,57.0,45,5,1,0,SET50 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,410.7,1.06,1.5
@@ -16,7 +16,9 @@ KCE,84.25,99.75,18,4,0,0,SET50    ,Technology,Electronic Components,1119.95,0.46
 MCS,14.9,21.0,41,1,0,0,sSET    ,Industrials,Steel and Metal Products,37.29,0.57,8.0
 MEGA,49.5,56.81,15,2,2,0,SET100 / SETCLMV / SETWB    ,Services,Commerce,235.92,0.46,2.6
 NER,7.65,11.35,48,2,0,0,sSET    ,Agro & Food Industry,Agribusiness,166.04,0.56,6.2
+PTL,23.8,29.0,22,1,0,0,SET    ,Industrials,Packaging,104.77,0.66,4.2
 PTT,39.25,48.26,23,8,0,0,SET50 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,1928.99,1.12,4.4
+ROJNA,6.65,8.05,21,3,0,0,sSET    ,Property & Construction,Property Development,16.71,1.06,4.7
 SMT,6.3,8.15,29,1,0,0,sSET    ,Technology,Electronic Components,35.19,0.95,1.8
 SPALI,22.2,24.95,12,3,0,0,SET100 / SETHD    ,Property & Construction,Property Development,146.42,0.61,4.7
 STA,31.75,45.0,42,1,0,0,SET100 / SETTHSI / SETWB    ,Agro & Food Industry,Agribusiness,216.72,0.09,6.7
