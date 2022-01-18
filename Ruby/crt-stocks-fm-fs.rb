@@ -56,7 +56,7 @@ fi = File.open(file_temp, "r")
 fi.each do |line|
 
 	stock_name = line.chomp
-	stock_name = CGI.escape(line.chomp)
+	# stock_name = CGI.escape(line.chomp)
 	url = "https://www.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=th&country=TH"
 	html_data = open(url).read
 	doc = Nokogiri::HTML(html_data)
