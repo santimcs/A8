@@ -8,14 +8,14 @@ file_out  = '..\data\consensus.csv'
 file_out2 = 'c:\ruby\portlt\db\consensus.csv'
 file_out3 = 'c:\ruby\portmy\db\consensus.csv'
 file_out4 = 'c:\ruby\portpg\db\consensus.csv'
-file_out5 = 'c:\ruby\port_lite\db\consensus.csv'
+#file_out5 = 'c:\ruby\port_lite\db\consensus.csv'
 
 fi = File.open(file_in, "r")
 fo = File.open(file_out,"w") 
 fp = File.open(file_out2,"w") 
 fq = File.open(file_out3,"w") 
 fr = File.open(file_out4,"w") 
-fs = File.open(file_out5,"w") 
+#fs = File.open(file_out5,"w") 
 
 # Column Header
 header = 'Name,Price,Buy,Hold,Sell,EPS_a,EPS_b,PE,PBV,DIV%,Target,Sts'
@@ -24,7 +24,7 @@ fo.write(header) #   '..\data\consensus.csv
 fp.write(header) #   'c:\ruby\portlt\db\consensus.csv'
 fq.write(header) #   'c:\ruby\port_lite\db\consensus.csv'    
 fr.write(header) #   'c:\ruby\portmy\db\consensus.csv'    
-fs.write(header) #   'c:\ruby\portpg\db\consensus.csv'
+#fs.write(header) #   'c:\ruby\portpg\db\consensus.csv'
 
 time = Time.new
 puts 'Start at: ' + time.strftime("%A, %b %d %I:%M %p") 
@@ -124,7 +124,7 @@ fi.each do |line|
     fp.write(out_line)  
     fq.write(out_line)        
     fr.write(out_line)        
-    fs.write(out_line)  
+    #fs.write(out_line)  
 
     j += 1
     
@@ -146,5 +146,5 @@ fo.close
 fp.close
 fq.close
 fr.close
-fs.close
+#fs.close
 fi.close
