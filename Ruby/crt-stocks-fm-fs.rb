@@ -7,14 +7,8 @@ process = ARGV.shift
 
 file_in = '..\data\name-ttl.csv'
 file_out = '..\data\stocks.csv'
-file_out2 = 'c:\ruby\portlt\db\stocks.csv'
-file_out3 = 'c:\ruby\portmy\db\stocks.csv'
-file_out4 = 'c:\ruby\portpg\db\stocks.csv'
 file_temp = '..\data\name-tmp.csv'
 fo = File.open(file_out, "w")
-fp = File.open(file_out2, "w")
-fq = File.open(file_out3, "w")
-fr = File.open(file_out4, "w")
 ft = File.open(file_temp,"w")
 fi = File.open(file_in,"r")
 
@@ -43,10 +37,7 @@ ft.close
 # Column Header
 header = 'Name,Market,Price,Max,Min,PE,PBV,Paid-up,Market Cap,Dly Vol,Beta'
 header += "\n"
-fo.write(header) #   '..\data\stocks.csv
-fp.write(header) #   'c:\ruby\portlt\db\stocks.csv'
-fq.write(header) #   'c:\ruby\portmy\db\stocks.csv'    
-fr.write(header) #   'c:\ruby\portpg\db\stocks.csv'    
+fo.write(header) #   '..\data\stocks.csv   
 
 time = Time.new
 puts 'Start at: ' + time.strftime("%I:%M %p")
@@ -172,10 +163,7 @@ fi.each do |line|
 	out_line = ary.join(',') 
 	out_line += "\n"
 	puts out_line
-	fo.write out_line
-	fp.write out_line
-	fq.write out_line		
-	fr.write out_line		
+	fo.write out_line	
 	sleep(1)	
 	
 end
@@ -184,6 +172,3 @@ time = Time.new
 puts 'End at: ' + time.strftime("%I:%M %p")
 
 fo.close
-fp.close
-fq.close
-fr.close
