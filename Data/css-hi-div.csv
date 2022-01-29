@@ -1,9 +1,11 @@
 name,yield,price,target,upside,buy,hold,sell,score,mrkt,sector,subsector,volume,beta
-AP,5.4,9.4,10.89,16,7,0,0,21,SET100,Property & Construction,Property Development,100.9,0.67
-BCP,5.6,27.0,32.33,20,4,0,0,12,SET100,Resources,Energy & Utilities,145.91,1.38
-DCC,6.4,2.98,3.58,20,5,0,0,15,SET999,Property & Construction,Construction Materials,61.61,0.66
-ORI,5.6,11.0,13.51,23,7,1,0,22,SET100,Property & Construction,Property Development,111.99,1.03
-PTTGC,5.4,57.75,69.79,21,3,4,0,13,SET50,Industrials,Petrochemicals & Chemicals,1061.73,1.22
-SAT,6.4,22.8,27.25,20,5,0,0,15,SET999,Industrials,Automotive,86.88,0.68
-SPALI,5.0,22.0,25.19,15,5,1,0,16,SET100,Property & Construction,Property Development,119.59,0.61
-TQM,6.2,47.75,104.7,119,4,0,0,12,SET100,Financials,Insurance,110.19,0.6
+SAT,6.7,22.3,27.61,24,7,0,0,21,SET999,Industrials,Automotive,83.98,0.7
+TQM,6.5,45.25,104.7,131,4,0,0,12,SET100,Financials,Insurance,104.09,0.57
+DCC,6.5,2.94,3.58,22,5,0,0,15,SET999,Property & Construction,Construction Materials,54.54,0.66
+MC,6.3,8.95,11.12,24,4,2,0,14,SET999,Services,Commerce,5.43,0.77
+SC,5.7,3.68,4.22,15,5,0,0,15,SET999,Property & Construction,Property Development,41.54,0.74
+BCP,5.6,27.0,32.33,20,4,0,0,12,SET100,Resources,Energy & Utilities,147.51,1.36
+ORI,5.4,11.3,13.51,20,7,1,0,22,SET100,Property & Construction,Property Development,113.68,1.05
+PTTGC,5.0,57.0,71.73,26,7,6,0,27,SET50,Industrials,Petrochemicals & Chemicals,984.13,1.19
+SCC,5.0,389.0,472.0,21,12,3,0,39,SET50,Property & Construction,Construction Materials,1167.22,0.69
+SPRC,5.0,9.8,11.51,17,7,2,0,23,SET100,Resources,Energy & Utilities,370.54,1.3
