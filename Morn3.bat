@@ -1,4 +1,4 @@
-copy .\data\consensus.csv c:\ruby\port_lite\db\
+copy c:\a8\data\consensus.csv c:\ruby\port_lite\db\
 
 cd\ruby\port_lite
 

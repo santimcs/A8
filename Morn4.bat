@@ -1,5 +1,5 @@
-copy .\data\stocks.csv c:\ruby\portlt\db\
-copy .\data\consensus.csv c:\ruby\portlt\db\
+copy c:\a8\data\stocks.csv c:\ruby\portlt\db\
+copy c:\a8\data\consensus.csv c:\ruby\portlt\db\
 
 cd\ruby\portlt
 
