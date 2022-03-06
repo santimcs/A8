@@ -130,6 +130,7 @@ file_in   = '..\data\orders.csv'
 # ary_in[4] = Active 
 # ary_in[5] = Reason 
 # ary_in[6] = Market 
+# ary_in[7] = xdate 
 ary_in = []
 ary_out = []
 # ary_out[0] = Trade          
@@ -143,7 +144,9 @@ ary_out = []
 # ary_out[8] = Number of Spreads
 # ary_out[9] = Reason   
 # ary_out[10] = Market          
-# ary_out[11] = Active          
+# ary_out[11] = Active    
+# ary_out[12] = xdate    
+
 show = true
 order_price = 0
 last_trade = 0
@@ -175,6 +178,8 @@ while true do
             ary_out[10] = ary_in[6].strip    # Market (if skip to new line when print, must strip last column of line printf)         
             active = ary_in[4].to_i
             ary_out[11] = active       
+            ary_out[12] = ary_in[7].chop  # xdate     
+
             url = "http://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
             html_data = open(url).read
             doc = Nokogiri::HTML(html_data)
@@ -223,8 +228,8 @@ while true do
                     #  puts show
                     if show
 
-                        printf "%1s %-8s %6s %6.2f %6.2f %8s %8s %8s %1s %6.2f %3s %-7s %-10s\n",
-                        ary_out[0],ary_out[1],ary_out[2],ary_out[3],ary_out[4],ary_out[5],ary_out[6],ary_out[1],ary_out[11],ary_out[7],ary_out[8],ary_out[9],ary_out[10]
+                        printf "%1s %-8s %6s %6.2f %6.2f %8s %8s %8s %1s %6.2f %3s %-7s %-10s %8s\n",
+                        ary_out[0],ary_out[1],ary_out[2],ary_out[3],ary_out[4],ary_out[5],ary_out[6],ary_out[1],ary_out[11],ary_out[7],ary_out[8],ary_out[9],ary_out[10],ary_out[12]
 
                     end
 

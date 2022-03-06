@@ -130,6 +130,7 @@ file_out2   = 'C:\Users\User\Dropbox\orders-log.csv'
 # ary_in[4] = Active 
 # ary_in[5] = Reason
 # ary_in[6] = Market
+# ary_in[7] = xdate
 arr_in = []
 ary_out = []
 # ary_out[0] = Trade          
@@ -142,7 +143,9 @@ ary_out = []
 # ary_out[7] = Last Trade          
 # ary_out[8] = Price Change
 # ary_out[9] = Percent Change
-# ary_out[10] = Active          
+# ary_out[10] = Active      
+# ary_out[11] = xdate
+
 show = true
 order_price = 0
 last_trade = 0
@@ -153,7 +156,7 @@ fp = File.open(file_out2, "w")
 fi = File.open(file_in, "r")
 
         if (jjj == 0)
-            hdr_line ='trade,name,spd,reason,market,qty,target,current,change,percent,active' + "\n"
+            hdr_line ='trade,name,spd,reason,market,qty,target,current,change,percent,active,xdate' + "\n"
             fo.write hdr_line
             fp.write hdr_line
             puts hdr_line
@@ -179,6 +182,7 @@ fi = File.open(file_in, "r")
             ary_out[9] = '0.00%' # Percent Change    
             active = ary_out[10].to_i                     
             ary_out[10] = arr_in[4]
+            ary_out[11] = arr_in[7].strip
   
             url = "http://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
             html_data = open(url).read
