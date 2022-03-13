@@ -1,39 +1,42 @@
 name,price,target_price,upside,buy,hold,sell,market,sector,subsector,dly_vol,beta,yield
-AMATA,21.4,23.71,10.79,8,2,0,SET100 / SETCLMV / SETTHSI    ,Property & Construction,Property Development,259.46,1.33,1.9
-ASIAN,15.6,22.34,43.21,8,0,0,sSET / SETTHSI    ,Agro & Food Industry,Food & Beverage,87.57,0.69,4.6
-ASK,46.75,55.5,18.72,2,0,0,SET    ,Financials,Finance & Securities,73.05,0.72,3.3
-ASP,3.82,4.95,29.58,2,0,0,sSET    ,Financials,Finance & Securities,93.35,0.68,9.1
-BAM,21.6,24.52,13.52,12,1,0,SET100    ,Financials,Finance & Securities,599.34,1.29,3.4
-BBL,135.0,161.6,19.7,16,1,0,SET50 / SETHD / SETTHSI    ,Financials,Banking,2519.53,1.27,4.0
-BCH,19.8,24.35,22.98,9,4,0,SET100 / SETWB    ,Services,Health Care Services,492.52,-0.31,2.1
-BDMS,24.4,27.68,13.44,16,1,0,SET50 / SETCLMV / SETTHSI / SETWB    ,Services,Health Care Services,960.54,0.45,1.7
-CHG,3.58,4.14,15.64,9,6,1,SET100 / SETWB    ,Services,Health Care Services,247.87,-0.15,3.4
-COM7,82.25,96.6,17.45,6,2,0,SET50 / SETTHSI / SETWB    ,Services,Commerce,584.77,0.73,1.9
-DOHOME,20.6,26.16,26.99,7,0,0,SET100 / SETWB    ,Services,Commerce,220.07,1.03,2.1
-GLOBAL,20.5,25.75,25.61,9,2,0,SET50 / SETCLMV / SETTHSI / SETWB    ,Services,Commerce,272.83,0.68,1.5
-GULF,49.75,53.95,8.44,9,2,0,SET50 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,1674.93,1.01,1.2
-JMT,65.5,72.33,10.43,4,2,0,SET100    ,Financials,Finance & Securities,679.42,1.08,1.6
-KCE,58.5,79.15,35.3,11,4,0,SET50    ,Technology,Electronic Components,1387.73,0.43,2.9
-KKP,67.5,78.15,15.78,12,1,0,SET100 / SETCLMV / SETHD / SETTHSI    ,Financials,Banking,397.05,0.93,6.0
-MAKRO,42.0,50.58,20.43,8,2,0,SET    ,Services,Commerce,702.26,0.99,1.8
-MCS,14.6,20.5,40.41,2,0,0,sSET    ,Industrials,Steel and Metal Products,27.95,0.56,8.0
-MEGA,43.75,55.36,26.54,7,2,0,SET100 / SETCLMV / SETWB    ,Services,Commerce,182.03,0.58,2.6
-NER,7.2,9.82,36.39,9,1,0,sSET    ,Agro & Food Industry,Agribusiness,124.9,0.52,6.1
-ORI,12.0,13.93,16.08,10,1,0,SET100 / SETHD / SETTHSI    ,Property & Construction,Property Development,138.57,1.2,5.1
-PTL,26.0,30.0,15.38,1,0,0,SET    ,Industrials,Packaging,106.51,0.59,5.5
-PTT,38.5,48.76,26.65,15,1,0,SET50 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,2565.26,1.02,4.8
-RATCH,45.75,54.19,18.45,5,3,1,SET50 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,145.0,0.66,5.4
-SCB,121.0,138.4,14.38,11,4,0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,1976.61,1.56,3.8
-SCC,381.0,468.0,22.83,11,3,0,SET50 / SETCLMV / SETHD / SETTHSI    ,Property & Construction,Construction Materials,1371.58,0.68,4.8
-SCCC,155.0,196.1,26.52,6,1,0,SETCLMV / SETTHSI    ,Property & Construction,Construction Materials,79.85,0.62,5.7
-SINGER,48.0,57.38,19.54,6,0,0,SET100    ,Services,Commerce,186.8,1.14,1.4
-SIS,38.75,49.0,26.45,2,0,0,sSET    ,Technology,Information & Communication Technology,37.5,1.86,3.6
-SNC,16.5,21.3,29.09,3,0,0,sSET / SETTHSI    ,Industrials,Industrial Materials & Machinery,25.01,0.5,5.9
-SPALI,22.2,25.6,15.32,9,5,0,SET100 / SETHD    ,Property & Construction,Property Development,198.36,0.66,5.5
-STARK,4.5,6.1,35.56,1,0,0,SET100 / SETCLMV    ,Industrials,Industrial Materials & Machinery,179.83,0.53,0.0
-SVI,8.05,10.03,24.6,3,3,0,SET    ,Technology,Electronic Components,165.64,0.77,2.5
-SYNEX,25.75,31.81,23.53,5,2,0,SET100 / SETTHSI    ,Technology,Information & Communication Technology,122.76,1.28,3.1
-TISCO,98.5,111.2,12.89,6,0,0,SET50 / SETHD / SETTHSI    ,Financials,Banking,593.01,0.56,7.3
-TPIPL,1.73,2.43,40.46,3,0,0,SET    ,Property & Construction,Construction Materials,54.03,0.99,4.6
-TQM,45.0,68.2,51.56,5,0,0,SET100 / SETTHSI    ,Financials,Insurance,97.12,0.63,3.5
-TU,19.7,25.6,29.95,13,2,0,SET50 / SETCLMV / SETHD / SETTHSI / SETWB    ,Agro & Food Industry,Food & Beverage,603.85,0.49,4.5
+AMATA,21.1,23.62,11.94,7,2,0,SET100 / SETCLMV / SETTHSI    ,Property & Construction,Property Development,254.05,1.36,2.0
+ASIAN,15.3,22.25,45.42,7,0,0,sSET / SETTHSI    ,Agro & Food Industry,Food & Beverage,82.19,0.77,4.4
+ASK,45.25,53.56,18.36,4,0,0,SET    ,Financials,Finance & Securities,71.6,0.84,3.4
+ASP,3.5,4.95,41.43,2,0,0,sSET    ,Financials,Finance & Securities,94.58,0.67,9.9
+BAM,21.1,24.75,17.3,12,1,0,SET100    ,Financials,Finance & Securities,633.15,1.29,3.6
+BBL,133.5,160.8,20.45,13,1,0,SET50 / SETHD / SETTHSI    ,Financials,Banking,2537.42,1.29,4.1
+BCH,20.5,24.31,18.59,8,3,0,SET100 / SETWB    ,Services,Health Care Services,520.86,-0.32,2.1
+BDMS,25.5,27.56,8.08,16,1,0,SET50 / SETCLMV / SETTHSI / SETWB    ,Services,Health Care Services,1038.93,0.47,1.6
+CHG,3.7,4.14,11.89,8,5,1,SET100 / SETWB    ,Services,Health Care Services,264.3,-0.16,3.4
+COM7,42.25,96.29,127.91,6,2,0,SET50 / SETTHSI / SETWB    ,Services,Commerce,669.94,0.89,3.6
+DOHOME,21.9,25.77,17.67,7,1,0,SET100 / SETWB    ,Services,Commerce,241.09,1.13,2.0
+GLOBAL,21.9,26.48,20.91,10,1,0,SET50 / SETCLMV / SETTHSI / SETWB    ,Services,Commerce,300.58,0.71,1.4
+GULF,47.75,53.95,12.98,9,2,0,SET50 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,1781.94,1.11,1.3
+JMART,53.0,59.7,12.64,2,1,0,SET100    ,Technology,Information & Communication Technology,493.0,1.41,1.7
+JMT,66.0,72.83,10.35,4,2,0,SET100    ,Financials,Finance & Securities,668.68,1.06,1.6
+KCE,58.5,79.15,35.3,11,4,0,SET50    ,Technology,Electronic Components,1367.03,0.55,2.9
+KKP,66.25,77.13,16.42,7,1,0,SET100 / SETCLMV / SETHD / SETTHSI    ,Financials,Banking,401.68,0.93,6.0
+MAKRO,41.5,50.42,21.49,8,1,0,SET    ,Services,Commerce,717.39,0.99,1.8
+MCS,14.7,20.5,39.46,2,0,0,sSET    ,Industrials,Steel and Metal Products,30.6,0.56,8.0
+MEGA,43.5,54.53,25.36,7,3,0,SET100 / SETCLMV / SETWB    ,Services,Commerce,187.31,0.7,2.7
+NER,7.05,9.82,39.29,9,1,0,sSET    ,Agro & Food Industry,Agribusiness,135.62,0.56,6.2
+ORI,11.5,13.93,21.13,10,1,0,SET100 / SETHD / SETTHSI    ,Property & Construction,Property Development,144.3,1.28,5.4
+PTL,24.6,30.0,21.95,1,0,0,SET    ,Industrials,Packaging,103.91,0.71,5.8
+PTT,39.5,49.31,24.84,14,1,0,SET50 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,2673.02,0.98,4.8
+RATCH,45.0,53.97,19.93,6,3,1,SET50 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,153.11,0.7,5.3
+RCL,50.0,56.0,12.0,2,0,0,SET100 / SETCLMV    ,Services,Transportation & Logistics,446.13,1.27,12.1
+SCB,115.5,151.5,31.17,5,1,0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,1997.55,1.55,4.3
+SCC,377.0,471.0,24.93,11,2,0,SET50 / SETCLMV / SETHD / SETTHSI    ,Property & Construction,Construction Materials,1495.64,0.69,4.9
+SCCC,155.5,196.1,26.11,6,1,0,SETCLMV / SETTHSI    ,Property & Construction,Construction Materials,77.67,0.61,5.7
+SENA,4.6,5.78,25.65,3,0,0,sSET    ,Property & Construction,Property Development,38.92,0.98,6.5
+SINGER,47.5,58.05,22.21,5,0,0,SET100    ,Services,Commerce,188.09,1.12,1.4
+SIS,37.0,49.0,32.43,2,0,0,sSET    ,Technology,Information & Communication Technology,36.34,1.86,3.7
+SNC,16.5,21.3,29.09,3,0,0,sSET / SETTHSI    ,Industrials,Industrial Materials & Machinery,25.35,0.53,5.9
+SPALI,22.0,25.77,17.14,9,4,0,SET100 / SETHD    ,Property & Construction,Property Development,192.84,0.67,5.6
+STARK,4.46,6.25,40.13,2,0,0,SET100 / SETCLMV    ,Industrials,Industrial Materials & Machinery,172.97,0.54,2.3
+SVI,7.95,10.03,26.16,3,3,0,SET    ,Technology,Electronic Components,157.51,0.85,2.6
+SYNEX,25.25,30.81,22.02,5,2,0,SET100 / SETTHSI    ,Technology,Information & Communication Technology,119.38,1.3,3.1
+TISCO,97.75,104.0,6.39,1,0,0,SET50 / SETHD / SETTHSI    ,Financials,Banking,623.29,0.53,7.3
+TPIPL,1.66,2.43,46.39,3,0,0,SET    ,Property & Construction,Construction Materials,53.48,0.97,4.8
+TQM,43.0,68.2,58.6,5,0,0,SET100 / SETTHSI    ,Financials,Insurance,95.99,0.74,3.7
+TU,18.5,25.6,38.38,13,2,0,SET50 / SETCLMV / SETHD / SETTHSI / SETWB    ,Agro & Food Industry,Food & Beverage,610.24,0.47,4.8

@@ -228,7 +228,7 @@ while true do
                     #  puts show
                     if show
 
-                        printf "%1s %-8s %6s %6.2f %6.2f %8s %8s %8s %1s %6.2f %3s %-7s %-10s %8s\n",
+                        printf "%1s %-8s %6s %6.2f %6.2f %8s %8s %8s %1s %6.2f %3s %-7s %-6s %8s\n",
                         ary_out[0],ary_out[1],ary_out[2],ary_out[3],ary_out[4],ary_out[5],ary_out[6],ary_out[1],ary_out[11],ary_out[7],ary_out[8],ary_out[9],ary_out[10],ary_out[12]
 
                     end
