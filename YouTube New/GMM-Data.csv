@@ -1,0 +1,449 @@
+,vid_id,title,description,published,view_count,like_count,comment_count,title_length,reactions
+0,kaoDAA85mSA,Python Bots! Coding a Better Auto Clicker.,"I love code bullet but what code does he use? Today I'm going to show you exactly how he did his last video start to finish. This will include the most popular libraries and how to take the project to the next level. Any questions let me know in our discord.
+
+https://github.com/ClarityCoders/AutoClickerExample
+
+Subscribe to our new streaming channel! If I get 50 I'll do a live stream.
+https://www.youtube.com/channel/UCP5YV8SmEMogpJjQsBXhX-A/
+
+👊You got something to say to me?? Join our discord!✌️
+https://discord.gg/cAWW5qq",2022-03-29T13:30:09Z,3066,150,37,42,224
+1,fMiAyj2kgac,Power Machine Learning using Ray.io and Python. Full Tutorial.,"Using powerful machine learning algorithms is easy using Ray.io and Python. 
+
+https://github.com/ClarityCoders/RayTutorial
+
+Windows 10 box2d issues?
+https://medium.com/@sayanmndl21/install-openai-gym-with-box2d-and-mujoco-in-windows-10-e25ee9b5c1d5",2022-02-22T14:30:07Z,2708,108,6,62,120
+2,ZjVLRKCV5aw,Installing Python on Windows 11 or 10. FAST!,Lets walk through installing Python on Windows 11 and how to switch version of Python once it's installed. I have been using Python on Windows 11 for a few months now without any issues. Installing is very simple but it's easy to get confused when switching Python Versions.,2022-02-20T19:13:08Z,767,32,7,44,46
+3,hVbxvaQTZR8,Using Python to play 100K Games of Wordle. Top Strategy Test!,"You might be playing wrong and not knowing it. I'll show how we can create a test game and run simulated strategies on that program. Python playing Wordle will show you how to create a similar project on any game or simulation.
+
+https://github.com/ClarityCoders/Wordle
+
+You got something to say to me?? Join our discord!✌️
+https://discord.gg/cAWW5qq",2022-01-27T13:59:12Z,5205,237,57,61,351
+4,YnVZYIoY5zI,Learning Python by Battling Bots. Full Setup and Strategies!,"Can learning to code be as fun as playing a game? This project seems to think that is possible with Battle Snakes. We are going to create a web server for our bot and then write a competition-ready bot to play against other users around the world. This group has leagues and even prizes so follow this code along to be part of the journey.
+
+https://replit.com/@JacobLower3/S1
+
+👊You got something to say to me?? Join our discord!✌️
+https://discord.gg/cAWW5qq",2022-01-24T13:19:21Z,3441,138,13,60,164
+5,GzypNqnL-Ks,Bot Dominates Magic Tiles 3 Tops Live Leaderboard,"Will a flawless python bot dominate or get us banned. We will use computer vision to test pixel values lightning fast! Creating a bot that can beat any level with full crowns and even all human players.
+
+👊You got something to say to me?? Join our discord!✌️
+https://discord.gg/cAWW5qq
+
+💸Want to help support the channel?💵
+https://www.buymeacoffee.com/claritycoders
+
+💻Bot Code.🖱
+https://github.com/ClarityCoders/MagicTIlesBot
+
+🤖Contents of the Video😈
+0:00 Intro
+1:10 Setup LD Player
+3:30 Code Overview
+7:15 Whiteboard: Handling Key Presses
+8:15 Whiteboard: Special Keys
+9:05 Bot playing: Red Lights - Lvly
+17:45 Bot playing: Quantum Sonata - Formantx
+24:45 Good Bye and Bot Playing: Waiting For You - Martin Carlberg",2021-12-20T14:00:07Z,4225,177,66,49,309
+6,bMT9ZC9sBzI,Python bot that makes movies and posts them daily to YouTube.,"Create a set it and forget it shorts channel. I am going to walk you through setting up my fully automated Python bot that creates movies and posts them to YouTube. I walk you through this step by step including setting up a Reddit API and Creating a YouTube channel. 
+
+Full Source Code
+https://github.com/ClarityCoders/AutoTube
+
+Reddit API Creation
+https://www.reddit.com/prefs/apps
+
+YouTube Upload a Video API (docs)
+https://developers.google.com/youtube/v3/guides/uploading_a_video
+
+Google YouTube API Creation
+https://console.developers.google.com/
+
+💬Want to talk to me and other programmers?📞
+Join our discord: https://discord.gg/cAWW5qq",2021-11-30T15:30:04Z,9263,404,62,61,528
+7,D3IffJOwDY0,Understand the weirdness. How Python Passes Arguments.,"Mutable and Immutable types makes this Python discussion very confusing. In this video we will reference a great article in Python Weekly to understand how Python Passes arguments. This Python Discussion is suitable for all levels of Python programmers and many advanced programmers may disagree with me! Join the conversation in the comments.
+
+📗Article Link📖
+https://mathspp.com/blog/pydonts/pass-by-value-reference-and-assignment
+
+💬Want to talk to me and other programmers?📞
+Join our discord: https://discord.gg/cAWW5qq
+
+🎓Contents of the Video🎓
+0:00 Intro
+0:31 Not by Reference or Value
+4:32 Immutable and Mutable Objects
+8:28 Pass by Assignment",2021-11-16T14:30:12Z,1735,112,26,54,164
+8,VLTJEOVG-vw,Python Tutorial for Beginners #3: How to use outside libraries and loops!,"Must watch learn how to read documentation and use any outside library! This series was an idea I had years ago to teach programming just like I did at the university level for free! Thanks to  @CS Dojo  and  @Replit  for helping me make it happen. 
+
+Hit that subscribe button and the bell so you don't miss out on future videos. We are wanting to release a video a week until this series is complete. 
+
+Check out the text version of this course!
+learnpythontherightway.com
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+Want to help support the channel?
+https://www.buymeacoffee.com/claritycoders
+
+#Python #programming #LearnPythonRightWay
+
+🎓Contents of the Video🎓",2021-11-12T13:55:52Z,1294,72,15,73,102
+9,uREw7J9l0oY,Dominating Bot Challenges Donkey Kong Country with Simple Code.,"Check out some of your favorite bosses and learn some AI reinforcement learning using ""The Brute"". Unlock new career opportunities and become data fluent today! Use my link https://bit.ly/30LjRMp and check out the first chapter of any DataCamp course for FREE!
+
+👊You got something to say to me?? Join our discord!✌️
+https://discord.gg/cAWW5qq
+
+💻My Updated Bot Code.🖱
+https://github.com/ClarityCoders/Gym-Retro-Brute
+https://replit.com/@JacobLower3/Gym-Retro-Starter
+
+This video was sponsored by DataCamp",2021-10-26T12:00:25Z,4808,256,37,63,330
+10,gIvstR16coI,Python Tutorial for Beginners #2: Must have fundamentals lets write code!,"In today's video, we cover variables, statements, operators, input and more! This series was an idea I had years ago to teach programming just like I did at the university level for free! Thanks to  @CS Dojo  and  @Replit  for helping me make it happen. 
+
+Hit that subscribe button and the bell so you don't miss out on future videos. We are wanting to release a video a week until this series is complete. 
+
+Check out the text version of this course!
+learnpythontherightway.com
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+Want to help support the channel?
+https://www.buymeacoffee.com/claritycoders
+
+#Python #programming #LearnPythonRightWay
+
+🎓Contents of the Video🎓
+0:00 Intro
+1:15 Values and Variables
+7:30 Statements and Expressions
+8:32 Operators
+10:15 Type Converter Functions
+12:15 Input",2021-10-04T13:00:16Z,4185,175,41,73,257
+11,X2bRXcCvmKY,Dominating an Online Multiplayer Game using Python and OpenCV.,"Testing the limits to see if we get banned by playing over 30 hours straight. We will use object detection techniques to bot this game and come out on top of the leader boards. 
+
+👊You got something to say to me?? Join our discord!✌️
+https://discord.gg/cAWW5qq
+
+💸Want to help support the channel?💵
+https://www.buymeacoffee.com/claritycoders
+
+⭐BAHADIR Original Code Star his Project!⭐
+https://github.com/bahadiraraz/fishington.io-bot
+
+💻My Updated Bot Code.🖱
+https://github.com/ClarityCoders/fishington.io-bot",2021-09-22T17:12:49Z,189883,5283,218,62,5719
+12,lhtUREG6vAg,Python Tutorial for Beginners #1: Write Your First Program and Learn How to Debug,"In today's video, we cover what is python, how to get started programming, and actually writing our first program. This series was an idea I had years ago to teach programming just like I did at the university level for free! Thanks to @CS Dojo and @Replit for helping me make it happen. 
+
+Hit that subscribe button and the bell so you don't miss out on future videos. We are wanting to release a video a week until this series is complete. 
+
+Check out the text version of this course!
+learnpythontherightway.com
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+#Python #programming #LearnPythonRightWay
+
+🎓Contents of the Video🎓
+0:00 Intro
+3:22 Python Programming Language
+5:40 What's a Computer Program?
+9:00 Starting Replit
+10:20 First Program
+11:45 Debugging and Errors",2021-09-09T12:27:40Z,7076,370,43,81,456
+13,XF8HrEQ_CJI,AI Crushes Wenus. (AI PLays Farm Freenzy),"Today our computer plays Farm Frenzy. We will learn some new concepts in computer vision by beating games. This provides a great way to watch AI play games as well as improve your programming skills. Python and OpenCV will be our tools of choice to try and take down this high score put up by Wenus in Farm Frenzy.
+
+Join our discord to chat about games AI and programming! Let me know if the comments what game we should challenge next.  
+
+https://github.com/ClarityCoders/FarmPanic
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+#Python #AIPlays#ClarityCoders",2021-08-31T11:50:06Z,10613,447,48,41,543
+14,4QwVHgZEbNw,AI Plays HTML5 Game FastWords. Destroys All Competition with OPENCV and Python.,"Today we learn some new concepts in computer vision by beating games. This provides a great way to watch AI play games as well as improve your programming skills. Python and OpenCV will be our tools of choice to try and take down this high score. 
+
+https://github.com/ClarityCoders/FastWords
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+#Python #OpenCV #ClarityCoders",2021-07-06T13:00:02Z,20865,1027,144,79,1315
+15,wjQ9Nin21d8,Learn How to Make a Python Discord Bot in 17 Minutes. Host for Free!,"Understand how to code a discord bot without spending an hour watching a tutorial. Our goal is to cut all the fat from learning and allow you to move onto bigger and better things! 
+
+After this python tutorial you will be able to create a custom discord bot from scratch. In this video we will cover responding to message events and creating bot commands. As well as how to get an API key and creating your server. 
+
+@CS Dojo
+
+00:00 Intro
+00:30 Create Server
+01:17 Create Bot and Get API Key
+03:27 Code Bot 
+12:35 Witty Responses
+
+💾 Check out the code!
+https://replit.com/@JacobLower3/ReplitBotTutorial
+
+🌎Free hosting!
+https://repl.it/claim?code=claritycodersmay21
+
+🔑Get your API Key
+https://discord.com/developers/docs/intro
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+#pythontutorial #discordbot #claritycoders",2021-06-01T17:30:07Z,15164,563,100,68,763
+16,vXqKniVe6P8,Dominating an Online Game with Object Detection Using OpenCV - Template Matching.,"Detect objects with No GPU, No Neural Network, and No training. Template matching has some unique advantages including being really easy to set up. You only need a few lines of code to get started. You can also do it without any high-end computing resources. 
+
+In this video, I walk you through a simple example of how to use template matching and then show you how I used it to dominate an online game. 
+
+https://github.com/ClarityCoders/ComputerVision-OpenCV
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+Want to help support the channel?
+https://www.buymeacoffee.com/claritycoders",2021-04-19T12:20:50Z,386802,12648,412,81,13472
+17,2mSwcRb3KjQ,Using Python and YouTube API  to Create Analytics on any Channel.,"Python and YouTube's API can be used to generate data on any channel on YouTube for free. In this video, we dive into the API to generate some analytics on Mr. Beast's YouTube channel. We will then dig into these analytics and show you how to create some charts with your data. Understanding how to interact with an official API can help you unlock a ton of data sources for all kinds of Python analytics projects. 
+
+I use Deepnote so you can follow along without installing anything on your local computer. Feel free to use any python installation to follow along locally will work as well. The GitHub link has the notebook I created in this video as well. 
+
+--- Resources Used! ---
+
+Getting your API Key - http://console.developers.google.com/
+
+Deepnote - https://deepnote.com/project/401eace2-3667-422d-960c-9fabaad04025
+Follow the link and in the top right corner click duplicate notebook!
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+GitHub - https://github.com/ClarityCoders/YouTubeAnalysis
+
+YouTube API Docs - https://developers.google.com/youtube/v3/docs",2021-03-17T12:41:51Z,8586,273,30,65,333
+18,0BT1rGMAFwQ,Create a Reddit Bot using Repl.it to host for free! Beginner Friendly.,"Repl.it is an amazing tool but can be intimidating. Today in this beginner friendly tutorial I will show you how to create and host a reddit bot on repl.it. You won't need to do any downloads or install any software on your PC. In just 30 minutes you will have a working project running 24/7 in the cloud!
+
+If you don't care about Reddit try the tutorial anyway we show how to use repl.it database as well as create a webserver. This tutorial should be able to help you!
+
+https://repl.it/@JacobLower4/OfficeBot
+https://github.com/ClarityCoders/Reddit-Bot-Replit
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+#python #replit #redditbot
+
+Thanks to Poonam Agrawal for creating the ukulele cover featured in this video. You can check out her full cover of the song Titanium here: https://www.youtube.com/watch?v=YWbLVkHdPlI.
+
+Want to help support the channel?
+https://www.buymeacoffee.com/claritycoders",2021-03-01T14:40:45Z,10275,341,110,70,561
+19,9J2CI3dHMiI,Use Python to create WSB charts! GME to the MOON!,"In this video, we touch base on the crazy Reddit trend and show you how to scrape data from Reddit. How many times is GME, AMC, and NOK being mentioned daily on Reddit!
+
+https://github.com/ClarityCoders/WSB
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd",2021-01-31T01:52:25Z,2014,69,1,49,71
+20,Xzub5UfTu9c,Python with OpenCV Tutorial Series! Drawing and labeling images.,"A quick tutorial on how to label your images and video. We are moving fast through OpenCV and want you to join us for our weekly tutorials. Start this complete tutorial series and actually understand how to create your own unique projects. Not just copy and paste clickbait tutorials!
+
+https://github.com/ClarityCoders/ComputerVision-OpenCV/tree/master/Lesson2-DrawingShapes
+https://discord.gg/cAWW5qq
+Video 1 - https://youtu.be/fmThsnqUCF0",2021-01-26T13:00:24Z,5985,215,35,64,285
+21,fmThsnqUCF0,Python with OpenCV Tutorial Series Part 1! Finally Understand.,"OpenCV has created a ton of amazing projects with millions of views on YouTube. Want to create your own someday? Start this complete tutorial series and actually understand how to create your own unique projects. Not just copy and paste clickbait tutorials!
+
+https://github.com/ClarityCoders/ComputerVision-OpenCV
+https://discord.gg/cAWW5qq
+
+----- Chapters! -----
+0:00 - What are we going to cover and why
+1:20 - Opening Images
+2:05 - Leaning about raw image data (Shape/Type)
+4:20 - Resizing Images
+5:50 - Editing single pixels and slicing
+8:00 - Grayscale
+9:32 - Save",2021-01-19T12:15:01Z,7658,320,24,62,368
+22,OzWU18AwS9k,AI Destroys a Mobile Game in Real-Time with OpenCV (Object Detection),"Let's create AI that beats a simple game of ZigZag. Can't get that Ultra Rare Trophy? During this video, I show you how to create a powerful AI that can top high scores in the game ZigZag.  We will use OpenCV to empower our bot with  AI vision and make decisions based off the game inputs!
+
+https://github.com/ClarityCoders/ZigZag
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd",2020-12-28T13:12:37Z,400448,13372,444,69,14260
+23,qXCVcnLiPIU,Enter Kaggle simulation competition in under 10 minutes! Join our team.,"Want to get on the leaderboards and start your journey in data science? Don't miss this video and act fast to get a spot on the official Clarity Coder's team!
+
+Kaggle Rock Paper Scissors:
+https://www.kaggle.com/c/rock-paper-scissors
+
+Anaconda:
+https://www.anaconda.com/products/individual
+
+Come chat with us! 
+https://discord.gg/8eN7cqMhW4",2020-11-15T19:37:33Z,1076,25,4,71,33
+24,tFOoVibgYyw,Bot knows when an image is dirty?! Cleaning up Reddit with Python and FastAI,"FastAI makes image classification incredibly easy to implement. We are going to prove that by creating a Reddit bot that can classify images as NFSW/SFW in a small project. 
+
+@Jeremy Howard 
+
+Discord: https://discord.gg/chWFwCb
+Bot Code: https://github.com/ClarityCoders/RedditBot-FastAI
+Scraper Code: https://github.com/ClarityCoders/RedditImageScraper
+
+Reddit testing ground (NSFW):  /r/NSFW_Bot_Playground",2020-11-04T13:00:10Z,8515,245,17,76,279
+25,sEIv8UcR3Go,Reddit Image Scraper using Python. Get the data you need for any project!,"In just a few minutes I will show you how to create a Reddit image scraper! I use this in a ton of my artificial intelligence projects and anytime I need a bunch of images. If you have any questions jump in the Discord I'm probably online right now.
+
+Discord: https://discord.gg/chWFwCb
+Code: https://github.com/ClarityCoders/RedditImageScraper",2020-10-23T11:41:13Z,6190,237,22,73,281
+26,HubXt90MLfI,Bot Plays Dino Run! Can our dinosaur bot be stopped?,"We created a bot that plays dino run using computer vision. This AI plays dino run by processing data in real time data and making decisions to jump or duck. Bots playing 
+ the popular dinosaur game have been done before but never this simple or easy to follow. As this ai plays dino run you will be able to code along and create your own cool AI bots and projects. 
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+Bot Play Dino Run Code: https://github.com/ClarityCoders/ChromeDino
+Dino Run: chrome://dino/",2020-10-05T12:11:41Z,41215,1179,72,52,1323
+27,GS_0ZKzrvk0,FastAI learns to play Fall Guys - Undetectable Fall Guys bot.,"I used the very powerful FastAI library with Python to play Fall Guys and qualify over human players. These AI bots are fun and easy to code with FastAI and undetectable by anti-cheat efforts. Join us and share this video to stop these bots!
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd
+
+Code: https://github.com/ClarityCoders/Fall-Guys-AI
+
+ @Code Bullet
+@Jeremy Howard",2020-09-24T12:26:37Z,717571,15761,472,61,16705
+28,1-f51I231G0,AI Plays Space Invaders. Which machine learning algorithm will learn to play first?,"Reinforcement learning is used to train bots using two different algorithms. Playing a simple space shooter-style game.
+
+Custom gym to use with OpenAI algorithms. Showing how you can create more test environments for your custom algorithms. Once you get your environment set up in the OpenAI Gym format it is super easy to switch between different test algorithms.
+
+https://github.com/ClarityCoders/SpaceShooter-Gym
+
+Want to chat with me and other programmers join our discord!
+https://discord.gg/KUwxBJd",2020-08-10T13:30:11Z,19809,489,32,83,553
+29,IFyu4Hg9lKU,Reviewing and Debugging code!,"Today I'm going to show you an example of a bot a user from our discord created. We are going to load up their code and walk through how we can debug and fix errors. This will include using Visual Studio Codes built-in debugging features. 
+
+This user goes by the nickname of Ambush and is an active user in our discord. He like others brought an outside project and with our help completed it! The bot GitHub he created is linked below along with our discord!
+
+https://github.com/ambushneupane/InstaBot
+https://discord.gg/cAWW5qq",2020-07-06T12:59:37Z,860,29,4,29,37
+30,cBxNPtuh4Q0,Monitor Servers and Computers with Python. Portfolio Project!,"What's the best way to start your career as a developer? Start writing code and completing some portfolio projects! In this portfolio project, we are going to use Python to monitor our servers and computers. Using Python we will be able to tell if a server is down and whether it is allowing connections to certain ports. Finally, I will show you how to retrieve stats and how to send alerts so you're the first to know when a server is down.
+
+Why is this important? Having a server monitoring script in your portfolio immediately shows an employer how useful your code can be to them. These projects mean much more than a novel tic tac toe style program.
+
+Below is the link to our GitHub with all the code and our discord. I am online and other team members if you have any questions or get stuck.
+
+https://github.com/ClarityCoders/MonitorServers
+https://discord.gg/cAWW5qq",2020-06-29T18:00:08Z,7322,212,9,61,230
+31,LSP9PUx7n04,Create a Python Automatic Cloud Backup System! Using Google Drive.,"A simple and complete portfolio style project using Python and Google Drive API. We will create a backup folder on your system and write a program to automatically backup that folder to Google Drive. After that, we will create a scheduled task to run this script daily. 
+
+Below is the link to our GitHub with all the code and our discord. I am online and other team members if you have any questions or get stuck.
+
+https://github.com/ClarityCoders/GoogleDrive/
+https://discord.gg/cAWW5qq",2020-06-16T17:12:31Z,7908,242,35,66,312
+32,GooQPDMH2Uk,PyTorch using Google CoLab GPU to run your machine learning programs.,"This is the 2nd video in our PyTorch Series but can be used for any program. We are going to get set up and run programs in Google Colaboratory to take advantage of a GPU. This will allow everyone to progress in this series even if you have an older PC. 
+
+Below is the link to our GitHub with all the code and our discord. I am online and other team members if you have any questions or get stuck.
+
+https://github.com/ClarityCoders/PyTorchIntro
+https://discord.gg/cAWW5qq",2020-06-08T19:41:28Z,8167,206,16,69,238
+33,Rtmi-H-mlKw,Simple PyTorch working neural network. Beginner Friendly!,"PyTorch is becoming a popular tool in machine learning and can be extremely powerful. In this video, I will walk you through how to download and install PyTorch. Then we will create our first Neural Network and train it using PyTorch's sample dataset. Finally, we will create our own images and pass then through our fully trained network. 
+
+Below is the link to our GitHub with all the code and our discord. I am online and other team members if you have any questions or get stuck.
+
+https://github.com/ClarityCoders/PyTorchIntro
+https://discord.gg/cAWW5qq",2020-05-27T13:15:00Z,5841,161,14,57,189
+34,LHf44PwflEM,"Create a free live web app using Python, Flask and Heroku.","Today I'm going to show you how to create and upload a simple web app. We are going to use Python and the Flask framework. Then we are going to upload it to Heroku so you get a live URL to share your projects.
+
+https://discord.gg/cAWW5qq
+https://github.com/ClarityCoders/Flask-Intro",2020-05-22T15:19:02Z,858,39,1,58,41
+35,B1IsCbXp0uE,Create email and text message SMS alerts with Python!,"https://discord.gg/cAWW5qq
+
+Quick and easy way to send text message SMS alerts in python. I use this alert system in a ton of my programs to make sure they are still running. Also to monitor servers and let me know if one goes down. 
+
+Check out our new discord server for free advice and help with your projects. We have people from all over the world so someone should be around to help!",2020-05-16T17:59:17Z,84574,2664,221,53,3106
+36,m2BGEwO6X14,Building a simple Instagram Bot in 2020,"We are going to teach anyone to build a simple Instagram bot to like photos and navigate the site. You can build and grow this bot as much as you want from that point. 
+
+Create your own strategies to gain Instagram followers with ease and without have to buy a service. 
+
+This instabot will also be given in our Github link below please check it out.
+
+https://github.com/ClarityCoders/Instabot/",2020-05-11T12:41:31Z,11637,396,75,39,546
+37,lbKJAoqgNGw,Pie Plot Tutorial: Python and Matplotlib!,"A lot of people want to learn how to map real word data using Python. What better way to spend time stuck at home then working with the most relevant data set. We are going to download and start graphing data using some of the most popular data science libraries. Today we are going to take a look at pie plots and see if we can make an unbiased graph.
+
+Grab all of our scripts and our updated plotting code using our GitHub below. 
+https://github.com/ClarityCoders/covid19
+
+If you need more help learning Python check out our full comprehensive course below. It covers all of the fundamentals and real-world apps to add to your portfolio. 
+
+https://clarity-coders.teachable.com/p/ppp/?product_id=1810395&coupon_code=HALF",2020-05-04T17:31:52Z,277,8,2,41,12
+38,-M5Hb-AQxv0,PyQt5 Python Tutorial - 3: Style APP using CSS,"Source Code and UI file!
+https://github.com/ClarityCoders/PyQt5_examples
+
+Today we are going to style your PyQt5 APP using CSS. We will walk you through everything you need to style a PyQt5 application. We do this using PyQt5 set style and a variable with CSS code.  
+
+See our first video in this playlist if you need to install any of the tools! Let me know what other PyQt5 programs interest you in the comments.
+
+I go over in detail how to create a Pyqt5 program using Python and PyQt-tools.",2020-04-30T14:31:35Z,10617,244,27,46,298
+39,Td5eOG5DTBQ,PyQt5 Python Tutorial - 2: Create a High Low Guessing Game!,"Source Code and UI file!
+https://github.com/ClarityCoders/PyQt5_examples
+
+Today we are going to give you a simple PyQt5 tutorial. We will walk you through everything you need to create a high low guessing game. No worries this is beginner-friendly. 
+
+See our first video in this playlist if you need to install any of the tools! Let me know what other PyQt5 programs interest you in the comments.
+
+I go over in detail how to create a Pyqt5 program using Python and PyQt-tools.",2020-04-26T17:16:58Z,1197,25,6,59,37
+40,YCEyuCy_mRw,PyQt5 Python Tutorial: Create a graphic user interface! Uploaded 2020,"Today we are going to give you a simple PyQt5 tutorial. We will walk you through everything you need to install PyQt5 and start creating PyQt5 GUI. If you are just starting we will even show you how to get your python setup to work correctly with PyQt5. 
+
+We will also install PyQt5-tools that will allow us to use the simple drag and drop GUI designer. This won't be our only PyQt5 tutorial so if you like the video please subscribe and hit that bell!
+
+I go over in detail how to install PyQt5 on Windows although you should be able to follow with any operating system.",2020-04-24T15:27:30Z,3822,122,6,69,134
+41,9wPyfo0G8iM,Programming Challege! Can you solve both of our problems?,"Today we have a little challenge with a real data set. We ask you to solve two problems and I walk you through how I would solve the first! Solve 2nd problem for a special shout out in the next video. 
+
+Here is our GitHub with the data set and the code to solve the first problem. 
+https://github.com/ClarityCoders/CodingChallenge1
+
+Here is the raw data for the csv we are using for the questions.
+https://raw.githubusercontent.com/ClarityCoders/CodingChallenge1/master/spam.csv",2020-04-18T23:26:26Z,257,8,1,57,10
+42,S2f6jKEWlCM,Can you be unbiased? Mapping COVID-19: Python Plotly and Heat Maps!,"A lot of people want to learn how to map real word data using Python. What better way to spend time stuck at home then working with the most relevant data set. We are going to download and start graphing data using some of the most popular data science libraries. Today we are going to take a look at heat maps and see if we can make an unbiased graph.
+
+Grab all of our scripts and our updated plotting code using our github below. We have a line plot folder as well as a heat map folder
+https://github.com/ClarityCoders/covid19
+
+If you need more help learning Python check out our full comprehensive course below. It covers all of the fundamentals and real world apps to add to your portfolio. 
+
+https://clarity-coders.teachable.com/p/ppp/?product_id=1810395&coupon_code=HALF",2020-04-17T21:06:21Z,1244,31,4,67,39
+43,HHlInKhVz3s,Python File Encryption: Quick One day Project!,"Quick easy to learn resume project in Python! Learn how to use XOR encryption to lock down any file on your system.
+
+Grab all of our scripts and our updated plotting code using our GitHub below.
+https://github.com/ClarityCoders/Encrypt
+
+If you need more help learning Python check out our full comprehensive course below. It covers all of the fundamentals and real world apps to add to your portfolio. 
+
+https://clarity-coders.teachable.com/p/ppp/?product_id=1810395&coupon_code=HALF",2020-04-14T18:37:47Z,15713,418,28,46,474
+44,ufHknzs1x2A,Mapping covid-19: Using Python and Matplotlib!,"A lot of people want to learn how to map real word data using Python. What better way to spend time stuck at home then working with the most relevant data set. We are going to download and start graphing data using some of the most popular data science libraries. 
+
+Grab all of our scripts and our updated plotting code using our github below.
+https://github.com/ClarityCoders/covid19
+
+If you need more help learning Python check out our full comprehensive course below. It covers all of the fundamentals and real world apps to add to your portfolio. 
+
+https://clarity-coders.teachable.com/p/ppp/?product_id=1810395&coupon_code=HALF",2020-04-11T18:23:22Z,1594,37,9,46,55
+45,lLNyyV_d8Rc,Install Anaconda - 2020,"Today we are going to install Anaconda with 2020 versions. Installing Anaconda will give us many tools but most importantly we will get Python, Spyder IDE and Jupyter notebook. Anaconda is super simple and easy to setup but it can be confusing what programs to use after you get it installed. We will also open up Anaconda navigator and show you how to write your first program.
+
+Please let us know if you like it and we will upload a few follow-up lessons!
+
+If you want to join our community please visit ClarityCoders.com sign up is just your email address.",2020-02-17T15:15:50Z,615,25,2,23,29
+46,3FpqXyJsd1s,Program a Reddit Bot - Python,"Ever wanted to program a Reddit bot in Python? 
+
+In this tutorial we are creating a Reddit bot using python 3. We will cover how to do several functions using praw, the Python Reddit API Wrapper, to create our python bot. This will allow us to use Python to read data from Reddit. Using built in functions and methods of the wrapper we will also post to comments. This will be a start to finish tutorial including setting up your Reddit account and creating keys for your Python program. 
+
+Please enjoy our Reddit bot guide!
+
+Want to help support the channel?
+https://www.buymeacoffee.com/claritycoders",2020-02-08T16:04:19Z,21586,645,146,29,937
+47,QDGdLF8Sllo,python classes tutorial updated for 2020,"This tutorial updated in 2020 dives into creating custom python classes! Python classes can be simple if explained correctly! Python programming is built around objects and using custom classes creates objects. This python tutorial uses Spyder IDE and detailed graphics to explain how we can create our own classes and objects. We will cover instance variable and class variables.
+
+Please let us know if you like it and we will upload a few follow-up lessons!
+
+If you want to join our community please visit ClarityCoders.com sign up is just your email address.",2020-01-31T14:04:01Z,1984,142,20,40,182
