@@ -1,449 +1,2985 @@
 ,vid_id,title,description,published,view_count,like_count,comment_count,title_length,reactions
-0,kaoDAA85mSA,Python Bots! Coding a Better Auto Clicker.,"I love code bullet but what code does he use? Today I'm going to show you exactly how he did his last video start to finish. This will include the most popular libraries and how to take the project to the next level. Any questions let me know in our discord.
+0,d4WgOIrby5Q,Backtesting Rayner Teos 1689% Bollinger Bands Trading Strategy in Python [Part II] - OVER 1K stocks,"In this video we are testing the Bollinger Band Trading Strategy presented by Rayner Teo in Python applying it on 1000 stocks in the Russel 1000 Index.
 
-https://github.com/ClarityCoders/AutoClickerExample
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
 
-Subscribe to our new streaming channel! If I get 50 I'll do a live stream.
-https://www.youtube.com/channel/UCP5YV8SmEMogpJjQsBXhX-A/
+Part I:
+https://youtu.be/mtgr9eMXmgU
 
-👊You got something to say to me?? Join our discord!✌️
-https://discord.gg/cAWW5qq",2022-03-29T13:30:09Z,3066,150,37,42,224
-1,fMiAyj2kgac,Power Machine Learning using Ray.io and Python. Full Tutorial.,"Using powerful machine learning algorithms is easy using Ray.io and Python. 
+My video on Bollinger Bands:
+https://youtu.be/8PzQSgw0SpM
 
-https://github.com/ClarityCoders/RayTutorial
+Rayners video: https://youtu.be/CxFv_EUY0ZA
 
-Windows 10 box2d issues?
-https://medium.com/@sayanmndl21/install-openai-gym-with-box2d-and-mujoco-in-windows-10-e25ee9b5c1d5",2022-02-22T14:30:07Z,2708,108,6,62,120
-2,ZjVLRKCV5aw,Installing Python on Windows 11 or 10. FAST!,Lets walk through installing Python on Windows 11 and how to switch version of Python once it's installed. I have been using Python on Windows 11 for a few months now without any issues. Installing is very simple but it's easy to get confused when switching Python Versions.,2022-02-20T19:13:08Z,767,32,7,44,46
-3,hVbxvaQTZR8,Using Python to play 100K Games of Wordle. Top Strategy Test!,"You might be playing wrong and not knowing it. I'll show how we can create a test game and run simulated strategies on that program. Python playing Wordle will show you how to create a similar project on any game or simulation.
+Video on Python & SQL:
+https://youtu.be/OjMDXTlVOYU
 
-https://github.com/ClarityCoders/Wordle
+wikipedia string:
+https://en.wikipedia.org/wiki/Russell_1000_Index
 
-You got something to say to me?? Join our discord!✌️
-https://discord.gg/cAWW5qq",2022-01-27T13:59:12Z,5205,237,57,61,351
-4,YnVZYIoY5zI,Learning Python by Battling Bots. Full Setup and Strategies!,"Can learning to code be as fun as playing a game? This project seems to think that is possible with Battle Snakes. We are going to create a web server for our bot and then write a competition-ready bot to play against other users around the world. This group has leagues and even prizes so follow this code along to be part of the journey.
+Be invited to check out more videos in my Python for Finance playlist and most importantly:
+Please subscribe if you want more of this content! Thx :-)
 
-https://replit.com/@JacobLower3/S1
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only!  
 
-👊You got something to say to me?? Join our discord!✌️
-https://discord.gg/cAWW5qq",2022-01-24T13:19:21Z,3441,138,13,60,164
-5,GzypNqnL-Ks,Bot Dominates Magic Tiles 3 Tops Live Leaderboard,"Will a flawless python bot dominate or get us banned. We will use computer vision to test pixel values lightning fast! Creating a bot that can beat any level with full crowns and even all human players.
+00:00 - 00:42 Introduction/ Libs
+00:42 - 02:00 Getting all Russell 1000 stock tickers
+02:00 - 04:29 Storing Price data in a local Database (recommended)
+04:29 - 06:08 How to access data from the DataBase
+06:08 - 08:07 Setting up the Backtest (covered in Part I)
+08:07 - 15:20 Backtesting all 1K stocks
+15:20 - 16:00 Seemingly awesome results are not awesome
+16:00 - 19:50 Getting rid of clusters / overlaps
+19:50 - 22:30 Analyzing the strategy / amendments
+22:30 - 22:49 Brain 🧠 lag (sorry)
+22:49 - 24:34 win rate, mean profit, equity curve
+24:34 - 25:51 Including tradings feeds (Net Profit)
+25:51 - 27:06 The problem of excluding the 10 days condition
+27:06 - 27:49 Summary / LIVE MARKET up next?!
 
-👊You got something to say to me?? Join our discord!✌️
-https://discord.gg/cAWW5qq
+#Python #Trading #Strategy #BollingerBands #RSI",2022-03-29T19:29:13Z,39503,916,93,99,1102
+1,mtgr9eMXmgU,Backtesting Rayner Teos 1689% Bollinger Bands Trading Strategy in Python [Part I],"In this video we are testing the Bollinger Band Trading Strategy presented by Rayner Teo in Python applying it on the Apple and Tesla stock.
 
-💸Want to help support the channel?💵
-https://www.buymeacoffee.com/claritycoders
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
 
-💻Bot Code.🖱
-https://github.com/ClarityCoders/MagicTIlesBot
+I already finished Backtesting all Russell 1000 stocks (over 1 million rows of data) and got some interesting results. Let me know if you want Part II by hitting the like button or leaving me a comment. What would also be quite interesting would be to test this in the live crypto market. Everything is possible - I just urgently need your feedback! :-)
 
-🤖Contents of the Video😈
-0:00 Intro
-1:10 Setup LD Player
-3:30 Code Overview
-7:15 Whiteboard: Handling Key Presses
-8:15 Whiteboard: Special Keys
-9:05 Bot playing: Red Lights - Lvly
-17:45 Bot playing: Quantum Sonata - Formantx
-24:45 Good Bye and Bot Playing: Waiting For You - Martin Carlberg",2021-12-20T14:00:07Z,4225,177,66,49,309
-6,bMT9ZC9sBzI,Python bot that makes movies and posts them daily to YouTube.,"Create a set it and forget it shorts channel. I am going to walk you through setting up my fully automated Python bot that creates movies and posts them to YouTube. I walk you through this step by step including setting up a Reddit API and Creating a YouTube channel. 
+My video on Bollinger Bands:
+https://youtu.be/8PzQSgw0SpM
 
-Full Source Code
-https://github.com/ClarityCoders/AutoTube
+Rayners video: https://youtu.be/CxFv_EUY0ZA
 
-Reddit API Creation
-https://www.reddit.com/prefs/apps
+For the signals I am using a vectorized approach. You can alternatively also use a Loop approach.
 
-YouTube Upload a Video API (docs)
-https://developers.google.com/youtube/v3/guides/uploading_a_video
+Mentioned video on finding actual trades: 
+https://youtu.be/eEqp-iu8eI8
 
-Google YouTube API Creation
-https://console.developers.google.com/
+Be invited to check out more videos in my Python for Finance playlist and most importantly:
+Please subscribe if you want more of this content! Thx :-)
 
-💬Want to talk to me and other programmers?📞
-Join our discord: https://discord.gg/cAWW5qq",2021-11-30T15:30:04Z,9263,404,62,61,528
-7,D3IffJOwDY0,Understand the weirdness. How Python Passes Arguments.,"Mutable and Immutable types makes this Python discussion very confusing. In this video we will reference a great article in Python Weekly to understand how Python Passes arguments. This Python Discussion is suitable for all levels of Python programmers and many advanced programmers may disagree with me! Join the conversation in the comments.
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only!  
 
-📗Article Link📖
-https://mathspp.com/blog/pydonts/pass-by-value-reference-and-assignment
+00:00 - 01:26 Introduction / Strategy
+01:26 - 02:42 Libs/Pulling prices
+02:42 - 05:38 Technical indicators (SMA, Bollinger Band, RSI)
+05:38 - 06:17 Plotting BB (optional)
+06:17 - 10:57 Buying/Selling Conditions
+10:57 - 15:58 Getting actual trades (vectorized approach)
+15:58 - 17:41 Profit calculation
+17:41 - 18:43 Repeating the whole procedure for TSLA
+18:43 - 18:59 Up next! Over 1k stocks!
+#Python #Trading #Strategy #BollingerBands #RSI",2022-03-20T19:45:42Z,32818,845,117,81,1079
+2,vCRSU9Cqzxg,Cryptocurrency Fear & Greed Index Trading Strategy with Python,"Hi everyone,
+in this video we are pulling the Fear & Greed index via API. Then formulate a simple Trading strategy using the Index values as signals. There is way more you can do with that data as I mentioned in the end. Let me know if that is interesting for you!
 
-💬Want to talk to me and other programmers?📞
-Join our discord: https://discord.gg/cAWW5qq
+If you enjoy my videos please consider subscribing. You are helping me a lot with that!
 
-🎓Contents of the Video🎓
-0:00 Intro
-0:31 Not by Reference or Value
-4:32 Immutable and Mutable Objects
-8:28 Pass by Assignment",2021-11-16T14:30:12Z,1735,112,26,54,164
-8,VLTJEOVG-vw,Python Tutorial for Beginners #3: How to use outside libraries and loops!,"Must watch learn how to read documentation and use any outside library! This series was an idea I had years ago to teach programming just like I did at the university level for free! Thanks to  @CS Dojo  and  @Replit  for helping me make it happen. 
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
 
-Hit that subscribe button and the bell so you don't miss out on future videos. We are wanting to release a video a week until this series is complete. 
+Video on how returns are calculated:
+https://youtu.be/fWHQwqT3lNY
 
-Check out the text version of this course!
-learnpythontherightway.com
+More details on API calls / Binance API usage:
+https://youtu.be/0QKXso4PIc4
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+Be invited to check out my videos on crypto stuff / trading bots with Python:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
 
-Want to help support the channel?
-https://www.buymeacoffee.com/claritycoders
+Fear & Greed Website:
+https://alternative.me/crypto/fear-and-greed-index/
 
-#Python #programming #LearnPythonRightWay
+No investment advice! Video is for educational purposes only.
 
-🎓Contents of the Video🎓",2021-11-12T13:55:52Z,1294,72,15,73,102
-9,uREw7J9l0oY,Dominating Bot Challenges Donkey Kong Country with Simple Code.,"Check out some of your favorite bosses and learn some AI reinforcement learning using ""The Brute"". Unlock new career opportunities and become data fluent today! Use my link https://bit.ly/30LjRMp and check out the first chapter of any DataCamp course for FREE!
+#Python #Crypto #Trading
 
-👊You got something to say to me?? Join our discord!✌️
-https://discord.gg/cAWW5qq
+00:00 - 00:29 Fear & Greed Index
+00:29 - 02:34 Pulling index data from the API
+02:34 - 05:12 Data manipulations
+05:12 - 07:03 Adding Bitcoin Price data / merging Dataframes
+07:03 - 11:51 Strategy formulating / Test / Benchmarking",2022-03-13T14:06:54Z,4885,265,72,62,409
+3,_BrPshkROhs,How To Build a Simple Cryptocurrency Trading Bot with Python and the Binance API,"Hi everyone,
+I made some simplifications and further amendments to the already covered trading bot on the Slow / Fast SMA holding strategy. Let me know what you think in the comments below :-)
+Thx a lot for watching.
 
-💻My Updated Bot Code.🖱
-https://github.com/ClarityCoders/Gym-Retro-Brute
-https://replit.com/@JacobLower3/Gym-Retro-Starter
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
 
-This video was sponsored by DataCamp",2021-10-26T12:00:25Z,4808,256,37,63,330
-10,gIvstR16coI,Python Tutorial for Beginners #2: Must have fundamentals lets write code!,"In today's video, we cover variables, statements, operators, input and more! This series was an idea I had years ago to teach programming just like I did at the university level for free! Thanks to  @CS Dojo  and  @Replit  for helping me make it happen. 
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency and automated trading is bearing a high amount of risk which might result in a total loss of your invested capital.
 
-Hit that subscribe button and the bell so you don't miss out on future videos. We are wanting to release a video a week until this series is complete. 
+If you want to support me you can register for Binance with this link, but don't feel forced to:
+https://www.binance.com/en/register?ref=17165515
 
-Check out the text version of this course!
-learnpythontherightway.com
+Mentioned video in the very beginning:
+https://youtu.be/PYW4AIMEvsU
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+Note: In the very beginning I am referring to changes in the csv file. While recording I have actually considered it to be way more easy to directly change the dataframe. You can still work with a changing csv file with 2 amendments: Pulling the csv file before looping over the selling and buying conditions. Change the changepos function and add a to_csv function (as in the linked video).
 
-Want to help support the channel?
-https://www.buymeacoffee.com/claritycoders
+Set up Binance API video:
+https://youtu.be/_IV1qfSPPwI
 
-#Python #programming #LearnPythonRightWay
+Backtesting Crypto strategies:
+https://youtu.be/HB1CLz0Z1NY
 
-🎓Contents of the Video🎓
-0:00 Intro
-1:15 Values and Variables
-7:30 Statements and Expressions
-8:32 Operators
-10:15 Type Converter Functions
-12:15 Input",2021-10-04T13:00:16Z,4185,175,41,73,257
-11,X2bRXcCvmKY,Dominating an Online Multiplayer Game using Python and OpenCV.,"Testing the limits to see if we get banned by playing over 30 hours straight. We will use object detection techniques to bot this game and come out on top of the leader boards. 
+Backtesting SMAs in general (including finding best pairs):
+https://youtu.be/vWVZxiaaTCs
 
-👊You got something to say to me?? Join our discord!✌️
-https://discord.gg/cAWW5qq
+Video on deployment on the Google Cloud Platform (GCP):
+https://youtu.be/mDNIAkEZChg
 
-💸Want to help support the channel?💵
-https://www.buymeacoffee.com/claritycoders
+Also please check out my cryptobot playlist, there is a lot more stuff to check out if you are interested in those kinds of topics:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
 
-⭐BAHADIR Original Code Star his Project!⭐
-https://github.com/bahadiraraz/fishington.io-bot
+['BTCUSDT','ETHUSDT','LUNAUSDT','SOLUSDT','UNIUSDT','AVAXUSDT','QNTUSDT','BNBUSDT','GALAUSDT','XRPUSDT','SHIBUSDT','ENJUSDT','DOTUSDT','SANDUSDT','DOGEUSDT','VETUSDT','NEARUSDT','ONEUSDT','XLMUSDT','MANAUSDT','TRXUSDT','XTZUSDT','BCHUSDT','FILUSDT','ATOMUSDT','KLAYUSDT','AAVEUSDT','HNTUSDT','EGLDUSDT','ADAUSDT','LINKUSDT','MATICUSDT','EOSUSDT','THETAUSDT','LTCUSDT','NEOUSDT','ETCUSDT','XMRUSDT','TFUELUSDT','FTMUSDT','ALGOUSDT','HBARUSDT','FTTUSDT','MKRUSDT','AXSUSDT','GRTUSDT','CAKEUSDT','ICPUSDT','FLOWUSDT','XECUSDT']
 
-💻My Updated Bot Code.🖱
-https://github.com/ClarityCoders/fishington.io-bot",2021-09-22T17:12:49Z,189883,5283,218,62,5719
-12,lhtUREG6vAg,Python Tutorial for Beginners #1: Write Your First Program and Learn How to Debug,"In today's video, we cover what is python, how to get started programming, and actually writing our first program. This series was an idea I had years ago to teach programming just like I did at the university level for free! Thanks to @CS Dojo and @Replit for helping me make it happen. 
+00:00 - 00:50 Infrastructure of the bot (please read Note in the description)
+00:50 - 04:11 Going over some Trades on Binance
+04:11 - 04:56 Prerequisites / Disclaimer
+04:56 - 07:31 Setting up initial csv file/ dataframe 
+07:31 - 08:05 Libraries / Set up
+08:05 - 10:10 Pulling historical price data          
+10:10 - 11:45 Technical indicator / SMA calculation and check
+11:45 - 15:16 Function changing positions in case of buy / sell
+15:16 - 22:15 Trading logic
+22:15 - 24:34 Running the bot / Hints on deployment
 
-Hit that subscribe button and the bell so you don't miss out on future videos. We are wanting to release a video a week until this series is complete. 
+#Python #Tradingbot #Crypto #Binance",2022-03-06T18:25:24Z,10748,337,133,80,603
+4,mW6jP2CalI0,Crypto Live Price Analysis with Python [Quick & Dirty],"Hi everyone,
+in this video we are pulling live prices and writing that into a DataBase. Then we are analyzing this data with some simple examples visualising the cumulative returns and also top and worst performers. There is way more you can do with that data e.g. apply technical analysis to that data and many more possibilities. Anyhow I think this is a good foundation to get started.
 
-Check out the text version of this course!
-learnpythontherightway.com
+If you enjoy my videos please consider subscribing. You are helping me a lot with that!
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
 
-#Python #programming #LearnPythonRightWay
+Video on how returns are calculated:
+https://youtu.be/fWHQwqT3lNY
 
-🎓Contents of the Video🎓
-0:00 Intro
-3:22 Python Programming Language
-5:40 What's a Computer Program?
-9:00 Starting Replit
-10:20 First Program
-11:45 Debugging and Errors",2021-09-09T12:27:40Z,7076,370,43,81,456
-13,XF8HrEQ_CJI,AI Crushes Wenus. (AI PLays Farm Freenzy),"Today our computer plays Farm Frenzy. We will learn some new concepts in computer vision by beating games. This provides a great way to watch AI play games as well as improve your programming skills. Python and OpenCV will be our tools of choice to try and take down this high score put up by Wenus in Farm Frenzy.
+Video on using unicorn library / mentioned first script video:
+https://youtu.be/yTg7msDp2Q8
+and 
+https://youtu.be/Ml6LUH2wxgc
 
-Join our discord to chat about games AI and programming! Let me know if the comments what game we should challenge next.  
+Be invited to check out my videos on crypto stuff / trading bots with Python:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
 
-https://github.com/ClarityCoders/FarmPanic
+symbols = ['btcusdt','ethusdt','bnbusdt','xrpusdt','adausdt','solusdt','AVAXusdt','lunausdt','dousdt','dogeusdt','shibusdt','maticusdt','ltcusdt','atomusdt','linkusdt','trxusdt','neausdt','bchusdt','algousdt','fttusdt','xlmusdt','ftmusdt','uniusdt','hbarusdt','manausdt','icpusdt','etcusdt','axsusdt','sandusdt','egldusdt','klayusdt','vetusdt','filusdt','thetausdt','xtzusdt','xmrusdt','grtusdt','hntusdt','eosusdt','cakeusdt','galausdt','flowusdt','tfuelusdt','aaveusdt','oneusdt','neousdt','mkrusdt','qntusdt','enjusdt','xecusdt']
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+#Python #Crypto #Analysis
 
-#Python #AIPlays#ClarityCoders",2021-08-31T11:50:06Z,10613,447,48,41,543
-14,4QwVHgZEbNw,AI Plays HTML5 Game FastWords. Destroys All Competition with OPENCV and Python.,"Today we learn some new concepts in computer vision by beating games. This provides a great way to watch AI play games as well as improve your programming skills. Python and OpenCV will be our tools of choice to try and take down this high score. 
+00:00 - 00:24 Idea
+00:24 - 02:05 1. script: Live price data / SQL storage
+02:05 - 03:28 2. script from here: pulling table names
+03:28 - 04:08 Pulling prices from the live Database
+04:08 - 06:42 Prices for all symbols / data manipulations
+06:42 - 10:30 Analyzing price developments",2022-02-27T18:33:45Z,3926,130,37,54,204
+5,FZgeDazuDWI,Portfolio Optimization with Python [Cryptocurrencies],"Hi everyone,
+in this video we are doing some Portfolio Optimization using Python and the pyportfolioopt library. I thought it would be interesting to apply modern portfolio theory concepts to cryptocurrency price data.
+First we are pulling some historical price data using the Binance API, then we are calculating the Efficient Frontier and playing a bit around with Altcoins. In the end we are building an optimal portfolio using the maximum sharpe ratio and minimum volatility as the constraints.
 
-https://github.com/ClarityCoders/FastWords
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+Play a bit around with your favorite coins or feed even more coins into that. Let me know what insights you got!
 
-#Python #OpenCV #ClarityCoders",2021-07-06T13:00:02Z,20865,1027,144,79,1315
-15,wjQ9Nin21d8,Learn How to Make a Python Discord Bot in 17 Minutes. Host for Free!,"Understand how to code a discord bot without spending an hour watching a tutorial. Our goal is to cut all the fat from learning and allow you to move onto bigger and better things! 
+If you find my videos enjoyable please consider subscribing. You are helping me a lot with that!
 
-After this python tutorial you will be able to create a custom discord bot from scratch. In this video we will cover responding to message events and creating bot commands. As well as how to get an API key and creating your server. 
+My old vid on calculating an Efficient Frontier on stocks (including the calculating steps):
+https://youtu.be/mJTrQfzr0R4
 
-@CS Dojo
+Please check out my other videos on applying some Data Science stuff to Cryptocurrencies:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
 
-00:00 Intro
-00:30 Create Server
-01:17 Create Bot and Get API Key
-03:27 Code Bot 
-12:35 Witty Responses
+#Python #Crypto #PortfolioOptimization
 
-💾 Check out the code!
-https://replit.com/@JacobLower3/ReplitBotTutorial
+00:00 - 00:52 Introduction / Prerequisites/ Libraries
+00:52 - 04:04 Pull daily cryptocurrency price data
+04:04 - 07:16 Efficient Frontier calculation, plotting & interpretation
+07:16 - 11:07 Improving the plot with coin annotations / volatility recap
+11:07 - 11:37 The ""best"" and ""worst"" coins
+11:37 - 12:52 Adding some Altcoins
+12:52 - 15:31 Optimal portfolio (max sharpe & min vol)",2022-02-26T20:45:33Z,4659,208,65,53,338
+6,Ml6LUH2wxgc,"How to build a Cryptocurrency Price Index [with Python using SQL,APIs and Streamlit]","Hi everyone,
+in this one we are going to build a cryptocurrency price index similar to the S&P500/Dow Jones/Sensex/DAX whatever you are for stocks. Those indices are usually calculated using value weighted returns. Anyhow we are using equal weighted returns.
+There are basically endless possibilities with that but this video should give you an idea how to start. Figuring out the altair part took me multiple hours so please hit the like button to make it worth it :D
 
-🌎Free hosting!
-https://repl.it/claim?code=claritycodersmay21
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
 
-🔑Get your API Key
-https://discord.com/developers/docs/intro
+Please check out the mentioned videos beforehand to better follow along:
+Video on a live price data stream using binance unicorn and streamlit:
+https://youtu.be/yTg7msDp2Q8
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+Please also check the linked streamlit videos below that.
 
-#pythontutorial #discordbot #claritycoders",2021-06-01T17:30:07Z,15164,563,100,68,763
-16,vXqKniVe6P8,Dominating an Online Game with Object Detection Using OpenCV - Template Matching.,"Detect objects with No GPU, No Neural Network, and No training. Template matching has some unique advantages including being really easy to set up. You only need a few lines of code to get started. You can also do it without any high-end computing resources. 
+Videos on requesting data from cryptoexchange APIs:
+https://youtu.be/0QKXso4PIc4
 
-In this video, I walk you through a simple example of how to use template matching and then show you how I used it to dominate an online game. 
+Video on how returns are calculated:
+https://youtu.be/fWHQwqT3lNY
 
-https://github.com/ClarityCoders/ComputerVision-OpenCV
+If you are interested in more Python and Crypto related content please check out my cryptobot playlist:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+Get Market caps credits to javierfish on stackoverflow:
+https://stackoverflow.com/questions/66132843/is-there-a-way-to-get-the-market-cap-or-market-cap-rank-of-a-coin-using-the-bina
+
+symbols = ['btc', 'eth', 'bnb', 'xrp', 'ada','sol','dot','luna','AVAX','doge','shib','matic',
+'ltc','atom','link','near','trx','algo','bch','ftt','xlm','ftm','uni','mana','hbar','sand',
+'etc','axs','icp','vet','xtz','fil','egld','theta','xmr','klay','hnt','grt','gala','one','eos',
+'flow','aave','cake','mkr','qnt','enj','ar','tfuel','xec','stx','neo','ksm','zec','amp','rune',
+ 'cvx','bat','celo','lrc','crv','rose','chz','dash','waves','scrt','slp','snx','mina']
+
+00:00 - 02:10 Intro / Prerequisites / Explanations
+02:10 - 05:18 First script pushing live prices to a SQL DB
+05:18 - 08:32 Get Market Caps using the Coingecko API
+08:32 - 16:20 Step by step Index calculation
+16:20 - 19:22 Repeating all Index calculation steps within a function
+19:22 - 24:42 Creating the streamlit script
+24:42 - 25:34 Run the app / Thx for watching
+
+#Python #Crypto #Index",2022-02-13T20:58:03Z,5632,183,57,84,297
+7,0QKXso4PIc4,"Cryptocurrency Exchange API Tutorial with Python [Binance, Kucoin,...]","Hi everyone,
+in this video I am covering how to interact with the Binance API (and other crypto exchanges e.g. Kucoin) using Python. 
+We are first checking how to pull data without parameters, then add parameters and in the end we will check how to place orders.
+Hope this is helpful for you!
+In my previous videos I was using the python-binance library which I will continue to use but it is definitely worth it to check out how it would work without making use of that library.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Big credits to:
+https://code.luasoftware.com/tutorials/cryptocurrency/python-connect-to-binance-api/
+
+Video on getting api_key and api_secret:
+https://youtu.be/_IV1qfSPPwI
+
+Proceeding, manipulating and amending cryptocurrency data is basically covered in every video in the cryptobot playlist:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
+
+Binance docs:
+https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md#exchange-information
+
+Kucoin docs:
+https://docs.kucoin.com/
+
+
+Further reading on HTTP methods:
+https://medium.com/@9cv9official/what-are-get-post-put-patch-delete-a-walkthrough-with-javascripts-fetch-api-17be31755d28
+
+00:00 - 00:24 Intro / What you need
+00:24 - 02:19 Base endpoint, path and simple get request
+02:19 - 05:37 Get request with parameters
+05:37 - 07:08 Kucoin example with the shown approaches
+07:08 - 10:47 Place an order (check description for link/credits)
+
+#Python #API #Binance #Kucoin",2022-02-08T19:58:01Z,5629,202,45,70,292
+8,yTg7msDp2Q8,Binance Live Returns Crypto Trading Dashboard with Python and Streamlit,"Hi everyone,
+in this video we are constructing a Cryptocurrency Dashboard to identify strong up- and downward movements on the Binance platform in the very short term. Should be helpful to get a better overview of the market.
+The video is just a field test to check if there is interest behind this, one can examine way more such as Volumns, Volatilies and so on. Let me know that you find this interesting!
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Please watch my video(s) on streamlit beforehand to better follow along:
+Basics:
+https://youtu.be/Km2KDo6tFpQ
+Second vid:
+https://youtu.be/YsnPlQyCYfo
+
+Video on how returns are calculated:
+https://youtu.be/fWHQwqT3lNY
+
+Video on getting a better understanding how the SQL implementation works:
+https://youtu.be/rc_Y6rdBqXM
+
+Also be invited to check out my cryptobot playlist 
+
+Video on getting those symbols:
+https://youtu.be/07FUXpcy9FI
+
+Also be invited to check out my cryptobot playlist:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
+
+But as said, also linked here:
+symbols = ['GALAUSDT',
+ 'WANUSDT',
+ 'COTIUSDT',
+ 'BTTCUSDT',
+ 'AXSUSDT',
+ 'CELOUSDT',
+ 'FTMUSDT',
+ 'ANYUSDT',
+ 'KEEPUSDT',
+ 'LINKUSDT',
+ 'XTZUSDT',
+ 'SANDUSDT',
+ 'SPELLUSDT',
+ 'FILUSDT',
+ 'REEFUSDT',
+ 'C98USDT',
+ 'IOTXUSDT',
+ 'ADAUSDT',
+ 'DOGEUSDT',
+ 'ETCUSDT',
+ 'TVKUSDT',
+ 'RUNEUSDT',
+ 'KSMUSDT',
+ 'BTCUSDT',
+ 'UNIUSDT',
+ 'LAZIOUSDT',
+ 'ALPHAUSDT',
+ 'SOLUSDT',
+ 'XRPUSDT',
+ 'MANAUSDT',
+ 'LRCUSDT',
+ '1INCHUSDT',
+ 'AVAXUSDT',
+ 'NEARUSDT',
+ 'WAXPUSDT',
+ 'STXUSDT',
+ 'ALGOUSDT',
+ 'ATOMUSDT',
+ 'OMGUSDT',
+ 'RVNUSDT',
+ 'BANDUSDT',
+ 'CVCUSDT',
+ 'GXSUSDT',
+ 'THETAUSDT',
+ 'ROSEUSDT',
+ 'DYDXUSDT',
+ 'KNCUSDT',
+ 'BCHUSDT',
+ 'QTUMUSDT',
+ 'ONEUSDT',
+ 'FIDAUSDT',
+ 'ETHUSDT',
+ 'OCEANUSDT',
+ 'HIGHUSDT',
+ 'XLMUSDT',
+ 'DARUSDT',
+ 'PEOPLEUSDT',
+ 'ZRXUSDT',
+ 'YFIUSDT',
+ 'WINUSDT',
+ 'ARPAUSDT',
+ 'SNXUSDT',
+ 'DUSKUSDT',
+ 'FLUXUSDT',
+ 'ENSUSDT',
+ 'EOSUSDT',
+ 'CELRUSDT',
+ 'SRMUSDT',
+ 'AAVEUSDT',
+ 'QIUSDT',
+ 'SXPUSDT',
+ 'BAKEUSDT',
+ 'XECUSDT',
+ 'STORJUSDT',
+ 'ILVUSDT',
+ 'GLMRUSDT',
+ 'BELUSDT',
+ 'ENJUSDT',
+ 'COSUSDT',
+ 'NEOUSDT',
+ 'YGGUSDT',
+ 'USDPUSDT',
+ 'TRXUSDT',
+ 'ZECUSDT',
+ 'BEAMUSDT',
+ 'TLMUSDT',
+ 'MATICUSDT',
+ 'CHZUSDT',
+ 'ATAUSDT',
+ 'ARUSDT',
+ 'DASHUSDT',
+ 'FLOWUSDT',
+ 'MOVRUSDT',
+ 'GTOUSDT',
+ 'CRVUSDT',
+ 'ZILUSDT',
+ 'LUNAUSDT',
+ 'RSRUSDT',
+ 'JOEUSDT',
+ 'LOKAUSDT',
+ 'ICPUSDT',
+ 'MKRUSDT',
+ 'SUSHIUSDT',
+ 'CTKUSDT',
+ 'KAVAUSDT',
+ 'VOXELUSDT',
+ 'NUUSDT',
+ 'XEMUSDT',
+ 'WINGUSDT',
+ 'CVXUSDT',
+ 'UNFIUSDT',
+ 'KLAYUSDT',
+ 'CTXCUSDT',
+ 'PSGUSDT',
+ 'LTCUSDT',
+ 'ALICEUSDT',
+ 'JASMYUSDT',
+ 'MBOXUSDT',
+ 'NMRUSDT',
+ 'ANKRUSDT',
+ 'MINAUSDT',
+ 'CAKEUSDT',
+ 'CHRUSDT',
+ 'EGLDUSDT',
+ 'RNDRUSDT',
+ 'BICOUSDT',
+ 'GTCUSDT',
+ 'SYSUSDT',
+ 'ANCUSDT',
+ 'DREPUSDT',
+ 'LTOUSDT',
+ 'HBARUSDT',
+ 'COMPUSDT',
+ 'LINAUSDT',
+ 'IDEXUSDT',
+ 'IOTAUSDT',
+ 'ICXUSDT',
+ 'NULSUSDT',
+ 'WAVESUSDT',
+ 'XMRUSDT',
+ 'MITHUSDT',
+ 'TFUELUSDT',
+ 'MTLUSDT',
+ 'TOMOUSDT',
+ 'PERLUSDT',
+ 'KEYUSDT',
+ 'FUNUSDT',
+ 'RENUSDT',
+ 'NKNUSDT',
+ 'RLCUSDT',
+ 'TROYUSDT',
+ 'VITEUSDT',
+ 'OGNUSDT',
+ 'WRXUSDT',
+ 'BTSUSDT',
+ 'LSKUSDT',
+ 'AIONUSDT',
+ 'WTCUSDT',
+ 'DATAUSDT',
+ 'CTSIUSDT',
+ 'HIVEUSDT',
+ 'STMXUSDT',
+ 'REPUSDT',
+ 'SCUSDT',
+ 'ZENUSDT',
+ 'VTHOUSDT',
+ 'IRISUSDT',
+ 'YFIIUSDT',
+ 'DIAUSDT',
+ 'FIOUSDT',
+ 'UMAUSDT',
+ 'NBSUSDT',
+ 'SUNUSDT',
+ 'FLMUSDT',
+ 'ORNUSDT',
+ 'UTKUSDT',
+ 'XVSUSDT',
+ 'AKROUSDT',
+ 'HARDUSDT',
+ 'STRAXUSDT',
+ 'SKLUSDT',
+ 'JUVUSDT',
+ 'ATMUSDT',
+ 'ASRUSDT',
+ 'TRUUSDT',
+ 'FIROUSDT',
+ 'SFPUSDT',
+ 'BADGERUSDT',
+ 'FISUSDT',
+ 'OMUSDT',
+ 'PONDUSDT',
+ 'DEGOUSDT',
+ 'PERPUSDT',
+ 'CFXUSDT',
+ 'EPSUSDT',
+ 'TKOUSDT',
+ 'BTGUSDT',
+ 'MIRUSDT',
+ 'FORTHUSDT',
+ 'POLSUSDT',
+ 'MDXUSDT',
+ 'MASKUSDT',
+ 'XVGUSDT',
+ 'ERNUSDT',
+ 'BONDUSDT',
+ 'DEXEUSDT',
+ 'RAYUSDT',
+ 'FARMUSDT',
+ 'ALPACAUSDT',
+ 'FORUSDT',
+ 'REQUSDT',
+ 'TRIBEUSDT',
+ 'DFUSDT',
+ 'AGLDUSDT',
+ 'BETAUSDT',
+ 'RAREUSDT',
+ 'ADXUSDT',
+ 'BNXUSDT',
+ 'CITYUSDT',
+ 'KP3RUSDT',
+ 'PORTOUSDT',
+ 'POWRUSDT',
+ 'AMPUSDT',
+ 'PLAUSDT',
+ 'PYRUSDT',
+ 'ALCXUSDT',
+ 'MCUSDT',
+ 'FXSUSDT',
+ 'OOKIUSDT',
+ 'ACHUSDT',
+ 'IMXUSDT',
+ 'ACAUSDT',
+ 'XNOUSDT']
+
+Unicorn Library: https://pypi.org/project/unicorn-binance-websocket-api/
+
+00:00 - 00:50 Dashboard / Functionalities
+00:50 - 03:22 Live streaming multiple coins data using Unicorn lib
+03:22 - 11:58 First Script: creating and populating SQL DB
+11:58 - 15:28 2nd script: Requesting live data
+15:28 - 16:22 2nd script: return calculation
+16:22 - 18:40 2nd script: returns for all symbols / top & worst performers
+18:40 - 20:51 Streamlit amendments
+20:51- 23:02 Running the streamlit app and final beautifications
+
+#Crypto #Binance #Python #Streamlit",2022-01-30T18:10:55Z,9446,302,47,71,396
+9,07FUXpcy9FI,Cryptocurrency Screener for Technical Indicators on ALL Binance coins,"Thanks for watching :-)
+This video is showing how to construct a cryptocurrency screener for technical indicators (with the example of the MACD histogram and EMA) using Python and the Binance API. We are building up a livestream getting prices for all available coins on binance and check if the MACD crosses from negative to positive and if the price is above the 100 time steps EMA for all those assets.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Websocket livestream explained in detail (line by line) here:
+https://youtu.be/mDNIAkEZChg
+
+Video on Binance/SQL:
+https://youtu.be/rc_Y6rdBqXM
+
+Video on MACD:
+https://youtu.be/JzdVPnCSSuo
+
+Stock related technical analysis,  first use of the ta library and use of symbols logic:
+https://youtu.be/AuZmsv6dQCM
+
+Strategy I was rebuilding here (inspired by Data Trader):
+https://youtu.be/Yj0yEBxwLVw
+
+If you want to support me you can register for Binance with this link, but don't feel forced to:
+https://www.binance.com/en/register?ref=17165515
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency trading is bearing a high amount of risk which might result in a total loss of your invested capital.
+
+00:00 - 01:10 Introduction / Idea / Disclaimer
+01:10 - 01:40 Quick recap on live data stream (check description)
+01:40 - 03:05 Requesting data from the Live DataBase
+03:05 - 05:00 Technical indicator calculation (MACD/EMA)
+05:00 - 07:45 Explanation when conditions are met
+07:45 - 09:40 Function checking if condition is met for given dataframe
+09:40 - 11:45 Get all symbols and get rid of leveraged / forex tokens
+11:45 - 13:20 Screen all coins for fulfilling trading signals 
+13:20 - 14:45 Different timeframes / comparing to Binance interface
+14:45 - 15:03 Thanks for watching :-)",2022-01-24T18:47:18Z,7388,285,75,69,435
+10,YFRJ_9RVrz4,Momentum Trading Strategy on CRYPTOCURRENCIES using Python and Binance,"I was quite interested on how momentum strategies are working out taking a cryptocurrency universe instead of a stock market universe. These are the first results. If you are interested in getting more in depth or even let a bot follow this approach let me know in the comments below. 
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+I didn't cover two things here, so feel free to add that:
+- Short term reversal effect 
+- Shorting the least performing coins
+
+Momentum video:
+https://youtu.be/5W_Lpz1ZuTI
+
+Pulling prices and pulling all symbols:
+https://youtu.be/M64KcWgNfJg
+
+Understand returns / log returns:
+https://youtu.be/fWHQwqT3lNY
+
+00:00 - 01:41 Introduction / Disclaimer
+01:41 - 05:10 How to get Prices from binance for all symbols/coins
+05:10 - 06:37 Pull prices and necessary data manipulations
+06:37 - 08:07 Calculating simple and log returns
+08:07 - 10:57 Determining top performers over a lookback period
+10:57 - 13:36 Calculate the mean return of the top performer portfolio
+13:36 - 15:36 Backtest / Analyzing the strategy
+15:36 - 20:03 Making 1 parameter flexible (just an idea) / more analysis
+
+#Python #Trading #Crypto #Binance",2022-01-16T18:46:30Z,11110,314,64,70,442
+11,M64KcWgNfJg,How are ALL Cryptocurrencies correlated? Correlation Analysis in Python,"Hi everyone,
+I was quite interested how cryptocurrency returns are correlated so I thought it would be interesting to check out a larger scale correlation analysis. I also did some Multi-Index approaches as I didn't cover it yet. 
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Find this interesting or valuable? Subscribe!
+Thoughts on that? Comment!
+Liked it? Hit liked!
+
+Thx :-)
+
+Recommended videos:
+https://youtu.be/HB1CLz0Z1NY
+And the linked videos below that
+
+Another helpful one (getting symbols and exclude leveraged tokens):
+https://youtu.be/C-SL4Tf25eg
+
+An older video on correlation matrix (cringe warning on that):
+https://youtu.be/t2Zh-qnFa40
+
+Return calculation:
+https://youtu.be/fWHQwqT3lNY
+
+My first video on analyzing cryptocurrencies (500 sub special btw :D):
+https://youtu.be/oyL99oa6gf8
+
+00:00 - 00:37 Introduction
+00:37 - 02:16 Getting all symbols from Binance
+02:16 - 04:06 Getting daily price data one year back
+04:06 - 05:02 Looping over all coins and store prices
+05:02 - 06:12 Mapping dataframes to coin names
+06:12 - 07:14 Concatenating multiple data frames to one
+07:14 - 09:22 Filter Multi-Index for only Close column
+09:22 - 10:00 Log return calculation
+10:00 - 10:40 Correlation matrix
+10:40 - 12:22 Visualisation / Correlation Heatmap
+12:22 - 13:15 Correlation of selected cryptos
+13:15 - 15:30 One Crypto in relation to all other / largest & smallest corr
+15:30 - 17:40 Filtering out leveraged tokens
+17:40 - 18:22 Unstacking data
+18:22 - 21:09 Finding the highest correlated cryptocurrency pairs",2022-01-09T17:39:10Z,10786,434,82,71,598
+12,PYW4AIMEvsU,SIMPLEST POSSIBLE Trading Bot with Python using the Binance API,"Happy New Year all! :-)
+Based on some feedback I built probably the simplest form of a trading bot and tried my best to make it accessible for beginners.
+The Bot is holding coins which fulfill the condition of the Fast SMA (7 time step window) being above the Slow SMA (25 time step window). I am considering hourly data here.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Please watch the mentioned video beforehand:
+https://youtu.be/HB1CLz0Z1NY
+
+Please also watch the linked videos below that video. I am assuming some knowledge on the Binance API in this video.
+
+Set up Binance API video:
+https://youtu.be/_IV1qfSPPwI
+
+Video on setting up Cronjobs:
+https://youtu.be/uEn1uZtPMzw
+
+Check out my GCP playlist to execute scripts on a Virtual Machine:
+https://youtube.com/playlist?list=PL9ATnizYJ7f9ZGSx-7siizxqh4VtRZblk
+
+If you want to support me you can register for Binance with this link, but don't feel forced to:
+https://www.binance.com/en/register?ref=17165515
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency and automated trading is bearing a high amount of risk which might result in a total loss of your invested capital.
+
+
+00:00 - 01:58 General Explanation / Prerequisites / Disclaimer
+01:58 - 02:58 Creating the initial csv file
+02:58 - 03:32 Libraries
+03:32 - 06:10 Position frame and Position Change
+06:10 - 08:04 Pulling (hourly) price data from Binance
+08:04 - 09:45 Calculate technical indicators and last row relevance           
+09:45 - 15:40 Main Trading function        
+15:40 - 17:08 Recap of how the Trading function works
+17:08 - 18:14 Running the Trading function
+18:14 - 18:15 RIP Headphone users (sorry)
+18:15 - 18:38 How to deploy this script (covered in linked videos)
+18:38 - 19:02 My promise!
+
+#Python #Tradingbot #Crypto #Binance",2022-01-02T19:17:59Z,54976,1325,165,63,1655
+13,4MnNft7Squk,BEST William's Fractal Indicator Strategy for Daytrading? Testing Data Traders strategy in Python,"In this video I am backtesting / testing the EMA / William's Fractal Trading Strategy presented by Data Trader. Shoutouts to him!
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+If you found this interesting please consider subscribing. Thanks in advance :-)
+I am intersted to test this strategy within a cryptocurrency trading bot - be invited to drop me a like/comment that I can see if that's interesting for you.
+
+Mentioned video on avoiding multiple positions / profit calc:
+https://youtu.be/rYfe9Bg2GcY
+
+Data Traders video:
+https://www.youtube.com/watch?v=jbKaGpqEMoo&t=287s
+
+#Python #Trading #Strategy
+
+Disclaimer:
+This video is not an investment advice and is for educational or entertainment purposes only.
+
+00:00 - 01:51 Introduction / Strategy explanation
+01:51 -02:53 Libraries / Data
+02:53 - 03:47 EMA calc
+03:47 - 09:05 William's Fractals calculation
+09:05 - 10:22 Buying condition
+10:22 - 11:20 Stop Loss and Target Profit
+11:20 - 14:10 Finding buying / selling dates
+14:10 - 15:35 Data manipulations               
+15:35 - 16:35 Getting rid of multiple trades (check linked Video!)
+16:35 - 17:30 Profitcalculation
+17:30 - 18:43 Benchmarking / Playing around
+18:43 -19:16  Coding a Bot? Thanks for this Year!
+
+Testing out some tags - just ignore them:
+
+day trading,day trading strategies,stock trading,forex trading strategy,swing trading strategy,day trading strategy,fractal indicator strategy,williams fractal strategy,fractal breakout,fractals indicator,fractal trading strategy,how to trade fractals in forex,how to trade fractal strategy,fractal day trading strategy,how to use williams fractals,fractals trading,fractal trading,williams fractal,williams fractal indicator,fractal strategy,Fractal trading strategy,Fractal trading,Fractal indicator,Fractal strategy,Williams Fractal,Williams Fractal strategy,Williams Fractal indicator,forex,intraday trading strategies,stock market,stocks,trading strategies",2021-12-27T16:54:54Z,8267,320,77,97,474
+14,HB1CLz0Z1NY,HUGE SCALE Backtest of Intraday Cryptocurrency Data using Python & SQL,"In this video we are using Python and SQL to build up a DataBase containing the most granular historical price data from Binance, backtesting an example trading strategy (Simple moving average crossover) and leverage to different timeframes.
+Goal is to have a base to run multiple trading strategies on different timeframes on intraday data.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+SMA video (most important):
+https://youtu.be/vWVZxiaaTCs
+
+Video on setting up the Binance API:
+https://youtu.be/_IV1qfSPPwI
+
+Pandas & SQL:
+https://youtu.be/OjMDXTlVOYU
+
+Be invited to check out my cryptobot playlist here:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
+
+coins = ('BTCUSDT','ETHUSDT','BNBUSDT','SOLUSDT','ADAUSDT','XRPUSDT','DOTUSDT','LUNAUSDT',
+  'DOGEUSDT','AVAXUSDT','SHIBUSDT','MATICUSDT','LTCUSDT','UNIUSDT','ALGOUSDT','TRXUSDT',
+         'LINKUSDT','MANAUSDT','ATOMUSDT','VETUSDT')
+
+Liked the video or are you interested in those kind of topics. Consider subscribing! Helps me a lot and is free for you.
+
+If you want to support me you can register for Binance with this link:
+https://www.binance.com/en/register?ref=17165515
+
+0:00 - 01:12 Introduction / Disclaimer
+01:12 - 02:05 Setup/libraries
+02:05 - 05:32 Function to get 1 minute granular crypto data 
+05:32 - 08:26 Populating the SQL DB
+08:26 - 09:10 Moment of silence 🧘‍♂️ 
+09:10 - 10:14 Example of accessing the data
+10:14 - 14:05 Function to apply technical indicators and return calculation
+14:05 - 15:12 Overall return and strategyreturn calculation
+15:12 - 16:12 Calculate the returns/strategyreturns for all coins
+16:06 - 17:10 Too good to be true?! Costs of the strategy
+17:10 - 19:55 Calculating the number of trades
+19:55 - 22:40 Considering the costs for all coins
+22:40 - 23:48 Taking another timeframe
+23:48 - 25:52 Testing out some timeframes (skippable) / remarks
+25:52 - 26:19 MOST IMPORTANT PART!
+
+#Python #Crypto #Backtest",2021-12-13T20:42:27Z,21784,764,143,70,1050
+15,8p240qonj0E,Simple Cryptocurrency Trading Signal App using Python and Streamlit [Realtime],"In this video I am showing how to build your own Trading App to get live signals (in this example a moving average crossover) for all available coins/cryptocurrencies on Binance.
+If you find this useful or interesting, please consider subscribing and hit the like button. With that feedback we can extend this with multiple indicators and other stuff you are interested in. Thanks in advance :-)
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only!
+
+Mentioned cloud deployment video / deeper explanation on Websocket:
+https://youtu.be/mDNIAkEZChg
+
+Videos on streamlit:
+https://youtu.be/Km2KDo6tFpQ
+and:
+https://youtu.be/YsnPlQyCYfo
+
+SMA video:
+https://youtu.be/vWVZxiaaTCs
+
+Python/SQL videos:
+https://youtu.be/OjMDXTlVOYU
+
+Its recommended to check out some videos from my cryptobot playlist:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
+
+If you want to support me you can register for Binance with this link:
+https://www.binance.com/en/register?ref=17165515
+
+Check out my Python for Finance playlist:
+https://youtube.com/playlist?list=PL9ATnizYJ7f9pCPBzr-isv0_R3E6OW6YY
+
+00:00 - 01:17 Showing how the App works
+01:17 - 02:21 Prerequisites/Infrastructure/Disclaimer
+02:21 - 09:04 Populate a SQL DB with live prices for all cryptos
+09:04 - 11:16 Important remarks and basic setup for the second script
+11:16 - 12:51 SMA calculation based on a 1 min sampled data
+12:51 - 18:05 Main function querying and resampling price data
+18:05 - 21:55 Function checking if there is a crossover / Button
+21:55 - 23:13 Downloading as raw py and execute via streamlit
+
+keywords (ignore - just a test):
+trading strategies,stock trading,forex trading strategy,swing trading strategy,forex,stocks,moving average trading strategy,moving average crossover strategy,moving average explained,how to trade moving averages,moving average tutorial,how to use moving averages in trading,moving average indicator for intraday trading,moving average indicator strategy,moving average day trading strategy,how to trade moving average crossover, binance
+
+#Python #Trading #Streamlit",2021-12-04T16:46:52Z,13355,433,107,78,647
+16,mDNIAkEZChg,How to deploy a Cryptocurrency Trading Bot in the Cloud [GCP] using Python and Binance,"If you find this useful or interesting, please consider subscribing and hit the like button. Thanks in advance :-)
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency and automated trading is bearing a high amount of risk which might result in a total loss of your invested capital.
+
+Previous video on the strategy:
+https://youtu.be/C-SL4Tf25eg
+
+Python in the Cloud (GCP) playlist:
+https://youtube.com/playlist?list=PL9ATnizYJ7f9ZGSx-7siizxqh4VtRZblk
+
+If you want to support me you can register for Binance with this link:
+https://www.binance.com/en/register?ref=17165515
+
+Be invited to check out my playlist on trading cryptocurrencies with Python:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
+
+Check out my Python for Finance playlist:
+https://youtube.com/playlist?list=PL9ATnizYJ7f9pCPBzr-isv0_R3E6OW6YY
+
+
+00:00 - 01:45 Introduction / Disclaimer
+01:45 - 03:39 Comparison between old and new streaming code
+03:39 - 09:18 Handling the Websocket stream
+09:18 - 14:16 Deploying the Tradingstream in GCP
+14:16 - 16:51 Comparison between old and new trading code
+16:51 - 20:50 Detailed walkthrough the new trading code
+20:50 - 24:40 Deploy the Trading Code in GCP
+24:40 - 26:47 Trading / Discussing Trades
+
+#Python #Tradingbot #Crypto #Binance #Deployment",2021-11-21T16:01:32Z,16176,502,175,86,852
+17,C-SL4Tf25eg,Cryptocurrency Trading Bot which is buying  🚀 Coins using Python and Binance,"Disclaimer: This video is not an investment advice and in specific not a recommendation to trade this strategy. It is simply a transformation from a trading idea to code.
+
+Please subscribe if you find these kind of topics interesting. 
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+To delete the cronjob use crontab -r
+Delete the DataBase after every session or extend the script deleting records after some time.
+
+Prerequisites:
+Fundamental video (createframe function etc.):
+https://youtu.be/rc_Y6rdBqXM
+
+Stream Crypto Prices using Binance Socket Manager:
+https://youtu.be/OX5eDJDtqhc
+
+Intersection of Pandas & SQL:
+https://youtu.be/OjMDXTlVOYU
+
+Cronjobs:
+https://youtu.be/uEn1uZtPMzw
+
+Cumulating returns:
+https://youtu.be/fWHQwqT3lNY
+
+Python Binance Docs (Binance Socket Manager as well as multiplex socket):
+https://python-binance.readthedocs.io/en/latest/
+
+Besides that be kindly invited to check out my Cryptobot Playlist. Also Python for Finance could be interesting for you.
+
+00:00 - 01:20 Introduction/Disclaimer
+01:20 - 07:15 1. Script: Necessary data manipulations
+07:15 - 10:28 1. Script: Multiple Livestream to SQL DB
+10:28 - 12:15 1. Script: Accessing the Livedata
+12:15 - 13:32 2. Script: Explanation of needed libaries/setup
+13:32 - 18:09 2. Script: Pulling prices of last n minutes
+18:09 - 20:20 2. Script: Return calculation / get the top coin
+20:20 - 25:30 2. Script: Investment/flexible Quantity calculation
+25:30 - 28:15 2. Script: Buying Condition/Buyprice/createframe
+28:15 - 29:00 2. Script: Livestream of the bought asset
+29:00 - 29:11 Careful with this SL limit! Please listen to the last chapter!
+29:11 - 30:03 2. Script: Livestream of the bought asset (target profit)
+30:03 - 31:12 Deployment: Download as raw .py file and renaming
+31:12 - 32:23 Deployment: Creating a cronjob
+32:23 - 33:20 First trade
+33:20 - 34:20 Output file
+34:20 - 36:21 IMPORTANT! Please listen / Trades
+
+#Python #Tradingbot #Crypto #Binance",2021-11-14T17:23:40Z,18779,588,182,76,952
+18,PN56q2xZ2p8,How to get the BEST performing 🚀 Cryptocurrencies over the last n hours/minutes,"In this video we are screening the whole Binance platform for the performance of all coins (in relation to USD) over the last n minutes/hours or whatever time horizon you are interested in and filter out the top performers over this time horizon.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Might be an interesting foundation for a bot :-) Let me know if you want me to build one. Happy to do that.
+
+Video explaining cumulating returns:
+https://youtu.be/fWHQwqT3lNY
+
+Disclaimer: This video is not an investment advice and is for educational or entertainment purposes only.
+
+The first answer on this thread was very helpful for me and I included some ideas in this video. Please upvote:
+https://stackoverflow.com/questions/69300571/get-historical-klines-for-multiple-pair-combination-with-a-base-usdt
+
+00:00 - 00:49 Intro / Libraries
+00:49 - 04:58 Extract all symbols from Binance
+04:58 - 08:00 Pulling prices for all symbols
+08:00 - 09:50 Explanation of getting cumulative returns
+09:50 - 11:45 Getting returns for all Coins
+11:45 - 12:41 Get the 10 best performers / outlook
+
+#Python #Crypto #Binance",2021-11-07T16:48:59Z,14626,587,120,79,827
+19,rP8WWfKmCHA,How to build a Simple Neural Network in Python (One Layer) Part I,"Example is from the book ""Machine Learning for Finance"" by Jannes Klaas.
+In this video we are building a simple one layer Neural Network from scratch in Python. In specific we are setting up the input layer and initialize random weights and feed this data to the activation function (sigmoid).
+The output is then compared with the actual output (y) and measured with the binary cross entropy loss.
+If you found this interesting I will continue with optimizing the network using Gradient Descent and Parameter update using Backpropagation and provide details on how to proceed.
+
+Link to Book (Not affiliated btw)
+https://www.amazon.de/Machine-Learning-Finance-algorithms-financial-ebook/dp/B07BDK6LF9
+
+Mentioned articles:
+Bias and weights
+https://towardsdatascience.com/whats-the-role-of-weights-and-bias-in-a-neural-network-4cf7e9888a0f
+
+Cross Entropy Loss:
+https://towardsdatascience.com/cross-entropy-loss-function-f38c4ec8643e
+
+00:00 - 01:36 Introduction / Resources
+01:36 - 02:31 Input Layer and output (y)
+02:31 - 04:20 Initialize random weights and bias
+04:20 - 04:50 Getting z (Summation + bias)
+04:50 - 05:53 Sigmoid function  and getting A (Output of layer)
+05:53 - 06:16 Comparing layer output with y
+06:16 - 10:20 Binary Cross Entropy Loss
+10:20 - 10:45 What needs to be done / outlook
+
+#Python #NeuralNetwork",2021-11-06T16:06:34Z,7042,279,25,65,329
+20,aWgJYd5kVfo,How To Build a Cryptocurrency Live Trading Bot with Python using the Binance API [SMA Crossover],"This is a corrected version of my previous uploaded video.
+This video is about getting live cryptocurrency data and combine it with historical data to trade technical indicators such as the Simple Moving average crossovers live.
+
+Enjoyed the video or want more: Consider subscribing :-)
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency and automated trading is bearing a high amount of risk which might result in a total loss of your invested capital.
+
+Mentioned videos:
+Video on Moving average crossovers:
+https://youtu.be/vWVZxiaaTCs
+
+Video on setting up the Binance API:
+https://youtu.be/_IV1qfSPPwI
+
+Other helpful Binance vid:
+https://youtu.be/nQkaJ207xYI
+
+If you want to support me you can register for Binance with this link:
+https://www.binance.com/en/register?ref=17165515
+
+API doc:
+https://binance-docs.github.io/apidocs/spot/en/#trade-streams
+
+Socket manager doc:
+https://python-binance.readthedocs.io/en/latest/websockets.html
+
+00:00 - 02:31 Introduction / Strategy / Disclaimer
+02:31 - 03:30 Setup (libraries, client, MAs)
+03:30 - 04:55 Base logic of live simple MAs implementation
+04:55 - 08:48 Get historical sums (explained the step before)
+08:48 - 10:33 Live Simple moving average
+10:33 - 11:15 createframe - translate server data
+11:15 - 17:30 Strategy code
+17:30 - 19:06 Import remark(s)
+19:06 - 20:41 Running the bot
+20:41 - 23:19 Faking a trade to show the functionality / example
+
+#Python #Tradingbot #Crypto #Binance",2021-10-30T12:39:28Z,16630,419,106,96,631
+21,uK3dKHFuIcs,Can you solve these 3 Python questions? [CHALLENGING] 😥,"As said: Just an additional idea for content during the week. Let me know what you think and if you could solve those :-)
+
+Edabit task (and additional solutions) here:
+https://edabit.com/challenge/S7rdJsn6vkfC9BzcR
+
+args and kwargs:
+https://book.pythontips.com/en/latest/args_and_kwargs.html
+
+#Python #Challenge
+
+00:00 - 0:42 Introduction
+00:42 - 01:27 First task - Bitwise operations
+01:27 - 02:23 Second task - Improvement of classes with same attributes
+02:23 - 03:51 LIGHT SCREEN: Third task - 'Very hard' question (see descr.)
+03:51 - 07:11 SOLUTION First: Bitwise operations
+07:11 - 07:51 SOLUTION Second: Improvement of classes with same attr
+07:51 - 10:00 SOLUTION Third: 'Very hard' question - name solution
+10:00 - 11:28 SOLUTION Third: 'Very hard' question - base solution
+11:28 - 15:21 SOLUTION Third: 'Very hard' question - kwargs solution",2021-10-27T20:53:04Z,2998,106,38,55,182
+22,eEqp-iu8eI8,Backtesting Rayner Teos 1067% Trading Strategy in Python on all S&P 500 Stocks,"In this video we are Backtesting Rayner Teos presented strategy. As said in the end he is taking a basket of stocks based on the previous 100 day performance - I am NOT doing that here but just test the shown approach on each individual stock in the S&P.
+Feel free to apply it on your own. I already covered to get the best performers in my momentum videos. So it is a nice way to combine both.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+As a lot of you where requesting an approach based on vectorization I have focused on not taking any loops here.
+
+NOTE: In the beginning I was stating that the buying signal should occur on the 18th August. The conditions are fulfilled on the 17th (the small red candle) and I coded it this way but the trade is executed taking 98% of the Close price on that day IF the Close on the next day is ever below 98%.
+
+Rayners video : https://www.youtube.com/watch?v=UFJqat3y6T8
+
+wikipedia table: https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+
+Disclaimer: This video is for educational or entertainment purposes only. This is no investment advice!
+
+00:00 - 01:51 Introduction (please read description)
+01:51- 03:42 Necessary manipulations / technical indicators
+03:42 - 05:18 10 day Low
+05:18 - 08:22 Buying/Selling Condition and Price
+08:22 - 12:12 Finding matching trades (Mask approach)
+12:12 - 14:30 Profit calculation
+14:30 - 16:18  Backtest function to calculate 
+16:18 - 17:49  Wrap it in a function
+17:49 - 23:09 Backtesting all S&P 500 stocks",2021-10-17T11:32:22Z,36587,964,167,78,1298
+23,OX5eDJDtqhc,How to get LIVE cryptocurrency data with Python using the Binance API / ERROR FIXING,"This video is about getting live cryptocurrency data via Python using the Binance Socket Manager. It is just a solution to an error message a lot of you have experienced.
+
+Please provide me feedback if this is solving your error message! I would highly appreciate it!
+
+Source:
+https://python-binance.readthedocs.io/en/latest/websockets.html
+
+#Python #Crypto #Live",2021-10-13T16:11:37Z,9239,271,89,84,449
+24,g04GeHe-dJw,Altcoin [High Risk] Live Trading Bot with Python using the Binance API,"Thanks for watching :-)
+This video is showing how to construct an automated cryptocurrency trading bot which is making buying decisions based on the top performing Coin (over the last 24 h) on the whole Binance platform. These coins are most probably Altcoins and bear a huge amount of risk. Please really see this as an experiment.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Set up Binance API video and getminutedata function explained:
+https://youtu.be/_IV1qfSPPwI
+
+How the BinanceSocketManager works:
+https://youtu.be/rc_Y6rdBqXM
+
+Getting the stream run outside Jupyter (in an IDE or raw python):
+https://youtu.be/nQkaJ207xYI
+(around minute 9)
+
+If you want to support me you can register for Binance with this link, but don't feel forced to:
+https://www.binance.com/en/register?ref=17165515
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency and automated trading is bearing a high amount of risk which might result in a total loss of your invested capital.
+
+00:00 - 01:36 Introduction / Strategy explanation / Disclaimer
+01:36 - 02:22 Set up (libraries etc.)
+02:22 - 05:50 Get skyrocketing cryptos: Filters
+05:50 - 06:30 Struggling with parentheses (Skip this)
+06:30 - 11:58 Get the top performing crypto
+11:58 - 12:59 Get minute data for the top crypto
+12:59 - 14:10 Trading dollar amounts with Binance
+14:10 -  22:40 Strategy Option I: NOT using Socket Manager
+22:40 - 23:30  Running the bot Option I
+23:30 - 26:56  Strategy: Using the Socket Manager
+26:56 - 27:35  Outcome of the first trade
+27:35 - 28:53  Running the bot Option II
+28:53 - 30:19  Some Trades the Bot made this morning",2021-10-10T19:00:20Z,71444,1626,204,70,2034
+25,3y-d_3nIOJ0,Predicting Stock/Crypto Returns with Python using Machine Learning - Logistic Regression,"In this video we are covering a Logistic Regression to predict stock prices (or rather returns) in Python. We are also taking a look at cryptos (Bitcoin) at the end.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Previous vid on Linear Regression:
+https://youtu.be/AXBhrLongC8
+
+As said in the video you should not take this as a valid trading strategy. It is just an idea how a Logistic Regression could be used and how overfitting can be avoided or at least diminished using a train test split.
+
+I am purposely NOT showing a time horizon where this is working or looking nicely to make you aware of that.
+
+I am planning on covering other algorithms and extending the strategy. If you find that interesting please leave the video a like and subscribe :-)
+
+The video series is inspired by the Hands-On Algorithmic Trading with Python course by Deepak Kanungo. Anyhow, the code and some approaches strongly deviate from his.
+
+#Python #MachineLearning #Classification
+
+Disclaimer: This video is not an investment advice and is for informational and educational purposes only.
+
+0:00 - 0:52 Introduction
+0:52 - 01:48 Quick recap
+01:48 - 05:08 Data prep / Amendments to get lagged directions
+04:46 - 07:17 Model building, fitting & prediction
+07:17 - 09:25 Strategy, Performance and Visualization
+09:25 - 13:25 Train test split
+13:25 - 15:53 Confusion Matrix and Classification Report
+15:53 - 16:38 Considering different amount of lags
+16:38 - 18:08 Considering Bitcoin",2021-10-03T18:02:46Z,14139,397,46,88,489
+26,X50-c54BWV8,"CRYPTO Live Trading Bot with Python [Stoch, RSI, MACD]","In this video we are building a Python cryptobot using the Binance API.
+We will apply technical indicators such as the Stochastic Slow, RSI and MACD and implement a Target profit and Stop Loss mechanism.
+We will trade Cardano (ADA) but feel free to pick other currencies (BTC, ETH, ...)
+
+Please subscribe if you find this content valuable!
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+This video is a prerequisite and contains explanations:
+https://youtu.be/r8pU-8l1KPU
+
+Check out my other videos on constructing crypto bots in this playlist - I also covered setting up the Binance API and handling connection timeouts or any other type of error:
+
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
+
+If you want to support me you can register for Binance with this link, but don't feel forced to:
+https://www.binance.com/en/register?ref=17165515
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency and automated trading is bearing a high amount of risk which might result in a total loss of your invested capital.
+
+00:00 - 01:42 Introduction / Strategy recap / Disclaimer
+01:42 - 02:26 Libraries
+02:26 - 03:30 Pulling price data from Binance
+03:30 - 05:44 Calculate technical indicators (Stoch,RSI,MACD)
+05:44 - 12:15 Trigger/Buying Logic/ Lags ""trade off""
+12:15 - 15:34 Actual strategy: Buying condition
+15:34 - 19:36 Actual strategy: Selling condition
+19:36 - 21:09 Whole strategy / activating the Bot
+21:09 - 24:03 Example Trades
+
+#Python #Tradingbot #Crypto #Binance",2021-09-26T18:57:14Z,96255,2163,320,54,2803
+27,KdoGekqz2hg,How to plot/visualize the REAL TIME Price of Cryptocurrencies using Python and the Binance API,"In this video we plotting live cryptocurrency prices such as Bitcoin, Ethereum, Cardano/ADA or DOGE. The data is attained via the Binance API.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+Thanks for watching :-)
+
+Video setting up the Binance API and getminutedata function explained:
+https://youtu.be/_IV1qfSPPwI
+
+Main ideas of the animation function:
+https://saralgyaan.com/posts/python-realtime-plotting-matplotlib-tutorial-chapter-9-35-36/
+
+#Python #Binance #LiveChart",2021-09-18T15:44:11Z,9082,307,48,94,403
+28,r8pU-8l1KPU,Highly Profitable Stochastic + RSI + MACD Trading Strategy? Testing Data Traders strategy in Python,"In this video I am backtesting / testing the Stochastic Slow RSI MACD Trading Strategy presented by Data Trader. It seems to look good on Forex markets and Cryptos (Bitcoin, Ethereum). 
+
+Get the source code / notebook by becoming a Tier-2 channel member her:
+https://www.youtube.com/c/Algovibes/join
+
+If you find this interesting please consider subscribing. Thanks in advance :-)
+
+Have a look at my other videos. I am not going much into details about topics I have already covered recently.
+Videos which will be helpful:
+https://youtu.be/rYfe9Bg2GcY
+
+Data Traders video:
+https://www.youtube.com/watch?v=hh3BKTFE1dc
+
+Stochastic Osciliator including %K & %D line explained:
+https://www.investopedia.com/terms/s/stochasticoscillator.asp
+
+#Python #Trading #Strategy
+
+Disclaimer:
+This video is not an investment advice and is for educational or entertainment purposes only.
+
+
+00:00 - 01:49 Strategy Explanation
+01:49 - 04:49 Calculating technical indicators
+04:49 - 08:05 Explanation of how trigger signals are attained
+08:05 - 11:32 Get the triggers for Buys and Sell
+11:32 - 14:07 Buying/Selling condition (Trigger, Stochastic, RSI, MACD)
+14:07 - 16:58 Buying and Selling Dates
+16:58 - 19:30 Avoid meaningless or multiple positions
+19:30 - 21:10 Profit Calculation
+21:10 - 23:40 Visualizing the Signals
+23:40 - 25:29 Testing the strategy on Cryptos (BTC and ETH)",2021-09-12T19:15:51Z,31781,998,159,99,1316
+29,AXBhrLongC8,Predicting Stock Prices with Python using Machine Learning - Linear Regression,"In this video we are covering the simplest form of Machine Learning to predict stock prices (or rather returns) in Python using a Linear Regression.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+As said in the video you should not take this as a valid trading strategy. It is just an idea how a linear Regression can be used and how overfitting can be avoided or at least diminished using a train test split.
+
+I am purposely NOT showing a time horizon where this is working or looking nicely to make you aware of that.
+
+I am planning on covering other algorithms and extending the strategy. If you find that interesting please leave the video a like and subscribe :-)
+
+Mentioned videos:
+Logit regression:
+https://youtu.be/X9jjyh0p7x8
+
+Multiple linear regression:
+https://youtu.be/B6O-mirYfWw
+
+The video series is inspired by the Hands-On Algorithmic Trading with Python course by Deepak Kanungo. Anyhow, the code and some approaches strongly deviate from his.
+
+#Python #MachineLearning #Regression
+
+Disclaimer: This video is not an investment advice and is for informational and educational purposes only.
+
+
+0:00 - 01:04 Introduction
+01:04 - 04:53 Data prep
+04:53 - 06:15 Model building, fitting & prediction
+06:15 - 08:24 Strategy, Performance and Visualization
+08:24 - 14:40 Overfitting and avoiding with train test split
+14:40 - 16:42 Number of trades
+16:42 - 18:59 Playing around with different assets, lags (skippable)",2021-09-08T16:13:04Z,11406,372,35,78,442
+30,YsnPlQyCYfo,Build an Interactive Finance Dashboard with Python & Streamlit to compare Fundamentals of Stocks,"In this video we are creating an interactive Finance Dashboard showing the fundamentals of stocks in a certain peer group based on their sector. We are checking the Dow Jones Industrial Average for e.g. Price Earnings ratios or dividend yield but as said this is extendable based on your requirements.
+
+This whole implementation is in Python using the streamlit library.
+
+If you found this video interesting or helpful please consider subscribing. Thank you very much in advance!
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/c/Algovibes/join
+
+To make this Dashboard even better you should update the Database regularly. I have resources on how to do that on my channel as well.
+
+In the beginning I stated IBM pays the highest dividend and Apple pays the lowest dividend. This statement has to be understood in a relative context. I am referring to the yield and not the absolute amount.
+
+Video on streamlit:
+https://youtu.be/Km2KDo6tFpQ
+
+Video on fundamental analysis of stocks with Python:
+https://youtu.be/ZUQEd22oNek
+
+Video on Python and SQL:
+https://youtu.be/OjMDXTlVOYU
+
+Link to wikipedia table:
+https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average
+
+Disclaimer: This video is not an investment advice and is for educational and/or entertainment purposes only!
+
+0:00 - 01:24 How the Dashboard is working and prerequisites
+01:24 - 08:02 Getting fundamentals and store them in a SQL DataBase
+08:02 - 12:36 Creating the Streamlit Dashboard
+
+#Python #Streamlit #Fundamentals",2021-09-06T15:40:12Z,5347,217,14,96,245
+31,wIfjERirYZk,Simple Trading Strategy in Python - Time Series Momentum,"In this video we are covering another form of momentum trading and code that in Python. Time Series Momentum is taking the past return of an asset and is buying the asset when the past return is positive and short sells the asset when the past return is negative.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+The academic definition of TS momentum is taking the past 12 MONTHS returns as a prediction for the t+1 month as described in the cross-sectional momentum videos.
+You can amend the shown strategy function to test out the ""academic way"".
+I am taking the prior days.
+
+Main reference for TS momentum is probably the paper from Moskowitz:
+https://www.sciencedirect.com/science/article/pii/S0304405X11002613
+besides the references listed in the other momentum videos.
+
+Cross-sectional momentum vids:
+India:
+https://youtu.be/YIsKSQh1xpY
+S&P500:
+https://youtu.be/5W_Lpz1ZuTI
+
+Disclaimer:
+This video is not an investment advice and is for educational and entertainment purposes only!
+
+0:00 - 0:54 Introduction
+0:54 - 01:25 libraries, pulling asset prices
+01:25 - 07:54 Coding the strategy
+07:54 - 09:14 Testing it on Apple
+09:14 - 09:59 Testing it on Bitcoin
+09:59 - 11:25 Testing pumped stocks (AMC,GME)
+11:25 - 12:04 Testing forex pair
+12:04 - 13:58  Application on Intraday charts 
+13:58 - 14:53 Excluding short positions
+14:53 - 15:21 ETH and Final thoughts
+
+#Python #Trading #AlgorithmicTrading #Momentum",2021-08-22T10:45:57Z,7501,212,56,56,324
+32,qCZiENV83rE,"How I Learned Python - Learning Curve, Types Of Resources, Experiences","In this video I am talking about my experiences, Types of resources and my personal learning curve while learning Python. 
+Maybe you are finding yourself somewhere and this is encouraging you to keep on going :-)
+
+If you enjoy this kind of content leave it a like!
+
+0:00 - 02:58 Phases of Learning, Changing resources, My Learning Curve
+02:58 - 05:16 How to learn and improve in Python",2021-08-20T17:34:41Z,4755,258,31,70,320
+33,x6PNcuZk83g,Network Analysis with Python (networkx) - Who owns the DOW JONES Industrial Average Equity Index?,"This video is introducing the networkx python library to visualize how the institutional owners of the Dow Jones Industrial average are connected.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Network analysis/ Network Graphs is a hot topic in all data related fields in specific in Data Science but also in finance.
+I am going over step by step tutorial how you can visualize and improve a Graph to get nice insights.
+This includes: Arranging node size depended on the node degree, edge width dependend on the edge attributes and other beautifications to make a nice network graph.
+
+I personally think this topic is highly interesting and relevant. Possible future content could be interactive network graphs (e.g. on the S&P 500).
+
+If you enjoy my videos or can extract value out of them please consider subscribing and leaving your like :-) Thanks in advance!
+
+wikiepdia link:
+https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average
+
+0:00 - 01:29 Brief introduction on the Graph we are building
+01:29 - 06:59 Example of only 2 assets (watch for better understanding)    
+06:59 - 08:02 Getting DJ tickers
+08:02 - 09:52 Get all institutional owners for all DJ components
+09:52 - 11:20 Create the basic Graph
+11:20 - 13:05 Change node colors
+13:05 -  16:18 Node size depending on Node degree
+16:18 -  19:41 Edge width dependent on edge attributes (invested amount) 
+19:41 - 20:40 Final amendments/ Thanks for watching :-)",2021-08-14T16:04:24Z,4317,202,33,97,268
+34,vWVZxiaaTCs,Algorithmic Trading in Python - Simple Moving Averages & Optimization [Follow Up vid],"This video is an extension on the first video on moving averages where we took a look at a crossover strategy.
+In this one we are using techniques such as vectorization and trying to find the optimal pair of SMAs.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+The strategy holds an asset when the short term SMA is above the long term SMA and is not holding the asset when the long term SMA is above the short term SMA.
+The code is designed in a way that other strategies can be tested as well (e.g. EMA) with some amendments.
+
+If you enjoyed this video or could extract value out of it give it a thumbs up and subscribe to the channel :-)
+
+Video on calculating stock returns:
+https://youtu.be/fWHQwqT3lNY
+
+Disclaimer:
+This video is not an investment advice and is for educational and entertainment purposes only.
+
+Although this code is deviating this video is inspired by Deepak Kanungo, in specific the vectorized approach (see Chapter 15 Learning Path: Hands-On Algorithmic Trading with Python) and partly the optimization.
+
+0:00 - 01:09 Introduction
+01:09 - 01:48 Pulling price data
+01:48 - 06:36 Function implementing the strategy (Vectorization)
+06:36 - 09:22 Function calculating performance
+09:22 - 11:22 Visualizing the strategy
+11:22 - 15:04 Optimization: Find the best pair of SMAs for an asset
+15:04 - 18:45 Wrapping the optimization in a reproducible function
+18:45 - 20:20 Playing around with some assets
+          
+#Python #Trading #SMA",2021-08-08T16:54:01Z,7167,261,78,85,417
+35,lNvJXKXUQ_U,How To Build an Intraday MACD Cryptocurrency Live Trading Bot with Python using the Binance API,"This video is implementing a simple MACD trading strategy on live cryptocurrency data programmed in Python via the Binance API. As always with these bots I am not simulating anything but use real money trades.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Interested in more content on cryptocurrency bots? Let me know what you would be interested in the comments below and be sure to subscribe! Thanks :-)
+
+Set up Binance API video:
+https://youtu.be/_IV1qfSPPwI
+
+MACD indicator explained and coded from scratch:
+https://youtu.be/JzdVPnCSSuo
+
+Mentioned video discussing Intraday strategies based on technical indicators:
+https://youtu.be/nQkaJ207xYI
+
+If you want to support me you can register for Binance with this link:
+https://www.binance.com/en/register?ref=17165515
+
+Check out my other crypto bots in this playlist:
+https://youtube.com/playlist?list=PL9ATnizYJ7f8_opOpLnekEZNsNVUVbCZN
+
+If the shown exception approach doesn't work out for you please check the answers in this thread:
+https://stackoverflow.com/questions/56519640/cant-continue-a-program-when-binance-apiconnection-error-occured
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency and automated trading is bearing a high amount of risk which might result in a total loss of your invested capital.
+
+00:00 - 01:31 Introduction
+01:38 - 02:25 Libraries and connecting to Binance
+02:25 - 06:46 Pulling data / data manipulations
+06:46 - 13:42 Coding the MACD trading strategy
+13:42 - 14:52 Initiating the bot
+14:52 - 15:52 Fixing the connection timeout (apologies)
+15:52 - 17:07 Executed trades / Discussing the strategy
+
+#Python #Tradingbot #Crypto #Binance",2021-08-04T16:24:19Z,18470,570,103,95,776
+36,kjrC1N8K8MI,How to Run a Python Script 24/7 | on a Schedule in the Cloud [GCP Part III],"In this video we are automating the execution of Python scripts to be independent from our Operating System using the Google Cloud Platform (GCP).
+
+Examples and further explanations on the syntax of cronjobs:
+https://crontab.guru
+
+Please watch this video beforehand to set up a Linux VM and install Python on it:
+https://youtu.be/lIJlhKrP_SI
+
+Let me know if you have any questions! :-)
+
+#Python #Cloud #GCP",2021-07-27T12:33:02Z,8363,188,44,75,276
+37,rYfe9Bg2GcY,Backtesting Rayner Teos RSI SMA Trading Strategy in Python [Part II],"Thanks for watching :-)
+This video is showing a backtest of the presented Trading strategy involving a RSI SMA combination shown by Rayner Teo with Python.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+First part backtesting with no libraries and from scratch:
+https://youtu.be/JvfK4VBX75I
+
+Video on calculating the strategy for all S&P Stocks:
+https://youtu.be/pB8eJwg7LJU
+
+Video on calculating cumulative returns:
+https://youtu.be/fWHQwqT3lNY
+
+Link to Rayner Teos original video:
+https://www.youtube.com/watch?v=W8ENIXvcGlQ
+
+0:00 - 01:29 Intro
+01:29 - 02:20 Libraries / pulling price data
+02:20 - 04:40 Calculating technical indicators (SMA / RSI)
+04:40 - 09:17 Find ALL buying and selling signals
+09:17 - 11:35 Problem of overlapping positions
+11:35 - 13:35 Exclude overlapping positions
+13:35 - 15:30 Profit and winning rate calculation
+15:30 - 18:36 Relative profit, Average profit, Net Profit, Draw Down
+18:36 - 20:58 Function I: get actual trades of any data frame
+20:58 - 21:48 Function II: Technical indicator calculation
+21:48 - 22:20 Amendment to Function I (sry forgot about that)
+22:20 -  24:04 BTC signals and returns (test of the created functions)
+24:04 -  26:37 Strategy Implementation for ALL single S&P500 Stocks
+26:37 -  28:56 Evaluation of the strategy over the S&P constituents
+28:56 -  30:09 Final remarks / Potential improvements
+
+#Python #Backtest #RSI #Trading",2021-07-25T18:43:14Z,11070,350,103,68,556
+38,OXXhJtfKbLE,Investing vs Trading #shorts,"#shorts
+
+In a nutshell: Investing vs Trading :-)",2021-07-22T20:38:41Z,2497,68,6,28,80
+39,fpl_ny-jX5Y,R Tutorial For Absolute Beginners [2021],"Welcome to my R tutorial for absolute beginners :-)
+My main programming language is Python but I had to do some R while graduating and meanwhile I am really enthusiastic about this language and already did some projects with it.
+A lot of quantitative trading strategies but also ML algorithms/ Data Science / Data Analysis Projects are written in R and you don't want to miss out at least having a basic understanding of the language.
+I can only recommend to have a look and write some programs in it no matter if you are interested in Finance , Data Analysis or Data Science!
+I hope with this tutorial I can give you an overview of the - in my perception - most important basics so that you can start out writing some programs in it.
+
+Let me know your thoughts or questions in the comments below.
+
+How to install R and Rstudio:
+https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/
+
+Is Python better than R?
+https://www.ibm.com/cloud/blog/python-vs-r
+
+Example csv from:
+https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html
+
+More background on how recursive functions are working (but in Python) check my first video:
+https://youtu.be/Q9hg547tkMA
+
+0:00 - 02:06 Intro / Why and when learn R?
+02:06 - 02:50 Rstudio Code Execution
+02:50 - 03:45 Variable assignment
+03:45 - 05:56 Datatypes
+05:56 - 07:26 Arithmetic Operators
+07:26 - 08:59 Relational Operators
+08:59 - 10:04 Sequences
+10:04 - 12:05 Vectors
+12:05 - 14:48 Matrices
+14:48 - 17:48 Vector/Matrix Indexing
+17:48 - 19:09 Lists (storing different types of data)
+19:09 - 20:55 DataFrames
+20:55 - 23:04 Reading in csv files and useful features of DataFrames
+23:04 - 28:09 Conditional Statements (If / else if / else)
+28:09 - 29:54 For Loop
+29:54 - 31:13 While Loop
+31:13 - 34:07 Functions
+34:07 - 36:03 Recursive function (Factorial)
+36:03 - 39:13 Fizzbuzz in R
+
+
+#R #Rprogramming #Rtutorial",2021-07-20T09:15:50Z,20045,432,48,40,528
+40,nQkaJ207xYI,How To Build a Cryptocurrency Live Trading Bot with Python (Binance API) Using Technical Indicators,"In this video we are building a Cryptocurrency trading bot with Python using the Binance API. We are using a slightly different approach pulling the data and exemplary apply technical indicators to the data.
+In the end we are discussing if it makes sense to even apply those indicators.
+
+If you enjoy my content or can extract value out of it please subscribe.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only. Also be really cautious placing real trades with this approach as the number of trades is not limited!
+
+You can register for Binance with this affiliate link if you want:
+https://accounts.binance.com/de/register?ref=17165515
+
+Video on Trailing Stop Loss:
+https://youtu.be/V6z1ME3-0_I
+
+Video on setting up the Binance API:
+https://youtu.be/_IV1qfSPPwI
+
+0:00 - 02:06 Introduction
+02:06 - 09:02 Getting live crypto data
+09:02 - 12:48 For those NOT using Jupyter: Code in raw Python
+12:48 - 14:06 Libraries and setting up the Binance client to execute orders
+14:06 - 19:08 Trading strategy implementation: Buying Condition
+19:08 - 28:00 Trading strategy implementation: Selling Condition
+28:00 - 32:20 Let's trade
+32:20 - 33:50 The problem of applying technicals to live data and how it should be done
+
+#Python #Cryptobot #Binance",2021-07-13T20:36:56Z,67030,1507,191,99,1889
+41,1A30TG7fHBg,Python in the Cloud Part II - Set up a SQL DB on GCP and connect it to Python on the Virtual Machine,"In this video we are connecting Python which is running in the Virtual Machine to a Cloud SQL DB. You will need that to run e.g. trading strategies or other code independent from your operating system.
+
+Previous vid:
+https://youtu.be/lIJlhKrP_SI
+
+Video on Python & SQL:
+https://youtu.be/5bUn-D4eL4k
+
+0:00 - 0:18 Intro
+0:18 - 01:36 Set up a Cloud SQL DataBase
+01:36 - 03:25 Install dependencies on the VM (skippable)
+03:25 - 04:05 Adding a Network (VM) to the SQL DB
+04:05 - 05:26 Connect Python to the Cloud SQL DB
+05:26 - 06:30 Create a Schema
+06:30 - 08:28 Write (financial) data into the Schema
+08:28 - 09:50 Querying Data from the DB
+
+
+#Python #SQL #GCP",2021-07-10T16:09:24Z,3421,101,22,100,145
+42,8PzQSgw0SpM,"Algorithmic Trading in Python - Bollinger Bands, Trading strategy and Backtest","In this video we will take a look at coding Bollinger Bands in Python, do some amendments and backtest a strategy based on BBs.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Video on coding a Trailing Stop Loss:
+https://youtu.be/V6z1ME3-0_I
+
+Be kindly invited to incorporate Bolling Band Signals to the Recommender system we have built here:
+https://youtu.be/FRO6V8bj_ko
+
+If you can extract value out of my videos I would really appreciate you subscribing! Thanks a lot :-)
+
+0:00 - 02:18 Introduction
+02:18 - 07:20 Coding the calculation of Bollinger Bands
+07:20 - 12:38 Plotting Bollinger Bands
+12:38 - 13:19 Problem of multiple buying/selling signals
+13:19 - 18:50 Coding the strategy (Crossing)
+18:50 - 24:12 Backtest
+24:12 - 25:00 Final thoughts
+
+This video is not an investment advice and is for educational and entertainment purposes only.
+
+#Python #Trading #BollingerBands",2021-07-04T20:04:21Z,13342,400,86,78,572
+43,lIJlhKrP_SI,Python in the Cloud Part I - How to run Python in the Cloud / Conda environment setup on GCP,"We are going to set up a Linux Virtual Machine (VM) using the Google Cloud Platform (GCP), install Miniconda on it and use Python both directly in Anaconda and also create Python files using the nano editor.
+
+Sign up for GCP here: https://cloud.google.com
+
+Downloadlink Linux:
+https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+For a whole Anaconda distribution follow the same steps but use:
+https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh
+
+Thanks a lot for watching :-)
+
+0:00 - 0:50 Intro / Requirements
+0:50 - 04:30 Setting up a Virtual Machine
+04:30 - 07:50 Downloading and installing Miniconda
+07:50 - 08:15 Start Python from Conda
+08:15 - 09:20 Create and execute Python files
+09:20 - 10:17 Shut down VM and up next / thanks :-)
+
+#Python #Cloud #GCP",2021-06-28T16:39:27Z,8848,225,45,92,315
+44,FkZNUj36Jcc,How to build a Stock Recommendation System with Python - Part III: Automatization [Updates/Mailing],"Hi everyone,
+In this one we are automating the process of getting buying signals based on technical indicators. In specific we are updating the MySQL database and sending ourselves mails containing those signals. In the end we are using cronjobs to automate the process. You need to define a proper time for the execution. I would guess midnight is a good way.
+
+Alternative cron syntax for midnight would be: @daily
+More information:
+https://crontab.guru/#
+
+An excellent video on understanding and setting up gmail for smtp: 
+https://www.youtube.com/watch?v=JRCJ6RtE3xU&t=706s
+
+I guess that's for now the final part but I will do similar topics when covering cloud stuff in the near future. I hope you enjoyed the series! :-)
+
+#Python #Stocks #Trading
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only.
+
+0:00 - 01:01 Intro
+01:01 - 03:05 Recap Recommender class
+03:05 - 07:03 Updating the DB - Get the current max date
+07:03 - 12:30 Updating the DB - Update method
+12:30 - 15:39 Setting up Mail for mailing (smtplib)
+15:39 - 17:00 Important and necessary changes to the recommend method
+17:00 - 18:57 Sending out the mail (gmail)
+18:57 - 19:58 Checking mail inbox 📥 
+19:58 - 22:30 Automatization - Transforming notebook to .py file and necessary amendments
+22:30 - 26:24 Automatization - Cronjob to automate the execution of the python file
+26:24 - 26:50 Removing cronjobs
+26:50 - 27:26 Final remarks",2021-06-26T21:40:56Z,3597,110,25,99,160
+45,uEn1uZtPMzw,Schedule Python scripts with crontab / Automated script execution and DataBase Update,"Hi everyone,
+in this video we are quickly going over automating python scripts via a predefined execution date. The windows equivalent is the task scheduler.
+
+Please note that the DataBase example is just a quickly coded example to show the functionality but you should not rely on it as I am not making 100% that I am only getting the last minute. I will provide a better way when we are updating the MySQL database in the Stock recommender series.
+
+Important:
+To remove your cronjobs use crontab -r
+
+aferwards check by typing in:
+crontab -l
+
+Let me know if you have any questions! :-)
+
+If you like my content please consider subscribing.
+
+Crontab syntax:
+https://crontab.guru/
+
+More background on Python and SQL:
+https://youtu.be/5bUn-D4eL4k
+
+Stock recommender part I:
+https://youtu.be/qGAUw63p_uk
+
+0:00 - 04:26 Simple example of automatic executing of a Python script
+04:26 - 09:16 Example of updating a sample DataBase (please read description)
+
+#Python #Automation #Crontab",2021-06-19T18:06:12Z,3274,96,31,85,158
+46,V6z1ME3-0_I,Cryptocurrency 💰  Trading Bot 🤖 with Python & Binance - Reversal & Trailing Stop Loss,"Hi everyone,
+In this video we are building a cryptocurrency trading bot which buying condition is based on a reversal of the recent past return and is taking a Trailing Stop Loss for the selling condition.
+In the end I did some cuts as the Stop Loss Order was being triggered after roughly one hour.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+If you like the content please subscribe to make future content possible. Thank you very much in advance! :-)
+
+Let me know what you think or let me know your questions in the comment below.
+
+Please watch the previous video to better along:
+https://youtu.be/rc_Y6rdBqXM
+
+Video on cumulating returns:
+https://youtu.be/fWHQwqT3lNY
+
+
+Disclaimer: This video is for educational and entertainment purposes only and is not an investment advice! 
+
+
+0:00 - 0:51 Trading strategy
+0:51 - 02:42 What is a Trailing Stop Loss?
+02:42 - 03:45 Subscribe etc. and Disclaimer
+03:45 - 05:00 First script: Getting live data via socket manager / SQLite storage
+05:00 - 07:00 Second script: Connect to SQLite database and the Binance API
+07:00 - 07:45 Request live data by SQL to dataframe
+07:45 - 10:24 Coding example of Trailing Stop Loss
+10:24 - 15:38 Coding the strategy: Buying condition (Reversal)
+15:38 -  21:38 Coding the strategy: Selling condition (Trailing Stop Loss)
+21:38 -  25:18 Testing the strategy / Discussing the trade outcome
+
+
+#Python #Trading #Crypto",2021-06-13T21:32:57Z,18513,627,124,85,875
+47,FRO6V8bj_ko,"How to build a Stock Recommendation System with Python - Part II: MACD, Golden Cross and RSI Signals","Hi everyone,
+in this video we are building a recommendation system based based on technical trading analysis indicators such as the MACD, Golden Cross and RSI in combination with long term SMA indicator.
+In the end of the video I am showing a transformation of functional programming code to Object Oriented Programming code. Let me know if you are interested in OOP topics.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+First Video:
+https://youtu.be/qGAUw63p_uk
+
+Video on MACD:
+https://youtu.be/JzdVPnCSSuo
+
+Video on Golden Cross / Crossover strategies:
+https://youtu.be/cwEORaERl2o
+
+Video on RSI/SMA:
+https://youtu.be/pB8eJwg7LJU
+
+Video on a lightweight version of the recommender:
+https://youtu.be/AuZmsv6dQCM
+
+0:00 - 01:34 Introduction
+01:34 - 02:02 Libraries 
+02:02 - 03:05 Connecting Python to MySQL
+03:05 - 06:18 Requesting data from the MySQL DataBase
+06:18 - 12:48 Get prices from the Database tables
+12:48 - 15:30 MACD function
+15:30 - 19:20 Golden Cross function
+19:20 - 21:07 RSI/Long Term SMA function
+21:07 - 24:05 Apply technical indicators to the price data
+24:05 - 25:18 Golden Cross explanation (first explanation was bad)
+25:18 - 29:34 Recommender function
+29:34 - 38:10 Transforming all code into one class (OOP) 
+38:10 - 40:25 Creating instances and test out some methods
+
+#Python #Trading #Technicals",2021-06-06T18:59:51Z,5484,177,59,100,295
+48,Km2KDo6tFpQ,Streamlit Interactive Finance Dashboard - Stock Performance Comparison,"This video is showing how you can build a web app using the Python streamlit library which enables you to compare stocks.
+Thanks for watching :-)
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+If you are interested in Deployment topics or any other stuff in Streamlit be kindly invited to let me know.
+
+Video on calculating stock returns (cumulative returns):
+https://youtu.be/fWHQwqT3lNY
+
+Video on Spyder:
+https://youtu.be/7FwXz1KqFBU
+
+0:00 - 01:42 How the Dashboards works in the front end
+01:42 - 02:10 Streamlit Installation
+02:10 - 04:44 Running python files with streamlit in terminal
+04:44 - 06:28 Running streamlit in an IDE (Spyder)
+06:28 - 18:09 Actual coding the backend of the dashboard
+
+#Python #Streamlit #Webapp",2021-05-29T16:42:29Z,10440,339,54,70,447
+49,qGAUw63p_uk,How to build a Stock Recommendation System with Python - Part I: Database Setup [MySQL],"Hi and thanks for watching :-)
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+This video is the first part of a larger scale stock recommendation system built with Python with the example of three indices (Nifty50, Bovespa and RTSI) which are screened for technical indicators in the upcoming videos. I am  covering the MySQL Installation, the Python MySQL connection using pymysql and the population of the Database in this video.
+
+In specific we are requesting online stock price data and store this data into the MySQL database. I am keeping it scalable so that you can take even more indices.
+
+If you are interested in topics like that please subscribe and like the video.
+
+MySQL Download:
+https://dev.mysql.com/downloads/
+
+First video on building a stock recommender:
+https://youtu.be/AuZmsv6dQCM
+
+Pandas and SQL:
+https://youtu.be/OjMDXTlVOYU
+
+Building a SQL database with SQLite:
+https://youtu.be/5bUn-D4eL4k
+
+Windows Installation:
+https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html
+
+0:00 - 01:24 Introduction
+01:24 - 05:28 MySQL Installation on MacOS (both Server and Workbench)
+05:28 - 06:51 Mini Walkthrough MySQL Workbench
+06:51 - 07:33 Requirements setup (sqlalchemy and PyMySQL)
+07:33 - 11:05 Create schemas
+11:05 - 15:55 Getting ticker symbols for the indices (+ amendments)
+15:55 - 16:25 Getting stock prices with yahoo finance
+16:25 - 21:45 Populating the Database with online stock prices
+21:45 - 24:25 Check data in MySQL and outlook for next vid
+
+#Python #MySQL #Stockmarket",2021-05-24T14:46:58Z,6957,233,50,87,333
+50,rc_Y6rdBqXM,How To Build a Simple Cryptocurrency Live Trading Bot with Python using the Binance API,"This video is about getting live cryptocurrency data via the Binance Socket Manager and store them in a database followed by analyzing this data and build a simple trend following trading strategy with the live data.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Let me know if you find content like this valuable. I will continue to implement some technical indicators and Machine Learning on Cryptocurrencies. I personally think that is pretty interesting. Nevertheless don't worry I am anyhow also covering stock trading topics :-)
+
+Disclaimer: This video is not an investment advice and is for educational and entertainment purposes only! Cryptocurrency and automated trading is bearing a high amount of risk which might result in a total loss of your invested capital.
+
+If you want to support me you can register for Binance with this link, but don't feel forced to:
+https://www.binance.com/en/register?ref=17165515
+
+More information on the Binance Socket Manager:
+https://python-binance.readthedocs.io/en/latest/websockets.html
+
+Alternatively you can use the websocket library and pick the stream provided in the official Binance API documentation:
+https://binance-docs.github.io/apidocs/spot/en/#trade-streams
+
+Set up Binance API video:
+https://youtu.be/_IV1qfSPPwI
+
+Python & SQL:
+https://youtu.be/OjMDXTlVOYU
+
+Cumulating returns:
+https://youtu.be/fWHQwqT3lNY
+
+Video on Trendfollowing:
+https://youtu.be/BhOdgrxWi5c
+
+00:00 - 01:38 Introduction / Disclaimer
+01:38 - 05:05 Requesting data using the Binance Socket Manager
+05:05 - 08:28 Data Cleaning / Manipulation
+08:28 - 11:31 Getting Live Data into a SQLite DataBase
+11:31 - 14:30 Requesting Live Data from the SQL DB
+14:30 - 16:22 Explanation of Trendfollowing strategy          
+16:22 - 26:25 Coding the Trading Bot (simplified)
+26:25 - 29:41 Test the Bot with real money trade
+
+#Python #Tradingbot #Crypto #Binance
+
+Code source:
+https://pastebin.com/iFSLxbLB
+
+password: S58MYqi3Xw",2021-05-16T12:48:18Z,954801,19122,832,87,20786
+51,_IV1qfSPPwI,Introduction To Automated Trading With Python and Binance - REAL money Trades Of Cryptocurrencies,"Thanks for watching :-) Hope you had some fun or could extract value out of it. 
+This video is showing how to make an automated trading bot from scratch which is making buying decisions based on very short term performance.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Disclaimer: This video is for educational and/or entertainment purposes only. Cryptocurrencies and automated trading bears high level of risks. Please be aware and limit your losses and don't execute anything which you didn't fully understand!
+
+For more trading strategies with cryptos (or stocks) please subscribe :-)
+
+If you want to register for Binance you are invited to do it with this link but ofc don't feel forced to:
+https://www.binance.com/en/register?ref=17165515
+
+Resources:
+https://python-binance.readthedocs.io/en/latest/
+
+https://binance-docs.github.io/apidocs/spot/en/#get-summary-of-sub-account-39-s-margin-account-for-master-account
+
+0:00 - 01:05 Intro / Disclaimer
+01:05 - 02:22 Setting up an Api Key (sorry for format)
+02:22 - 03:24 Resources (check description for links)
+03:24 - 04:40 Libraries/Requirements/...
+04:40 - 06:00 Build a connection to Binance and connectivity check
+06:00 - 08:45 Getting price data from Binance (klines/candlesticks)
+08:45 - 16:15 Data Handling / Manipulations
+16:15 - 16:55 Use the first function to analyze cryptos
+16:55 - 19:25 Explaining the trading strategy
+19:25 - 30:50 Coding the strategy
+30:50 - 34:05 Real money trade
+
+#Python #Binance #Cryptocurrency # Trading",2021-05-12T22:35:36Z,52406,1430,282,97,1994
+52,W8Rc7iQbdSc,Data Science shorts Miniseries - Part I: Statistics - Heteroscedasticity #shorts,"#shorts
+
+Hi everyone, 
+This is the first part of the Miniseries of Data Science concepts in under 1 minute. Idea of this mini series is that you can consume or refresh concepts within a very short amount of time. Dependent on your feedback I am planning on a regular series covering topics out of statistics, calculus, linear algebra and some relevant programming stuff. The concepts will contain both beginners and intermediate level.
+
+Thanks a lot for watching :-)",2021-05-11T10:27:43Z,1990,62,12,80,86
+53,fWHQwqT3lNY,"How To Calculate Stock Returns [Excel and in Python] - Returns, Cumulative Returns, Log returns","Hi everyone,
+Thanks for watching :-)
+As I am using those concepts a lot in my trading strategies I figured it might be helpful to show how returns are calculated, cumulated and some pretty cool features of using log returns.
+
+If you extracted value out of this please consider subscribing. Thank you very much in advance!
+
+0:00 - 02:14 Return calculation of stocks
+02:14 - 04:12 Cumulative return
+04:12 - 05:32 Log Returns (time additive)
+05:32 - 07:08 Symmetry of Log returns
+07:08 -  08:11 Python return calculation
+08:11 -  09:44 Python cumulative return calculation
+09:44 - 11:21 Python Log Returns
+
+#Stocks #Returns #Cumulative #Logreturns",2021-05-09T18:49:23Z,7054,237,54,95,345
+54,AuZmsv6dQCM,Simple Stock Recommendation System based on Technical Trading Indicators (ta) using Python & SQL,"Thanks for watching :-) If you enjoyed the video please subscribe.
+
+This video is showing how to build a very simple stock recommendation system with Python based on technical trading indicators such as MACD and RSI / SMA using the ta library.
+
+Be kindly invited to let me know if you find stuff like this interesting. 
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Video on building a finance database:
+https://youtu.be/5bUn-D4eL4k
+
+Video on dataframes and sql:
+https://youtu.be/OjMDXTlVOYU
+
+Video on MACD:
+https://youtu.be/JzdVPnCSSuo
+
+Video on RSI / SMA:
+https://youtu.be/pB8eJwg7LJU
+
+
+Disclaimer: This video is not an investment advice. It is for educational and entertainment purposes only.
+
+0:00 -  01:36 Explanation of what is going to be done
+01:36 - 02:42 Recap of the SQL database
+02:42 - 04:35 DataBase connection & getting table names
+04:35 - 06:25 Get actual price data out of the database
+06:25 - 09:25 MACD function (using ta library)
+09:25 - 11:40 RSI / SMA function (using ta library)
+11:40 - 12:57 Apply the technical indicators to all stocks
+12:57 - 15:28 Result: Which stocks to buy? (no investment advice)
+15:28 - 17:53 OPTIONAL: How I updated the database 
+17:53 - 19:15 OPTIONAL: Daily update of the database
+
+#Python #Trading #Stocks",2021-05-01T18:54:46Z,5602,186,81,96,348
+55,JzdVPnCSSuo,Algorithmic Trading in Python - MACD: Construction and Backtest,"Thanks a lot for watching :-) Please subscribe to the channel if you enjoyed the video.
+Disclaimer: This is video is not an investment advice. It is for educational and entertainment purposes only.
+
+In this video we are constructing the MACD indicator, visualize trading signals and backtest the strategy with Python.
+
+If you have any questions or want to provide feedback be kindly invited to let me know in the comments below.
+
+Previous video on crossover moving averages:
+https://youtu.be/cwEORaERl2o
+
+Regarding the adjust=False point:
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.ewm.html
+
+Video where I am going into more details about EMAs:
+https://youtu.be/pB8eJwg7LJU
+
+The main point of using EMAs is to give more recent data points a larger weighting.
+
+Further reading (high level):
+https://www.investopedia.com/terms/e/ema.asp
+
+The 12/26/9 values are overall accepted standardized values but you can make amendments if you want.
+
+0:00 - 02:43 Explanation of the strategy
+02:43 - 03:20 Pulling online stock price data
+03:20 - 06:07 Adding the MACD indicators
+06:07 - 07:08 Plot MACD and signal line
+07:08 - 10:41 Get Buying and Selling signals
+10:41 - 14:15 Plot Buying and Selling signals
+14:15 - 21:22 Backtest
+21:22 - 24:27 Long term backtest",2021-04-25T16:57:57Z,15171,420,86,63,592
+56,YIsKSQh1xpY,Trading strategy and Backtest with Python & SQL [MOMENTUM in the INDIAN stock market],"Please subscribe to the channel :-) It is free for you and is helping me a lot.
+
+Disclaimer: This video is no investment advice and is for educational and entertainment purposes only.
+
+Momentum is widely discussed in academia. Please check my other videos on Momentum for academic references.
+
+Momentum in the Dow Jones:
+https://youtu.be/dnrJ4zwCADM
+
+Momentum in the S&P500:
+https://youtu.be/5W_Lpz1ZuTI
+
+Videos on SQL & Python:
+https://youtu.be/5bUn-D4eL4k
+
+Short term reversal:
+https://youtu.be/xpP048vfNrg
+
+0:00 - 01:46 Strategy explanation and prerequisites
+01:46 - 3:49 Online data request (yfinance)
+3:49 - 4:28 Create a SQL database
+4:28 - 06:56 Populating the SQL Database with Python
+06:56 - 10:44 Example of requesting data out of the SQL database
+10:44 - 16:44 Mass request of all SQL tables and all necessary data manipulations
+16:44 - 16:52 Final dataframe
+16:52 - 25:35 Momentum strategy with a single formation date
+25:35 -  27:54 Construct the momentum function
+27:54 - 34:46 Backtest the strategy",2021-04-17T10:29:00Z,9715,355,76,85,507
+57,5bUn-D4eL4k,Create your own Finance DataBase with Python & SQL [perfect for backtesting trading strategies],"Hi everyone,
+this video shows how you can create your own finance database using Python and SQL. 
+This video is important as I might(!) use my own SQL databases in future trading strategies and I can refer to this video where I got my data from.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+As said in the video if you are using MySQL / MS SQL Server / Postgres instead of the create engine function you need to create a schema. Let me know if you need support with that.
+
+Please subscribe and like this video if this was helpful. Thank you very much in advance!
+
+Python and SQL videos:
+basics:
+https://youtu.be/pU53JUhSnkY
+more importantly:
+https://youtu.be/OjMDXTlVOYU
+
+
+0:00 - 04:55 Getting and preparing the data with yfinance
+04:55 - 06:50 Create the database engine (SQLITE! Please listen to my comments or read video description for other DB systems)
+06:50 - 10:45 Transfer the data to the SQL database
+10:45 - 11:20 Taking a look at the Database (SQLite browser is used)
+11:20 - 14:01 Requesting data from the database",2021-04-11T12:20:11Z,13360,401,60,95,521
+58,OjMDXTlVOYU,Pandas Dataframes and SQL [How to write dataframes into a sql database/get sql table to dataframe],"In this video I am showing how to get sql data into Pandas dataframes and also how to store dataframes into sql databases. I am working with SQLite in this video.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+More information for other Database systems (e.g. MySQL or MS SQL server  or Postgres):
+https://docs.sqlalchemy.org/en/14/core/engines.html
+
+Check out my introductory video on Python and SQL:
+https://youtu.be/pU53JUhSnkY
+
+Please be so kind subscribing and liking the video in case it was helpful.
+
+0:00 - 0:55 Intro
+0:55 - 02:08 Create DB engine (read description for other DB)
+02:08 - 03:49 read_sql (Both whole table and SQL syntax possible)
+03:49 - 08:32 to_sql (and possible errors/mistakes/pains)
+08:32 - 10:20 Pull and store financial data in a sql db
+10:20 - 11:04 Outro / Potential topics
+
+#Pandas #SQL #Python",2021-04-02T19:50:44Z,21324,496,63,98,622
+59,BhOdgrxWi5c,Intraday Trading Strategy in Python [Trend following] incl. 1 month Backtest,"Hi everyone,
+in this video I am introducing a simple Intraday Trading strategy and build and backtest that in Python.
+There are a lot of other strategies so if you are interested in this topic be kindly invited to drop me a like or comment.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+0:00 - 01:49 Strategy Explanation (
+01:50 - 02:48 Getting intraday data with Python
+02:48 - 14:28 Constructing the explained strategy inside a function
+14:28 - 20:58 Backtesting over March
+
+Disclaimer: This video is no investment advice and is for educational and entertainment purposes only.
+
+#Python #Algotrading #Intraday",2021-03-29T20:13:22Z,12786,354,83,76,520
+60,W04e55UnJAk,How To Build A Professional Technical Trading Chart With Python [Candle Sticks / Moving Averages],"Hi everyone,
+I found this pretty awesome easy to use library while constructing another trading strategy. Check it out and let me know what you think :-)
+
+Video on a simple crossover strategy:
+https://youtu.be/cwEORaERl2o
+
+#Python #TechnicalAnalysis #Candlestickchart",2021-03-20T14:15:52Z,2882,140,25,97,190
+61,pU53JUhSnkY,How to connect Python with a SQL database [SQLITE] | perfect for beginners,"Learn how to connect Python to a SQL database using the sqlite library.
+I am planning on another one covering topics like data frame handling in SQL which I consider to be pretty important and I think ORM is also an interesting topic.
+
+Forgot an important thing: Close the connection once you are done with your stuff:
+
+connection.close()
+
+If you have any questions please feel free to drop me comment.
+
+Thank you very much for watching :-)
+
+
+You can download the DB Browser here: 
+https://sqlitebrowser.org
+
+Regarding bad practice:
+There is a much better way to use OOP in connection with databases which is referred to as ORM (object-relational mapping). I will do a video on that in the future.
+
+0:00 - 0:47 Brief Introductory Talk (skippable)
+0:47 -  02:22 Connecting Python with a new database
+02:22 - 03:25 Sqlite Datatypes
+03:25 - 04:35 DB Browser (Database ""Interface"" - optional!)
+04:35 - 06:40 Create Tables
+06:40 - 08:30 Insert Values into a Table
+08:30 - 09:35 Querying the Database (SELECT statement)
+09:35 - 11:05 fetchall() and fetchone() / multiple rows
+11:05 - 11:28 Iterating over the cursor
+11:28 - 12:55 Inserting Python variables into a SQL table
+12:55 - 13:58 Flexible inputs 
+13:58 - 15:40 Using a constructor (OOP) to fill tables (bad practice see description)
+15:40 - 16:01 Up Next / Thanks for watching :-)",2021-03-18T21:15:48Z,8773,281,47,74,375
+62,tGkZ9EARwzk,How to install TENSORFLOW 2 in ANACONDA [works for M1 MacBook & Windows],"Hi everyone,
+in this video I am showing you a possible way to install Tensorflow in Anaconda. In the end I am also covering how to make it work in Jupyter. 
+
+Have fun using it :-) 
+
+This is working both on the M1 Silicon Mac and on a windows system.
+
+0:00 - 2:18 Installation
+02:18 - 02:29 Test if it works 
+02:29 - 03:14 Just skip this :-D
+03:14 - 03:40 Test if it works 
+03:40 - 06:05 Setting up Jupyter in the new Environment
+
+#Tensorflow #M1 #Anaconda",2021-03-15T20:42:26Z,10351,237,110,72,457
+63,BGG4t8VvlMo,How To Get a Dividend EACH Month Using Python [Dividend Scraper],"Hi everyone,
+in this video we are going to scrape dividends to get an overview of when stocks are paying dividends in each month. This is getting the Ex-Dividend Date. In the US the payment date is usually roughly 1 month after the ex date so if you wanna have the payment date you would need to add up a month to that.
+
+Feel free to use that on the S&P500 (working as well) or your home index. Let me know your thoughts in the comments below :-)
+
+If you like my content please support my channel by subscribing, liking and comment on my videos. It's for free :-) Thanks a lot in advance.
+
+Disclaimer: This is no investment advice. Video is for educational and entertainment purposes only.
+
+#Python #DividendInvesting #Finance",2021-03-13T18:57:16Z,2912,139,36,64,211
+64,ZUQEd22oNek,Fundamental Analysis of Stocks with Python,"Hi everyone,
+in this video we are going to take a look at analyzing stocks using fundamental analysis with Python. We are scraping financials via the Yahoo Finance API  and utilizing the data. We are doing a peer group comparison and find the highest dividend payers (in terms of dividend yield) in the Dow Jones.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Video on getting tickers from wikipedia:
+https://youtu.be/5W_Lpz1ZuTI
+
+Check out my Python for Finance stuff!
+https://youtube.com/playlist?list=PL9ATnizYJ7f9pCPBzr-isv0_R3E6OW6YY
+
+Disclaimer:  
+This video is no investment advice. It is for educational and entertainment purposes only.
+
+#Python #FundamentalAnalysis #Stockmarket",2021-03-06T14:20:29Z,10862,379,44,42,467
+65,xpP048vfNrg,How To Build a Trading Strategy in Python [SHORT TERM REVERSAL] - Backtest included,"Hi everyone,
+in this video we are going through the short term reversal strategy and construct and backtest that in Python. I have already referenced to the short term reversal effect which we excluded in the momentum video.
+
+This paper is pretty nicely summarizing the topic in the Introduction:
+
+https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr513.pdf
+
+List of all academic references can be found here:
+https://link.springer.com/chapter/10.1057/9781137359070_7
+
+The grandfathers of this strategy:
+
+Fama (1965)
+Jegadeesh (1990)
+
+Disclaimer: This is not an investment advice. The video ist for educational and entertainment purposes only!
+
+
+#Python #Trading #AlgoTrading",2021-02-28T18:13:34Z,5511,177,50,83,277
+66,bo2m3YOyjqQ,INVESTING in GERMAN stocks - Overview of the stock market and Indices [DAX] and Index CHANGES 2021,"Disclaimer: This is not an investment advice. The video is for educational and entertainment purposes only. I might be invested in the mentioned stocks.
+
+In this video I am introducing the German stock market and giving the most important information to get started invested in Germany. Having German stocks is essential for an international portfolio. 
+
+I am also talking about the upcoming change in the German equity market in September 2021.
+
+Let me know what you think in the comments below.
+
+Resources:
+The historical performance was taken via Python using the Yahoo Finance API (check out videos on my channel how to do that). The chart was visualized with Matplotlib.
+
+Facts about Frankfurt Stock Exchange
+https://www.investopedia.com/terms/f/frankfurt-stock-exchange-fra-.f.asp
+
+German shareholder share:
+https://dai.de/files/dai_usercontent/dokumente/Statistiken/MAR%202013_Factbook_08_6_Aktionaersstruktur_Laendervergleich.pdf
+
+Largest stock exchanges worldwide:
+https://www.statista.com/statistics/270126/largest-stock-exchange-operators-by-market-capitalization-of-listed-companies/
+
+Index change:
+https://deutsche-boerse.com/dbg-en/media/press-releases/German-benchmark-index-DAX-will-be-strengthened-by-additional-qualification-criteria-and-harmonization-with-international-standards-2350430
+
+Fast entry, regular entry, fast exit regular exit further information:
+https://www.dax-indices.com/document/News/2018/November/Equity_L_9_2_3_d.pdf
+
+Unfortunately only in German but just pull it into a translation platform. Let me know if you need support for that.
+
+
+#Investing #DAX #Germanstocks #Indexchange",2021-02-20T18:53:28Z,2185,61,21,98,103
+67,pB8eJwg7LJU,How to build a RSI Trading Strategy and Backtest over 500 stocks in Python [70% Winning Rate],"Disclaimer: This video is no Investment advice and is only for educational and entertainment purposes.
+
+Hi everyone,
+This video is a continuation of my previous RSI video backtesting a Trading strategy presented by Rayner Teo. There is a lot more we can do with this strategy so if you think that is interested please let me know in the comments below.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+Check out the prior video here:
+
+https://youtu.be/JvfK4VBX75I
+
+You will find a lot of python concepts here and you will need some Pandas
+knowledge and a good understand of Loops. Be kindly invited to check out
+the resources on my channel to better follow along.
+
+Credits to macroption providing a very straightforward
+step by step approach to calculate the RSI which helped me a lot.
+
+Link to macroption:
+https://www.macroption.com/rsi-calculation/
+
+Rayner Teos video:
+https://www.youtube.com/watch?v=W8ENIXvcGlQ
+
+#Python #Trading #Backtest #RSI",2021-02-07T22:10:18Z,42814,1357,223,93,1803
+68,X9jjyh0p7x8,Logistic Regression in Python - Predicting if the stock market is going Up or Down,"This video is showing how Machine Learning can be used in the stock market. It is showing how a Logistic Regression can help to predict whether the market is going Up or Down. In specific on the S&P 500.
+The Logistic Regression is implement in Python using statsmodels. I have also performed this using the sklearn library so if you need any support with that kindly let me know.
+
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
+
+I found this prediction in the book: Introduction to statistical learning with R (ISLR) as I am learning R right now. I can highly recommend this book.
+
+This video is for educational and entertaining purposes. It is no investment advice!
+
+If anything is unclear please drop me a comment. I am happy to help!
+
+#Python #LogisticRegression #MachineLearning #Stockmarket",2021-01-31T21:59:15Z,9266,390,66,82,522
+69,cwEORaERl2o,Trading moving averages in Python - Simplest algorithmic trading strategy in Python for beginners,"Disclaimer: This is no investment advice and this video is for educational and entertainment purposes only.
+
+This video is an introduction to algorithmic trading in Python and is showing how to build a simple crossover moving average strategy using Python. Be kindly invited to play a bit around with different Moving averages and time horizon and other assets and as always be kindly invited to ask any further questions or suggestions what you are interested in.
+
+Please subscribe to the channel if you enjoy my content. Thanks a lot in advance :-)
+
 
-Want to help support the channel?
-https://www.buymeacoffee.com/claritycoders",2021-04-19T12:20:50Z,386802,12648,412,81,13472
-17,2mSwcRb3KjQ,Using Python and YouTube API  to Create Analytics on any Channel.,"Python and YouTube's API can be used to generate data on any channel on YouTube for free. In this video, we dive into the API to generate some analytics on Mr. Beast's YouTube channel. We will then dig into these analytics and show you how to create some charts with your data. Understanding how to interact with an official API can help you unlock a ton of data sources for all kinds of Python analytics projects. 
+0:00 - 02:03 Explanation of strategy
+02:03 - 11:42  Coding the strategy
+11:42 - 13:48 Discussing the strategy / Final remarks",2021-01-23T18:03:52Z,10359,367,71,97,509
+70,JTD-DSmxfq8,Bitcoin & Stock Price prediction with Python [fbprophet],"This video is an update of my already released video on fbprophet - a time series prediction tool from the Data Science team of Facebook.
 
-I use Deepnote so you can follow along without installing anything on your local computer. Feel free to use any python installation to follow along locally will work as well. The GitHub link has the notebook I created in this video as well. 
+First I am going over Bitcoin and in the end considering a stock price.
+In the very end you will find seasonalities.
 
---- Resources Used! ---
+Credits to facebooks Data Science team developing the fbprophet tool.
 
-Getting your API Key - http://console.developers.google.com/
+Documentation: https://facebook.github.io/prophet/docs/quick_start.html
 
-Deepnote - https://deepnote.com/project/401eace2-3667-422d-960c-9fabaad04025
-Follow the link and in the top right corner click duplicate notebook!
+If you enjoy my content or can extract value out of it please subscribe to the channel.
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+Let's meet in one year and see whether the Prediction is right :-P
+
+Disclaimer: This video is not an investment advice or any recommendation. The purpose of this video is meant to be educational or entertaining. 
 
-GitHub - https://github.com/ClarityCoders/YouTubeAnalysis
+
+
+#Python #Prediction #TimeSeries",2021-01-18T22:11:24Z,3386,110,18,56,146
+71,AUQT0MKpf6Y,5 awesome Jupyter Notebook features,"Hello everyone,
 
-YouTube API Docs - https://developers.google.com/youtube/v3/docs",2021-03-17T12:41:51Z,8586,273,30,65,333
-18,0BT1rGMAFwQ,Create a Reddit Bot using Repl.it to host for free! Beginner Friendly.,"Repl.it is an amazing tool but can be intimidating. Today in this beginner friendly tutorial I will show you how to create and host a reddit bot on repl.it. You won't need to do any downloads or install any software on your PC. In just 30 minutes you will have a working project running 24/7 in the cloud!
+in this video I am sharing some Jupyter Notebook features with you. 
+Jupyter Notebook is one of the best environments for beginners, multiple users Did you know all of them? Be kindly invited to let me know :-)
 
-If you don't care about Reddit try the tutorial anyway we show how to use repl.it database as well as create a webserver. This tutorial should be able to help you!
+1. Multiline cursor (Alt/Option and pull down)
+2. Running other Notebooks inside a notebook (%run ./notebookname.ipynb
+3. Change Jupyter theme from light to dark theme
+4. Use the autocompletion (Tab Key)
+5. Use Markdowns and LateX Code",2021-01-16T18:04:32Z,8958,319,29,35,377
+72,5W_Lpz1ZuTI,Trading strategy and Backtest in Python [Momentum of ALL S&P 500 stocks],"Video is for educational and entertainment purposes only. This is not an investment advice!
 
-https://repl.it/@JacobLower4/OfficeBot
-https://github.com/ClarityCoders/Reddit-Bot-Replit
+Prior video on Momentum on the Dow Jones:
+https://youtu.be/dnrJ4zwCADM
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+In this video I am building a trading strategy in Python from scratch. The strategy used is the Momentum strategy. You should have at least basic knowledge of Pandas and maybe have gone through some videos on my Python for Finance playlist to better follow along.
+The momentum strategy is based on the findings of Jegadeesh/Titman and the conventional momentum strategy taking the past 12 month skipping the most recent month is just an application of Ken Frenchs approach.
 
-#python #replit #redditbot
+Wikipedia reference:
+https://en.wikipedia.org/wiki/List_of_S&P_500_companies
 
-Thanks to Poonam Agrawal for creating the ukulele cover featured in this video. You can check out her full cover of the song Titanium here: https://www.youtube.com/watch?v=YWbLVkHdPlI.
+Further reading:
+http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_mom_factor.html
 
-Want to help support the channel?
-https://www.buymeacoffee.com/claritycoders",2021-03-01T14:40:45Z,10275,341,110,70,561
-19,9J2CI3dHMiI,Use Python to create WSB charts! GME to the MOON!,"In this video, we touch base on the crazy Reddit trend and show you how to scrape data from Reddit. How many times is GME, AMC, and NOK being mentioned daily on Reddit!
+https://www.jstor.org/stable/2328882?seq=1
 
-https://github.com/ClarityCoders/WSB
+Momentum is a hot topic in academics as there is empirical evidence that this strategy is working but there is a discussion about WHY this strategy is working.
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd",2021-01-31T01:52:25Z,2014,69,1,49,71
-20,Xzub5UfTu9c,Python with OpenCV Tutorial Series! Drawing and labeling images.,"A quick tutorial on how to label your images and video. We are moving fast through OpenCV and want you to join us for our weekly tutorials. Start this complete tutorial series and actually understand how to create your own unique projects. Not just copy and paste clickbait tutorials!
+The most recent month is skipped due to the 1-month reversal effect. 
 
-https://github.com/ClarityCoders/ComputerVision-OpenCV/tree/master/Lesson2-DrawingShapes
-https://discord.gg/cAWW5qq
-Video 1 - https://youtu.be/fmThsnqUCF0",2021-01-26T13:00:24Z,5985,215,35,64,285
-21,fmThsnqUCF0,Python with OpenCV Tutorial Series Part 1! Finally Understand.,"OpenCV has created a ton of amazing projects with millions of views on YouTube. Want to create your own someday? Start this complete tutorial series and actually understand how to create your own unique projects. Not just copy and paste clickbait tutorials!
+If you have any questions please don't hesitate to drop me a comment. 
 
-https://github.com/ClarityCoders/ComputerVision-OpenCV
-https://discord.gg/cAWW5qq
+Want more trading strategies? Please let me know but liking this video and subscribing to the channel.
 
------ Chapters! -----
-0:00 - What are we going to cover and why
-1:20 - Opening Images
-2:05 - Leaning about raw image data (Shape/Type)
-4:20 - Resizing Images
-5:50 - Editing single pixels and slicing
-8:00 - Grayscale
-9:32 - Save",2021-01-19T12:15:01Z,7658,320,24,62,368
-22,OzWU18AwS9k,AI Destroys a Mobile Game in Real-Time with OpenCV (Object Detection),"Let's create AI that beats a simple game of ZigZag. Can't get that Ultra Rare Trophy? During this video, I show you how to create a powerful AI that can top high scores in the game ZigZag.  We will use OpenCV to empower our bot with  AI vision and make decisions based off the game inputs!
+0:00 - 01:42 Introduction
+01:42 - 03:45 Getting stock tickers from the S&P 500
+03:45 - 04:27 Requesting the data
+04:27 - 05:17 New year wishes while data download (skippable)
+05:17 - 06:39 Necessary data manipulations
+06:39 - 07:47 Calculating monthly returns
+07:57 - 09:06 Calculating past 11 months returns
+09:06 - 16:22 Step by step calculation of a 1-month Momentumprofit
+16:22 - 19:22 Wrapping all code into a function to prepare for Backtest
+19:22 - 21:42  Backtesting the strategy 
+21:42 - 27:24 Benchmarking and final thoughts",2021-01-02T11:50:34Z,10009,306,112,72,530
+73,HmgmhOpS42A,How to get INDIAN stock prices with Python?,"Check out a better way to pull Indian stock prices in the very beginning of this video:
+https://youtu.be/YIsKSQh1xpY
 
-https://github.com/ClarityCoders/ZigZag
+Please be aware that this is not an investment advice and the video is for informational and entertainment purposes only.
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd",2020-12-28T13:12:37Z,400448,13372,444,69,14260
-23,qXCVcnLiPIU,Enter Kaggle simulation competition in under 10 minutes! Join our team.,"Want to get on the leaderboards and start your journey in data science? Don't miss this video and act fast to get a spot on the official Clarity Coder's team!
+This video shows how to get all stock prices for the 30 components of the Sensex (Indian stock market index). I am very interested in the Indian stock market and as observable the performance of some stocks were absolutely insane in the most recent years.
 
-Kaggle Rock Paper Scissors:
-https://www.kaggle.com/c/rock-paper-scissors
+I hope we can exchange a bit in the comments. If you are interested in a more in depth analysis of Indian stocks please let me know.
 
-Anaconda:
-https://www.anaconda.com/products/individual
+Link for the bsedata lib:
 
-Come chat with us! 
-https://discord.gg/8eN7cqMhW4",2020-11-15T19:37:33Z,1076,25,4,71,33
-24,tFOoVibgYyw,Bot knows when an image is dirty?! Cleaning up Reddit with Python and FastAI,"FastAI makes image classification incredibly easy to implement. We are going to prove that by creating a Reddit bot that can classify images as NFSW/SFW in a small project. 
+https://bsedata.readthedocs.io/en/latest/
 
-@Jeremy Howard 
+Check out my Playlist on Python for finance:
 
-Discord: https://discord.gg/chWFwCb
-Bot Code: https://github.com/ClarityCoders/RedditBot-FastAI
-Scraper Code: https://github.com/ClarityCoders/RedditImageScraper
+https://youtube.com/playlist?list=PL9ATnizYJ7f9pCPBzr-isv0_R3E6OW6YY
 
-Reddit testing ground (NSFW):  /r/NSFW_Bot_Playground",2020-11-04T13:00:10Z,8515,245,17,76,279
-25,sEIv8UcR3Go,Reddit Image Scraper using Python. Get the data you need for any project!,"In just a few minutes I will show you how to create a Reddit image scraper! I use this in a ton of my artificial intelligence projects and anytime I need a bunch of images. If you have any questions jump in the Discord I'm probably online right now.
+Check out my videos on list comprehension and Nested List comprehension:
 
-Discord: https://discord.gg/chWFwCb
-Code: https://github.com/ClarityCoders/RedditImageScraper",2020-10-23T11:41:13Z,6190,237,22,73,281
-26,HubXt90MLfI,Bot Plays Dino Run! Can our dinosaur bot be stopped?,"We created a bot that plays dino run using computer vision. This AI plays dino run by processing data in real time data and making decisions to jump or duck. Bots playing 
- the popular dinosaur game have been done before but never this simple or easy to follow. As this ai plays dino run you will be able to code along and create your own cool AI bots and projects. 
+https://youtu.be/6AVKA8mEY98
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+https://youtu.be/z35sAlKTFSc",2020-12-28T15:00:00Z,17424,413,58,43,529
+74,bNDRiaFyLrs,How to get TWITTER data and analyze it using Python [official API],"Hi everyone,
+this video shows how you can get twitter data with the official API.
+In the end of this video I am applying some NLP techniques which is
+just a code copy from Alex the Analyst with some amendments on my twitter data.
 
-Bot Play Dino Run Code: https://github.com/ClarityCoders/ChromeDino
-Dino Run: chrome://dino/",2020-10-05T12:11:41Z,41215,1179,72,52,1323
-27,GS_0ZKzrvk0,FastAI learns to play Fall Guys - Undetectable Fall Guys bot.,"I used the very powerful FastAI library with Python to play Fall Guys and qualify over human players. These AI bots are fun and easy to code with FastAI and undetectable by anti-cheat efforts. Join us and share this video to stop these bots!
+Please check out Alex the Analyst video on more in depth information!
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd
+https://www.youtube.com/watch?v=MpIi4HtCiVk&t=113s
 
-Code: https://github.com/ClarityCoders/Fall-Guys-AI
+Link to twitter dev account:
 
- @Code Bullet
-@Jeremy Howard",2020-09-24T12:26:37Z,717571,15761,472,61,16705
-28,1-f51I231G0,AI Plays Space Invaders. Which machine learning algorithm will learn to play first?,"Reinforcement learning is used to train bots using two different algorithms. Playing a simple space shooter-style game.
+https://developer.twitter.com/en
 
-Custom gym to use with OpenAI algorithms. Showing how you can create more test environments for your custom algorithms. Once you get your environment set up in the OpenAI Gym format it is super easy to switch between different test algorithms.
 
-https://github.com/ClarityCoders/SpaceShooter-Gym
+Get the Notebook/Source code by becoming a Tier-2 Channel member:
+https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw/join
 
-Want to chat with me and other programmers join our discord!
-https://discord.gg/KUwxBJd",2020-08-10T13:30:11Z,19809,489,32,83,553
-29,IFyu4Hg9lKU,Reviewing and Debugging code!,"Today I'm going to show you an example of a bot a user from our discord created. We are going to load up their code and walk through how we can debug and fix errors. This will include using Visual Studio Codes built-in debugging features. 
+0:00 - 01:57  Prerequisites: Twitter Dev Acc, Keys and libraries
+01:57 - 04:00 Authentification with the Twitter API
+04:00 - 06:49 Functionality of the cursor
+06:49 - 07:33 Keyword search
+07:33 - 09:55 Getting multiple tweets and properties of those
+09:55 - 11:15 Problem of limited requests and possible workarounds
+11:15 - 12:50  Getting rid of retweets
+12:50 - 13:36 Idea of possible basic analysis of the tweets
+13:36 - 17:01 Alex the Analyst NLP Code application on the obtained twitter data",2020-12-22T16:08:30Z,46553,979,178,66,1335
+75,LWc-9v8RVwM,Simplified stock price simulation in Python [14 lines of code] using Monte Carlo methods,"Hi everyone,
+this video is showing how you can simulate stock prices using Python. The assumptions are simplified and there are a lot of potential possible improvements.
 
-This user goes by the nickname of Ambush and is an active user in our discord. He like others brought an outside project and with our help completed it! The bot GitHub he created is linked below along with our discord!
+#Python #Finance #Stockpricesimulation",2020-12-19T09:37:25Z,3949,109,12,88,133
+76,hfvn99jT1-Y,Conditionals [IF / ELSE] in Pandas - create columns based on conditions,"This video is showing how you can apply simple and multiple conditional statements (if/elif/else) statements in the python library Pandas for data manipulation which is essential for Data analysis, Data Science, Finance and similar fields.
 
-https://github.com/ambushneupane/InstaBot
-https://discord.gg/cAWW5qq",2020-07-06T12:59:37Z,860,29,4,29,37
-30,cBxNPtuh4Q0,Monitor Servers and Computers with Python. Portfolio Project!,"What's the best way to start your career as a developer? Start writing code and completing some portfolio projects! In this portfolio project, we are going to use Python to monitor our servers and computers. Using Python we will be able to tell if a server is down and whether it is allowing connections to certain ports. Finally, I will show you how to retrieve stats and how to send alerts so you're the first to know when a server is down.
+I am using both shown approaches but I highly prefer the list comprehension approach.
 
-Why is this important? Having a server monitoring script in your portfolio immediately shows an employer how useful your code can be to them. These projects mean much more than a novel tic tac toe style program.
+Let me know if you have any questions :-)
 
-Below is the link to our GitHub with all the code and our discord. I am online and other team members if you have any questions or get stuck.
+Check out my pandas playlist and my videos on list comprehensions:
 
-https://github.com/ClarityCoders/MonitorServers
-https://discord.gg/cAWW5qq",2020-06-29T18:00:08Z,7322,212,9,61,230
-31,LSP9PUx7n04,Create a Python Automatic Cloud Backup System! Using Google Drive.,"A simple and complete portfolio style project using Python and Google Drive API. We will create a backup folder on your system and write a program to automatically backup that folder to Google Drive. After that, we will create a scheduled task to run this script daily. 
+List comprehension:
+https://youtu.be/6AVKA8mEY98
 
-Below is the link to our GitHub with all the code and our discord. I am online and other team members if you have any questions or get stuck.
+A more advanced video on nested list comprehension (matrices):
+https://youtu.be/z35sAlKTFSc
 
-https://github.com/ClarityCoders/GoogleDrive/
-https://discord.gg/cAWW5qq",2020-06-16T17:12:31Z,7908,242,35,66,312
-32,GooQPDMH2Uk,PyTorch using Google CoLab GPU to run your machine learning programs.,"This is the 2nd video in our PyTorch Series but can be used for any program. We are going to get set up and run programs in Google Colaboratory to take advantage of a GPU. This will allow everyone to progress in this series even if you have an older PC. 
+Pandas playlist:
 
-Below is the link to our GitHub with all the code and our discord. I am online and other team members if you have any questions or get stuck.
+https://www.youtube.com/playlist?list=PL9ATnizYJ7f-qc0eDIY081kfqvJduiEkv
 
-https://github.com/ClarityCoders/PyTorchIntro
-https://discord.gg/cAWW5qq",2020-06-08T19:41:28Z,8167,206,16,69,238
-33,Rtmi-H-mlKw,Simple PyTorch working neural network. Beginner Friendly!,"PyTorch is becoming a popular tool in machine learning and can be extremely powerful. In this video, I will walk you through how to download and install PyTorch. Then we will create our first Neural Network and train it using PyTorch's sample dataset. Finally, we will create our own images and pass then through our fully trained network. 
+0:00 - 02:17 List comprehension approach 2 conditions
+02:17 - 04:45 List comprehension approach multiple conditions
+04:45 -  07:50 df.loc approach
+07:50 - 09:20 Final list comprehension example
 
-Below is the link to our GitHub with all the code and our discord. I am online and other team members if you have any questions or get stuck.
 
-https://github.com/ClarityCoders/PyTorchIntro
-https://discord.gg/cAWW5qq",2020-05-27T13:15:00Z,5841,161,14,57,189
-34,LHf44PwflEM,"Create a free live web app using Python, Flask and Heroku.","Today I'm going to show you how to create and upload a simple web app. We are going to use Python and the Flask framework. Then we are going to upload it to Heroku so you get a live URL to share your projects.
+#Python #Pandas #Conditionals",2020-12-11T14:59:27Z,10581,199,32,71,263
+77,mJTrQfzr0R4,Modern portfolio theory in Python: Efficient Frontier and minimum-variance portfolio,"Hi everyone,
+In this video we will construct an efficient frontier including the minimum variance portfolio. I am also showing how you can make portfolio returns and portfolio variance (or the square root: portfolio standard deviation) scalable. That is not only helpful in creating an efficient frontier for multiple assets but also to calculate return / variance of large portfolios.
 
-https://discord.gg/cAWW5qq
-https://github.com/ClarityCoders/Flask-Intro",2020-05-22T15:19:02Z,858,39,1,58,41
-35,B1IsCbXp0uE,Create email and text message SMS alerts with Python!,"https://discord.gg/cAWW5qq
+0:00-0:59 Intro
+0:59 - 02:37 Getting price data and normalized (log) returns
+02:37 - 03:52 Portfolioweights and Portfolioreturn
+03:52 - 06:00 Scalable (algebraic) Portfolioreturn
+06:00 - 10:20 Portfoliovariance / standard deviation
+10:20 - 12:57 Scalable (algebraic) Portfoliovariance / standard deviation
+12:57 - 15:30 Creating random portfolio weights
+15:30 - 18:00 Creating a large number of portfolios via loop
+18:00 - 20:25 Graphing the efficient frontier
+20:25 - 21:10 Interpreting the graph
+21:10 - 23:18 Minimum-Variance Portfolio
+23:18 - 25:17 Efficient frontier for multiple assets
 
-Quick and easy way to send text message SMS alerts in python. I use this alert system in a ton of my programs to make sure they are still running. Also to monitor servers and let me know if one goes down. 
+Theory:
+https://www.investopedia.com/terms/m/modernportfoliotheory.asp
 
-Check out our new discord server for free advice and help with your projects. We have people from all over the world so someone should be around to help!",2020-05-16T17:59:17Z,84574,2664,221,53,3106
-36,m2BGEwO6X14,Building a simple Instagram Bot in 2020,"We are going to teach anyone to build a simple Instagram bot to like photos and navigate the site. You can build and grow this bot as much as you want from that point. 
 
-Create your own strategies to gain Instagram followers with ease and without have to buy a service. 
+Check out my videos on Python for Finance and Pandas to better follow along.
 
-This instabot will also be given in our Github link below please check it out.
+If you have any questions please feel free to drop me a comment.
 
-https://github.com/ClarityCoders/Instabot/",2020-05-11T12:41:31Z,11637,396,75,39,546
-37,lbKJAoqgNGw,Pie Plot Tutorial: Python and Matplotlib!,"A lot of people want to learn how to map real word data using Python. What better way to spend time stuck at home then working with the most relevant data set. We are going to download and start graphing data using some of the most popular data science libraries. Today we are going to take a look at pie plots and see if we can make an unbiased graph.
 
-Grab all of our scripts and our updated plotting code using our GitHub below. 
-https://github.com/ClarityCoders/covid19
+#Python #Finance #EfficientFrontier #MinimumVariance",2020-12-08T07:41:21Z,7829,255,52,84,359
+78,JvfK4VBX75I,Backtesting Rayner Teos 88.89% winning rate Trading strategy in Python,"Hi everyone,
 
-If you need more help learning Python check out our full comprehensive course below. It covers all of the fundamentals and real-world apps to add to your portfolio. 
+I backtested Rayner Teos 88.89% Winning rate Trading strategy with Python. Be kindly invited to drop me a comment if you have any questions
+or want to provide feedback. 
+You will find a lot of python concepts here and you will need some Pandas
+knowledge and a good understand of Loops. Be kindly invited to check out
+the resources on my channel to better follow along.
 
-https://clarity-coders.teachable.com/p/ppp/?product_id=1810395&coupon_code=HALF",2020-05-04T17:31:52Z,277,8,2,41,12
-38,-M5Hb-AQxv0,PyQt5 Python Tutorial - 3: Style APP using CSS,"Source Code and UI file!
-https://github.com/ClarityCoders/PyQt5_examples
 
-Today we are going to style your PyQt5 APP using CSS. We will walk you through everything you need to style a PyQt5 application. We do this using PyQt5 set style and a variable with CSS code.  
+Important note:
+There is a mistake in the for loop at around 24:10. Please check my pinned comment
+for a correction below!
+Thank you so much to  Lewis Wong for letting me know!
 
-See our first video in this playlist if you need to install any of the tools! Let me know what other PyQt5 programs interest you in the comments.
+I would love to work on further on this strategy so if you want to participate on that journey please like the video and subscribe the channel :-) Thanks in advance.
 
-I go over in detail how to create a Pyqt5 program using Python and PyQt-tools.",2020-04-30T14:31:35Z,10617,244,27,46,298
-39,Td5eOG5DTBQ,PyQt5 Python Tutorial - 2: Create a High Low Guessing Game!,"Source Code and UI file!
-https://github.com/ClarityCoders/PyQt5_examples
+Credits and a big thank to Rayner Teo for presenting such an interesting strategy and big credits to macroption providing a very straightforward
+step by step approach to calculate the RSI which helped me a lot.
 
-Today we are going to give you a simple PyQt5 tutorial. We will walk you through everything you need to create a high low guessing game. No worries this is beginner-friendly. 
+Link to macroption:
+https://www.macroption.com/rsi-calculation/
 
-See our first video in this playlist if you need to install any of the tools! Let me know what other PyQt5 programs interest you in the comments.
+Rayner Teos video:
+https://www.youtube.com/watch?v=W8ENIXvcGlQ
 
-I go over in detail how to create a Pyqt5 program using Python and PyQt-tools.",2020-04-26T17:16:58Z,1197,25,6,59,37
-40,YCEyuCy_mRw,PyQt5 Python Tutorial: Create a graphic user interface! Uploaded 2020,"Today we are going to give you a simple PyQt5 tutorial. We will walk you through everything you need to install PyQt5 and start creating PyQt5 GUI. If you are just starting we will even show you how to get your python setup to work correctly with PyQt5. 
 
-We will also install PyQt5-tools that will allow us to use the simple drag and drop GUI designer. This won't be our only PyQt5 tutorial so if you like the video please subscribe and hit that bell!
+0:00 - 01:55 Brief Introduction to the strategy from Rayner Teo
+01:55 - 04:02 Getting S&P 500 price data with yfinance
+04:02 - 05:57 Calculating the 200 day simple Moving average
+05:57 - 07:03 Visualizing the strategies first condition
+07:03 - 07:44 Get daily price changes
+07:44 - 08:23 Get rid of error messages (chained assignments)
+08:23 - 09:01 Quick Summary
+09:01 - 10:41 Upmoves
+10:41 - 11:43 Downmoves
+11:43 - 14:18 Wilder’s Smoothing Method and Exponential Moving Average
+14:18 - 15:03 Average Upmove
+15:03 - 15:48 Average Downmove
+15:48 - 16:28 Relative Strength (RS) Calculation
+16:28 - 17:40 Relative Strength Index (RSI) Calculation
+17:40 - 18:00 Quick Reminder of the strategy
+18:00 - 20:29 Defining Buying Days (Yes/No)
+20:29 - 26:21 Profits and Losses Calculation
+26:22 - 28:06 Winning Rate Calculation
 
-I go over in detail how to install PyQt5 on Windows although you should be able to follow with any operating system.",2020-04-24T15:27:30Z,3822,122,6,69,134
-41,9wPyfo0G8iM,Programming Challege! Can you solve both of our problems?,"Today we have a little challenge with a real data set. We ask you to solve two problems and I walk you through how I would solve the first! Solve 2nd problem for a special shout out in the next video. 
+#Python #Trading #RSI",2020-11-23T22:27:16Z,36506,1026,186,70,1398
+79,9SjJ0lNcvL0,How to get a FREE DataCamp Subscription [2 months!],"Hi everyone,
+in this video I am showing you a simple way to get a free DataCamp Subscription for full 2 months.
+Let me know if this worked for you. You just need a Microsoft Account.
 
-Here is our GitHub with the data set and the code to solve the first problem. 
-https://github.com/ClarityCoders/CodingChallenge1
+DataCamp is a pretty decent and engaging platform to learn Python from scratch and you find a lot of Data Science resources.
 
-Here is the raw data for the csv we are using for the questions.
-https://raw.githubusercontent.com/ClarityCoders/CodingChallenge1/master/spam.csv",2020-04-18T23:26:26Z,257,8,1,57,10
-42,S2f6jKEWlCM,Can you be unbiased? Mapping COVID-19: Python Plotly and Heat Maps!,"A lot of people want to learn how to map real word data using Python. What better way to spend time stuck at home then working with the most relevant data set. We are going to download and start graphing data using some of the most popular data science libraries. Today we are going to take a look at heat maps and see if we can make an unbiased graph.
+I will release a review in the upcoming weeks where we are exploring some features and I am providing my honest opinion on if DataCamp is worth a paid subscription.
 
-Grab all of our scripts and our updated plotting code using our github below. We have a line plot folder as well as a heat map folder
-https://github.com/ClarityCoders/covid19
+Visit this page and follow my instructions:
+visualstudio.microsoft.com/
 
-If you need more help learning Python check out our full comprehensive course below. It covers all of the fundamentals and real world apps to add to your portfolio. 
+Wishing you a lot of fun with DataCamp! :-)
 
-https://clarity-coders.teachable.com/p/ppp/?product_id=1810395&coupon_code=HALF",2020-04-17T21:06:21Z,1244,31,4,67,39
-43,HHlInKhVz3s,Python File Encryption: Quick One day Project!,"Quick easy to learn resume project in Python! Learn how to use XOR encryption to lock down any file on your system.
+Just for the record I am not getting any money from DataCamp nor am I a DataCamp employee but if you want to have an affiliate link to support me just let me know.
 
-Grab all of our scripts and our updated plotting code using our GitHub below.
-https://github.com/ClarityCoders/Encrypt
+Just for the record 2: I am (unfortunately) NOT the guy in the thumbnail.
 
-If you need more help learning Python check out our full comprehensive course below. It covers all of the fundamentals and real world apps to add to your portfolio. 
+#DataCamp #Free #Data #Python",2020-11-14T22:33:29Z,6580,58,53,51,164
+80,qcnMuUTUop0,Julia Programming [2020] - Learn Julia with me! Watch me learn and FAIL :-),"Hello everyone,
+This tutorial-like video is about the programming language Julia.
+Julia is pretty hyped in Data Science / Machine Learning right now so let's learn it together and give it a shot.
+As said in the beginning this is an off topic video on my channel doing some live learning. In case you like this content please let me know. I had a lot of fun making this video and would love to make a Part 2 in the near future going more into depth here :-)
 
-https://clarity-coders.teachable.com/p/ppp/?product_id=1810395&coupon_code=HALF",2020-04-14T18:37:47Z,15713,418,28,46,474
-44,ufHknzs1x2A,Mapping covid-19: Using Python and Matplotlib!,"A lot of people want to learn how to map real word data using Python. What better way to spend time stuck at home then working with the most relevant data set. We are going to download and start graphing data using some of the most popular data science libraries. 
+If you wanna add anything please feel free to drop me a comment.
 
-Grab all of our scripts and our updated plotting code using our github below.
-https://github.com/ClarityCoders/covid19
+I am happy to answer every kind of questions!
 
-If you need more help learning Python check out our full comprehensive course below. It covers all of the fundamentals and real world apps to add to your portfolio. 
+Please feel free to scribble yourself through the concepts :-)
 
-https://clarity-coders.teachable.com/p/ppp/?product_id=1810395&coupon_code=HALF",2020-04-11T18:23:22Z,1594,37,9,46,55
-45,lLNyyV_d8Rc,Install Anaconda - 2020,"Today we are going to install Anaconda with 2020 versions. Installing Anaconda will give us many tools but most importantly we will get Python, Spyder IDE and Jupyter notebook. Anaconda is super simple and easy to setup but it can be confusing what programs to use after you get it installed. We will also open up Anaconda navigator and show you how to write your first program.
+00:00:00 Introduction & remarks
+00:02:10 Video content
+00:04:10 Julia Installation
+00:07:15 Arithmetic operators / Basic math / mathematical symbols
+00:13:00 Integrate Julia to Jupyter Notebook
+00:17:00 Variables / Datatypes
+00:24:35 Control Flow - If statement
+00:29:35 Difference between print / println
+00:31:05 User Input
+00:33:50 String to Integer typecast / conversion
+00:36:05 Control Flow - For loop
+00:42:30 Looping through an array
+00:46:40 Control Flow - while loop
+00:51:20 FizzBuzz Explanation
+00:52:05 FizzBuzz in Julia
+01:00:55 Nested loops
+01:02:00 Star print pattern with nested loops
+01:05:29 Triangle pattern 
+01:06:30 Inverted Triangle pattern
+01:09:06 Functions
+01:10:20 return statement in a function
+01:11:06 Recursive function
 
-Please let us know if you like it and we will upload a few follow-up lessons!
+#Julia #Programming #Beginner",2020-11-11T21:40:40Z,630,24,2,75,28
+81,U1LW3ceHm0I,How to get [and visualize] the yearly returns of any worldwide asset in Python,"This video is giving you an idea how to create a Python tool for screening the past yearly returns of any asset. No matter if that is a single stock, an equity index, an ETF or Cryptocurrency like Bitcoin. This is also giving you an idea how to improve visualizations by applying some common matplotlib techniques. 
 
-If you want to join our community please visit ClarityCoders.com sign up is just your email address.",2020-02-17T15:15:50Z,615,25,2,23,29
-46,3FpqXyJsd1s,Program a Reddit Bot - Python,"Ever wanted to program a Reddit bot in Python? 
+I made this tool because I was tired always searching and filtering for yearly returns when screening assets.
 
-In this tutorial we are creating a Reddit bot using python 3. We will cover how to do several functions using praw, the Python Reddit API Wrapper, to create our python bot. This will allow us to use Python to read data from Reddit. Using built in functions and methods of the wrapper we will also post to comments. This will be a start to finish tutorial including setting up your Reddit account and creating keys for your Python program. 
+I hope you find this helpful and have fun with that!
+Be kindly invited to further work on that tool and let me know your results.
+If you have any questions or problems please don't hesitate to drop me a comment.
 
-Please enjoy our Reddit bot guide!
+Mentioned site:
+https://www.macrotrends.net/1319/dow-jones-100-year-historical-chart
 
-Want to help support the channel?
-https://www.buymeacoffee.com/claritycoders",2020-02-08T16:04:19Z,21586,645,146,29,937
-47,QDGdLF8Sllo,python classes tutorial updated for 2020,"This tutorial updated in 2020 dives into creating custom python classes! Python classes can be simple if explained correctly! Python programming is built around objects and using custom classes creates objects. This python tutorial uses Spyder IDE and detailed graphics to explain how we can create our own classes and objects. We will cover instance variable and class variables.
+0.00- 04:30 Get yearly returns of an Asset
+04:30 - 12:55 Visualisation
+12:55 - 16:20 Testing and having fun with the tool
 
-Please let us know if you like it and we will upload a few follow-up lessons!
+Check out my Python for finance playlist:
+https://www.youtube.com/playlist?list=PL9ATnizYJ7f9pCPBzr-isv0_R3E6OW6YY
 
-If you want to join our community please visit ClarityCoders.com sign up is just your email address.",2020-01-31T14:04:01Z,1984,142,20,40,182
+
+
+#Python #PythonforFinance #Stockmarket",2020-10-31T15:46:03Z,867,44,4,78,52
+82,4b3LwICnnxc,Value at Risk [VaR] and VaR of a Portfolio in Python,"This video is showing how to calculate the Value at risk (VaR) of a portfolio containing multiple assets.
+The Value at risk is an important risk measure and is used in finance / banking , risk and Data Science related fields.
+
+It starts with explaining how the Value at risk is calculated in Python, then applies this calculation to a two asset portfolio and then uses the covariance variance method to calculate the Value at risk again to make it scalable.
+
+In the end I am pulling real stock prices to calculate the Value at Risk of a stock portfolio.
+
+This video is not explaining the concept of the Value at risk in general and is just a technical implementation using Python. The method I am using is the so called
+Variance-Covariance-Method.
+
+For more information on Value at risk:
+
+https://www.investopedia.com/terms/v/var.asp
+
+If you have any questions please feel free to drop me a comment.
+
+My playlist Python for finance where you find stuff like pulling free stock prices and calculating returns and many more:
+
+https://www.youtube.com/playlist?list=PL9ATnizYJ7f9pCPBzr-isv0_R3E6OW6YY
+
+Some helpful resources to better follow along the video:
+
+https://www.investopedia.com/terms/p/portfolio-variance.asp
+
+https://www.investopedia.com/ask/answers/041715/what-variancecovariance-matrix-or-parametric-method-value-risk-var.asp
+
+Very good resource with a different way of calculation but a very good
+explanation of the vector matrix multiplication:
+
+https://financetrain.com/analytical-approach-to-calculating-var-variance-covariance-method/
+
+#Python #Finance #VaR #ValueatRisk #Risk",2020-10-23T06:48:11Z,3491,89,27,52,143
+83,dnrJ4zwCADM,How to build a trading strategy [Momentum] with Python?,"In this video I am building a trading strategy in Python from scratch. The strategy used is the Momentum strategy. You should have at least basic knowledge of Pandas and maybe have gone through some videos on my Python for Finance playlist to better follow along.
+The momentum strategy is based on the findings of Jegadeesh/Titman and the conventional momentum strategy taking the past 12 month skipping the most recent month is just an application of Ken Frenchs approach.
+
+Further reading:
+http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_mom_factor.html
+
+https://www.jstor.org/stable/2328882?seq=1
+
+Momentum is a hot topic in academics as there is empirical evidence that this strategy is working but there is a discussion about WHY this strategy is working.
+
+There is way more potential to extend this strategy and backtest it. If you are giving me some feedback on this video I can upload additional stuff like long term backtests and stock recommendation systems based on past performance. 
+
+The most recent month is skipped due to the 1-month reversal effect. 
+
+If you have any questions please don't hesitate to drop me a comment. 
+
+0:00 - 01:50 Strategy explanation
+01:50 - 04:24 Getting ticker Symbols for the Dow Jones
+04:34 - 06:51 Getting prices for the components
+06:51 - 08:24 Getting monthly returns
+08:24 - 10:06 Calculate past 11 month returns
+10:06 - 11:32 Portfolio formation
+11:32 - 12:18 Get 12 month past performance skipping most recent month
+12:18 - 15:22 Applying quintiles (5-quantile) to returns
+15:22 - 16:22 Defining winners and losers
+16:22 - 19:14 Calculting the strategy return
+19:14 - 20:54 Benchmark comparison (DJI)
+20:54 - 22:24 Summary of all steps in Spyder
+22:24 - 22:53 Discussion the strategy/remarks
+
+
+#Python #Trading #Momentum",2020-10-13T19:00:43Z,17597,428,136,55,700
+84,VUrmKQOa3bM,Python currency converter - how to convert currencies with Python?,"Hi everyone,
+in this video i am introducing the python forex module. A pretty straightforward module useful for any business dealing with forex or foreign currencies.
+
+In case you have any questions or problems let me know.
+
+#Python #Forex #Currencyconverter",2020-10-04T08:50:10Z,3152,43,10,66,63
+85,B6O-mirYfWw,Multiple Linear Regression in Python with SKLEARN,"This video is showing how to implement a linear regression using sci-kit learn using the boston house price dataset which is an included dataset for practicing Machine Learning Algorithms. The dataset is suitable for regression tasks.
+
+Also covered is the Mean squared error by hand and R-squared by hand.
+To better follow along I recommend to watch the video on the simple linear regression on this channel first and also the video on the R-squared.
+
+
+If you have any questions or issues don't hesitate to drop me a comment.
+
+
+0:00 - 2:45 Understanding the data & define independent/dependent variable
+2:45 - 5:20 Training and testing data split
+5:20 - 6:20 Building the model
+6:20 - 7:30 Comparison of predicted and actual y values
+7:30 - 08:32 Mean squared error
+08:32 -10:30 R-squared
+10:30-12:50 Understanding the model
+
+Video on simple linear regression:
+https://youtu.be/iyfk62n7Lz8
+
+Video on R-Squared:
+https://youtu.be/15XH4ATeFmU
+ 
+
+#Python # DataScience #sklearn",2020-09-30T16:08:10Z,995,25,0,49,25
+86,kkwaI3zJc1Q,Should you learn Julia?,"This video is briefly introducing the Julia programming language, discusses it's growth in the last years, gives an overview of practical applications and also discusses with it is a replacement for Python or R in the field of Data Science / Machine Learning.
+
+Official Julia page:
+https://julialang.org
+
+Article about growth:
+https://www.zdnet.com/article/is-julia-fastest-growing-new-programming-language-stats-chart-rapid-rise-in-2018/
+
+Article about practical applications and potential employers:
+https://juliacomputing.com
+
+#Julia #Programming #DataScience",2020-09-25T17:59:47Z,1537,37,4,23,45
+87,15XH4ATeFmU,How to calculate R-squared in Python and in sklearn?,"This video is briefly explaining the concept behind the R-squared and is implementing a R-squared calculation in Python with and without sklearn.
+
+I recommend to watch the video on linear regression first:
+https://youtu.be/iyfk62n7Lz8
+
+Best regards!
+
+#DataScience #Regression #Rsquared",2020-09-23T19:54:16Z,4157,55,5,52,65
+88,gcNfOs7AN0A,10 Python tips and tricks you should check out,"This video is containing 10 Python tips and tricks. Those are containing a mix of beginner friendly and more intermediate Python topics.
+Let me know if you have any questions.
+
+1. Assigning multiple values to multiple variables
+2.Getting multiple values from a function / tuple decomposition
+3. Using dir and help
+4. Swapping variables
+5. creating dictionaries with **kwargs
+6. merging dictionaries with .items() and | operator
+7. from module import *
+8. Lambda functions
+9. List comprehension
+10. enumerate function
+
+Video on lambda functions:
+https://youtu.be/8zMpRzXxAcA
+
+Video on list comprehension:
+https://youtu.be/6AVKA8mEY98",2020-09-20T11:53:46Z,1181,59,10,46,79
+89,iyfk62n7Lz8,Linear regression in Python without libraries and with SKLEARN,"This video contains an explanation on how the Linear regression algorithm is working in detail with Python by not using any framework (except pandas) and does a comparison with the Data Science library scikit-learn (sklearn) afterwards.
+In my experience it is a nice thing to learn Machine Learning Algorithms by trying to build them from scratch before or besides using the package.
+
+If you like this video and want more of this drop me a comment and like this video. There are other measures like R-squared, mean squared error and many more.
+
+Best regards
+
+Dataset used:
+https://www.kaggle.com/c/2402-heights-and-weights-dataset/data
+
+#Python #sklearn #Regression
+
+0:00 - 0:50 Brief intro to linear regression
+0:50 - 1:50 data manipulations
+1:50 -2:20 defining x and y
+2:20 - 03:08 Visual explanation on scatterplot
+03:08 - 11:50 Linear regression without frameworks
+11:50 - 15:28 Linear regression in sklearn",2020-09-13T17:19:59Z,3721,105,11,62,127
+90,t2Zh-qnFa40,Covariance and Correlation Matrix of stock returns with Python,"This video is a continuation of the Python for finance series. A correlation matrix is a nice tool to check for relationships between different stocks. In this video I am giving you an idea how to use and how to visualize it.
+In the end I am comparing Indian stocks with American tech stocks and the S&P 500 as I saw I have some Indian followers which is really great to see.
+
+I am pretty busy right now but I will continue uploading more frequently by the end of September so be kindly invited to subscribe the channel :-)
+
+Video on getting stock prices with the pandas data reader:
+https://youtu.be/6qbTKtNCh48
+
+Have fun trying it on your own!
+
+0:00-2:40 Getting a portfolio of stocks
+2:40 - 04:18 Covariance matrix and variances
+04:18 - 08:02 Correlation matrix 
+08:02-10:23 Indian stocks in relation to American tech stocks
+
+#Python #correlation #finance",2020-09-05T19:33:55Z,2693,95,19,62,133
+91,xijgLQ57qq8,How to simulate key presses and build a simple typing bot with PYTHON,"This is an off-topic fun video on how to automate your keyboard using python and just simple loops and functions to build a typing bot.
+
+Sorry for the voice drop around Minute 3. It was early in the morning.
+
+In case you have any questions feel free to drop me a comment.
+
+The human typing idea is from the channel: PyTutorials.
+Check out his video on that:
+https://www.youtube.com/watch?v=DTnz8wA6wpw
+
+Check my Python Introduction playlist to learn loops and basic python programming:
+https://www.youtube.com/playlist?list=PL9ATnizYJ7f_yC9NJhwSaxIPX2atejZ3Q
+
+#Python #Keyboard #Presses",2020-08-20T12:07:17Z,1862,47,16,69,79
+92,EB-Yz5u5ctE,MAP & FILTER function in python and why I don't use them,"This video is containing an explanation of the map & filter function.
+As said I think these functions are great but I am preferring using list comprehension instead. Looking forward to your opinion!
+Have you experienced a use case where you preferred the map/filter function over list comprehension?
+
+Check out this video to understand the zip function:
+https://youtu.be/YKZuF4rufyU
+
+Video on list comprehension:
+https://youtu.be/6AVKA8mEY98
+
+Video on lamba functions:
+https://youtu.be/8zMpRzXxAcA
+
+Video on Nested list comprehension with matrices:
+https://youtu.be/z35sAlKTFSc
+
+#Python #Map #Filter",2020-08-16T17:28:35Z,512,27,12,56,51
+93,z_9x9q__MuI,How to get multiple keys for values from a dictionary in Python,"This video contains two ways to get key values by the assigned values from a dictionary in python. I have covered this video as I didn't find good resources on that topic.
+In case you have any questions please feel free to drop me a comment!
+
+Video is also containing list comprehension approaches.
+
+Video on list comprehension:
+https://youtu.be/6AVKA8mEY98
+
+Video on dictionaries:
+https://youtu.be/YKZuF4rufyU
+
+#Python #dictionary #key",2020-08-13T16:43:02Z,5794,99,17,63,133
+94,8zMpRzXxAcA,Lambda functions in python (and why they improve your coding skills),"I am using lambda expressions in my Python for finance videos pretty often so here is an explanation how those functions are working.
+Lambda functions as said are reducing the lines of code and improving your code readability as they are clearly defined where they are actually executed - a difference to normal functions.
+For Data Science lambda functions are important as you are able to perform complex functions on single values in a data frame using Pandas apply or aggregate function.
+
+#Python #lambda",2020-08-10T15:36:58Z,880,46,4,68,54
+95,oyL99oa6gf8,Data Science with cryptocurrencies - Analysis & Prediction using Python,"Disclaimer: This is no investment recommendation or an investment advice. This video is for educational and entertainment purposes only.
+
+Thank you for 500 subscribers! As promised in the other cryptocurrency video I am publishing my analysis of the largest cryptocurrencies: Bitcoin, Ethereum, Litecoin and Ripple.
+
+In specific that is analyzing price charts, cumulating returns, taking a look at volatilities and return distributions, outlier analysis, correlation analysis and building a prediction model.
+
+I hope you like it! In case anything is unclear or you have any questions feel free to drop me a comment.
+
+Mentioned videos:
+Video on getting cryptocurrency price data:
+https://youtu.be/w6JqNyHNQnQ
+
+Video on fbprophet  (Prediction model):
+https://youtu.be/GkF1MDesMTs
+
+#Python #DataScience #Cryptocurrency",2020-08-06T17:31:20Z,9621,272,40,71,352
+96,YKZuF4rufyU,Learn Python the FAST way Part III - BOOST your basic python skills,"This video is covering very useful concepts to excel your Python skills. In case you have any questions please let me know in the comments below.
+
+Timestamps:
+0:00 - 0:28 Intro & Course Overview
+0:28 - 4:30 Helpful list functions
+4:30 - 6:20 Introducing the zip function
+6:20 - 8:50  Merging/Operations of lists with the zip function
+8:50 - 9:38 List comprehension using zip function
+9:38 - 13:25 dictionaries and useful functions
+13:25 - 14:52 Merging lists into dictionaries using the zip function
+14:52 - 16:12 iter & next function
+16:12 - 18:12 String formatting using format
+18:14 - 18:53 f-String formatting
+18:53 - 21:30 Building an Algorithm - Sigma function
+21:30 - 22:44 Improving the Algorithm by using a function
+
+list comprehension video:
+https://youtu.be/6AVKA8mEY98",2020-08-01T18:03:43Z,1384,62,11,67,84
+97,pLyatGMTqzY,Fama French Regression in Python,"Disclaimer:
+This video is for informational or entertainment purposes only. This is not supposed to be an investment advice.
+
+In this video we are using the Fama French Regression model to analyze mutual funds. This regression is a pretty nice tool to evaluate your investment and have a quick overview how the funds manager or the ETF is performing. 
+The Fama French regression is a multiple regression which is an extension of the simple linear regression using the CAPM model which we have covered in the previous video.
+
+In case you have any questions you are kindly invited to drop me a comment.
+
+Pandas documentation for reading the Ken French data library:
+https://pandas-datareader.readthedocs.io/en/latest/readers/famafrench.html
+
+Ken French Data library:
+http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
+
+Video on getting and understanding online stock data:
+https://youtu.be/6qbTKtNCh48
+
+CAPM Regression video:
+https://youtu.be/Y-BqM3WaX-I
+
+Pandas Playlist:
+https://www.youtube.com/playlist?list=PL9ATnizYJ7f-qc0eDIY081kfqvJduiEkv
+
+0:00 - 1:15 Intro & required modules
+1:15-1:50 Time horizon
+1:50-2:50 Asset: Fidelity Growth Company Fund
+2:50-4:25 Getting funds daily returns
+4:25-6:20 Cumulating daily returns to get monthly returns
+6:20-10:08 Getting Fama French factors
+10:08-12:55 Merging both dataframes
+12:55-13:52 Scaling
+13:52-15:00 Funds Excess Returns
+15:00-17:32 Regression
+17:32-19:26 Interpretation of regression results
+
+
+#Python #FamaFrench #Regression",2020-07-28T06:51:20Z,9025,254,72,32,398
+98,APWdsCm9NyQ,Learn Python the FAST way Part II - Most important basics in 30 minutes,"This video is covering the most important basics for using Python.
+I was trying to keep it really brief but precise. If you have problems with any concepts feel free to drop me a comment. I am happy to help!
+Have fun going through the video! :-)
+
+Timestamps:
+
+0:00-0:34 Intro & Course Overview
+0:34-02:08 Jupyter Notebook Installation
+02:08-05:31 Jupyter Introduction
+05:31 - 11:25 Typecasting
+11:25 - 14:58 Input function and typecasting
+14:58 - 19:32 List Indexing & Slicing
+19:32 - 24:22 Conditional Statements (If/Else/Elif)
+24:22 - 27:17 For loop
+27:17 - 31:02 While loop
+31:01 - 32:31 Tasks to check your knowledge
+
+Links:
+
+First tutorial:
+https://youtu.be/ah0MGHHEVPQ
+
+Understand the Anaconda environment (base): https://youtu.be/P8QjOgBhhd4
+
+Python strings and their related ASCII Value:
+https://youtu.be/t-5Eir78Jy8
+
+
+
+#Python #Tutorial #PythonIntroduction",2020-07-24T08:26:37Z,2097,102,18,71,138
+99,7FwXz1KqFBU,Full Introduction to SPYDER - the best Python IDE for Data Science,"This video is covering an introduction to the most important features of spyder. This IDE is used widely in the field of Data Science & Machine Learning as it enables a very high coding efficiency and great visualization tools.
+
+What is your favorite IDE? Let me know in the comments below :)
+
+
+Installation Guide for Anaconda: https://youtu.be/P8QjOgBhhd4
+
+#Python #DataScience #MachineLearning",2020-07-19T20:57:23Z,56733,1021,124,66,1269
+100,ah0MGHHEVPQ,Learn Python the FAST way Part I - the very basics,"This video is covering the Installation of Python, first steps in IDLE , variable assignments and arithmetic operations, creating lists and tuples.
+If you have any questions please drop me a comment.
+
+0:00-0:30 Video Outline
+0:30-01:26 Python Installation
+01:16-02:00 Python Coding in the Terminal
+02:00-03:35 First steps in IDLE
+03:35-06:01 Creating a Script/Edit mode in IDLE
+06:01 -06:50 Flow of Execution in Python
+06:50-08:44 Datatypes in Python
+08:44-09:35 type function
+09:35-13:59 Arithmetic operations(+) with different data types
+13:59 -15:00 Lists and tuples
+15:00 - 16:01 Practice Tasks and Up Next",2020-07-17T14:54:10Z,3955,148,14,50,176
+101,P8QjOgBhhd4,Anaconda Installation & Virtual Environments,"Anaconda is probably the most important python distribution for Data Science. This video is containing an installation guide of Anaconda and to deal with Anaconda via Terminal commands. We are learning how to deal with conda in general and also creating a Python 2.7 environment in specific. 
+The terminal commands in the beginning are optional as they just show the functionality of the terminal. If they are confusing you, just ignore them.
+
+
+0:00-0:34 Download Anaconda
+0:34-01:50 Basic Terminal commands 
+01:50-02:55 Installation
+02:55-08:23 Virtual environments
+
+
+Link for additional commands:
+https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
+
+#Python # Anaconda #DataScience",2020-07-15T13:44:29Z,1585,55,12,44,79
+102,LLyGRfU1lic,Grouping & Pivoting in Pandas,"This video contains useful concepts when working with large datasets especially in the field of Data Science/Machine Learning in general or Explorative Data Analysis in specific. 
+Before moving to the main concepts we are using Data Cleaning/Manipulation and some slicing. The datetime transformer function of Pandas is really really useful and I am highly recommending to get comfortable with it :) 
+Grouping and Pivoting are very useful to get a better overview and to aggregate data. I am also doing some Visualizations to show you how to approach to larger datasets and getting a better overview.
+The shown groupby function could also be used to apply certain functions (such as lambda) but I am not covering that in this video.
+
+In the end of this video I am showing a trick to speed up your data selection and giving you a mini Data Science project ideal. Have fun solving it! :-)
+
+As always if there are remaining questions I am very happy to help!
+
+0:00-02:02 Intro
+02:02- 03:39 String to date transformation
+03:39-06:35 Grouping on one column
+06:35- 08:32 Grouping on multiple columns
+08:32-13:38 Pivoting/Pivot Tables in Pandas
+
+
+dataset: https://www.kaggle.com/jameslko/datasets
+
+#Pandas #DataScience #Python",2020-07-12T18:15:12Z,748,51,4,29,59
+103,wkU3QElFgVs,MATH required for DATA SCIENCE,"As promised here is my video discussing the Math needed for Data Science or Machine Learning. More important than the essential maths is the learning progress and how you are learning math. I am not a fan of a full coverage of math beforehand but I think you need to master at least the basics to have a better progress in general. In my opinion it is more efficient to learn math while you are learning the concept. 
+
+The most important skills in my opinion are:
+Statistics, Linear Algebra and Calculus
+
+Looking forward to your comments and thoughts on that!
+
+SOURCES:
+Main:
+https://www.kdnuggets.com/2020/06/math-data-science.html
+https://flatironschool.com/blog/how-much-math-do-you-need-to-become-a-data-scientist
+secondary:
+https://medium.com/s/story/essential-math-for-data-science-why-and-how-e88271367fbd
+
+Highly recommended blog with a very unique opinion:
+https://www.sharpsightlabs.com/blog/math-for-data-science/",2020-07-09T14:10:56Z,6071,332,23,30,378
+104,z35sAlKTFSc,Matrix calculations with Nested List comprehension in Python,"In this video you will learn about Nested list comprehension with matrix calculations and also deepens your understanding of iterations and indexing.
+Before approaching to array concepts with e.g. Numpy it is important to understand that matrices are also covered by python built-in functions. 
+Those concepts should help especially Data Science & Machine Learning interested people.
+
+Video on List Comprehension:
+https://youtu.be/6AVKA8mEY98
+Video on Nested Loops:
+https://youtu.be/EHA53-05510
+
+0:00 - 0:58 Creating matrices with list of lists
+0:58 - 02:10 List of list/matrix indexing 
+02:10 - 03:20 Determinant with indexing
+03:20 - 07:25 Nested loops on matrices
+07:25 - 09:21 Nested list comprehension on matrices
+09:21 - 12:51 Transposed matrix with nested list comprehension",2020-07-05T13:32:09Z,2969,76,4,60,84
+105,Y-BqM3WaX-I,How to get the Stock Beta with Python - CAPM Regression,"This video is providing an implementation of a linear regression to get a stock's beta which is the covariance between the stock return and market return divided by the variance of the market return. 
+Also I am showing how to get the risk-free rate to use excess returns.
+As a prequisite you should have an idea about the CAPM - but this is optional.
+
+0:00-01:28 Introducing linear regression and CAPM
+01:28-02:55 What is Beta?
+02:55-11:23 Estimating Beta with linear regression
+11:23 - 14:09 Estimating Beta with linear regression including the risk-free rate
+
+Ken French data library:
+http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html#Benchmarks
+
+Video on getting stock returns with python:
+https://youtu.be/6qbTKtNCh48
+
+#Python #CAPM #Regression",2020-07-02T09:49:39Z,4337,112,30,55,172
+106,2K8sLMzOiRk,What is DEPLOYMENT in Data Science or Machine Learning and why it is important?,"In this video I am explaining the importance of Deployment in Machine Learning resp. Data Science. I hope I made this video understandable and entertaining simultaneously.
+Deployment tools which will be covered in this channel are Flask and Django and MS Azure as the Cloud Computing platform.
+
+Highly recommended Blog from Luigi Patruno:
+https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/",2020-06-29T20:42:16Z,819,50,11,79,72
+107,EHA53-05510,Nested Loops and Patterns in Python,"In this video we are taking a look at Nested Loops and creating Patterns as a triangle or pyramid in python.
+Let me know: Could you solve the integer Date task? (see below for timestamp) Drop me a comment with your alternative approach :-)
+
+
+0:00 Introductory Example and functionality of Nested loops
+02:10 Second Example: Creating Integer Dates
+05:34 Creating patterns - basic understanding
+07:00 Pattern - Triangle
+08:45 Pattern - Pyramid
+12:25 Pyramid with flexible rows
+13:15 Nested list comprehension",2020-06-28T10:50:23Z,9914,206,38,35,282
+108,VfRyjSh1v0I,Explorative Data Analysis with Python - PANDAS  and SEABORN - tutorial #4,"This video is containing an Explorative Data Analysis - EDA - on the cereal dataset from kaggle. Used tools are Pandas, Seaborn and Matplotlib. It also includes data cleaning resp. data manipulation and handling wrong values and is showing Data Science related concepts like the distribution of the data in probably the easiest form.
+
+0:00 Data Overview
+1:32 Data Cleaning
+03:24 Dropping wrong rows
+05:54 Explorative Data Analysis
+07:12 Heatmap
+08:15 Pairwise Correlation
+09:16 Boxplots
+
+Dataset: https://www.kaggle.com/crawford/80-cereals
+Instagram: https://www.instagram.com/algovibesofficial/",2020-06-25T16:40:10Z,1004,49,2,73,53
+109,6qbTKtNCh48,How to get online stock prices with Python,"This video is showing you how to get online stock data from the internet and analyze this data. It is also showing how to calculate cumulative returns to make stocks comparable.
+This is the fundamental part of the Python for finance track on my channel and you should give it a watch :-) 
+
+Apple Dividend history:
+https://www.nasdaq.com/market-activity/stocks/aapl/dividend-history",2020-06-23T17:33:42Z,4944,78,38,42,154
+110,6AVKA8mEY98,LIST COMPREHENSION in Python,This video is containing list comprehension in python which is improving your style of code and saves you some lines of code.,2020-06-21T19:08:03Z,940,74,12,28,98
+111,GkF1MDesMTs,How to predict Stock Prices with Python using Facebook's prediction tool fbprophet,"This video is containing an application of the prediction tool developed by the Data Science team of facebook - fbprophet. 
+You can apply this tool to time series data such as sales. I am applying it do a Stock Price Prediction here.
+CREDITS TO FACEBOOK AND THE TOOL.
+If you have problems getting the modules installed or imported please drop me a comment. It's a bit of a challenge but once you made it you have a very nice and powerful tool.
+
+
+Facebooks Github:
+https://facebook.github.io/prophet/docs/quick_start.html#python-api
+
+Alternative installation on conda:
+
+On Prompt install Ephem:
+conda install -c anaconda ephem
+
+Install Pystan:
+conda install -c conda-forge pystan
+
+Finally install Fbprophet
+conda install -c conda-forge fbprophet
+
+CREDITS TO LUANAFORMIGA on GitHub
+
+Fixing holiday bug error:
+
+You need to find the fbprophet folder on your pc first by a simple folder search for 'fbprophet'
+Replace line 16 in fbprophet/hdays.py:
+
+from holidays import WEEKEND, HolidayBase, easter, rd
+
+to
+
+from holidays import WEEKEND, HolidayBase
+from dateutil.easter import easter
+from dateutil.relativedelta import relativedelta as rd
+
+CREDITS: ARTURGONTIJO on Github!",2020-06-19T16:37:02Z,8028,180,65,82,310
+112,e0tL68PvwUY,Data FILTERING in Pandas via Boolean Indexing - tutorial #3,"This video is containing data filtering with the boolean indexing approach in pandas (python).
+Dataset: https://www.kaggle.com/crawford/80-cereals
+
+
+#Python #Pandas #DataScience",2020-06-18T13:49:51Z,1181,69,13,59,95
+113,w6JqNyHNQnQ,"How to get cryptocurrency prices via Python (Bitcoin, Ethereum)","Dear everyone, 
+in this video we will get Cryptocurrency prices from the internet such as Bitcoin, Ethereum, Litecoin and Ripple and quickly analyze them.
+
+Check out the Cryptocurrency analysis here:
+https://youtu.be/oyL99oa6gf8
+
+#Python #Cryptocurrencies #Bitcoin",2020-06-16T14:54:36Z,2013,67,3,63,73
+114,whmzhBWk7tQ,How to learn DATA SCIENCE?,"This video contains an overview of needed skills in Data Science resp. Machine Learning as a Beginner. I am referring to both a non mathematical or statistical background and vice versa. All of the mentioned skills will be covered on this channel.
+There will be a video containing an overview of Machine Learning Algorithms in the near future so be sure to stay tuned :-)
+
+#DataScience #Python #Programming",2020-06-14T14:56:37Z,2169,100,23,26,146
+115,t-5Eir78Jy8,Strings and their related ASCII value in Python,"This video is explaining the concept of ASCII values of strings in python and is implementing an algorithm to get ASCII values from multiple letters.
+
+#Python #ASCII #strings",2020-06-12T14:43:42Z,701,34,5,47,44
+116,KKfIXeY3g5g,Data SELECTION in Pandas via loc and iloc - tutorial #2,"This video is containing the concept of data selection showing how you can select columns or rows with the loc and iloc function of dataframes.
+
+Dataset: https://www.kaggle.com/crawford/80-cereals
+
+#Python #Pandas #DataScience",2020-06-10T13:05:12Z,1180,65,4,55,73
+117,j3ZaiA_U_eg,Are you an INTERMEDIATE in Python? Answer these questions to find out!,This video contains a knowledge check on your python skills. Try to find out if you are an intermediate by answering this questions.,2020-06-09T13:31:42Z,3191,104,26,70,156
+118,1_uF6o-9ms0,Net Present Value (NPV) in Python,This video is showing three different ways to calculate the Net Present Value - NPV - in Python.,2020-06-07T10:17:14Z,1614,48,4,33,56
+119,mYR-M7FDRcE,Introduction to linear regression in Python with Numpy and statsmodels,"This video is showing you two ways besides scikit-learn (sklearn) to implement a linear regression in python. Of course this is just an introduction and sklearn will be covered on this channel as well with every common Machine Learning Algorithm including linear regression.
+
+Important note: I deleted the Matplotlib tutorial due to not meeting my own quality standards. There will be more on Matplotlib in the near future.",2020-06-04T19:25:37Z,2284,66,7,70,80
+120,1IEIEWJc49w,Python - PANDAS  - creating data frames and reading files - tutorial #1,This video is an introduction to pandas showing how to create a data frame from scratch and also showing how to read csv or excel files with pandas.,2020-06-02T10:16:52Z,2602,88,4,71,96
+121,Q9hg547tkMA,RECURSION in Python - factorial and sum recursive function,In this video I am explaining the concept of Recursion and coding a factorial and a sum function in Python.,2020-06-01T10:26:59Z,1091,48,3,58,54
