@@ -1,11 +1,8 @@
 ,name,yield,price,target,upside,buy,hold,sell,score,mrkt,sector,subsector,volume,beta
-6,SAT,8.0,19.3,27.0,40,7,0,0,21,SET999,Industrials,Automotive,66.9,0.9
-0,BANPU,7.7,11.1,14.81,33,6,3,0,21,SET50,Resources,Energy & Utilities,1425.83,0.99
-1,PTTGC,6.9,50.0,57.67,15,5,1,0,16,SET50,Industrials,Petrochemicals & Chemicals,1076.09,1.03
-7,LALIN,6.9,9.6,12.7,32,5,0,0,15,SET999,Property & Construction,Property Development,19.79,0.91
-8,DCC,6.5,2.96,3.47,17,6,0,0,18,SET999,Property & Construction,Construction Materials,38.8,0.51
-9,SC,5.8,3.82,4.47,17,5,0,0,15,SET999,Property & Construction,Property Development,39.49,0.8
-4,ORI,5.7,10.9,13.93,28,10,1,0,31,SET100,Property & Construction,Property Development,120.7,1.34
-5,BCP,5.6,30.5,35.59,17,7,1,0,22,SET100,Resources,Energy & Utilities,247.79,1.13
-2,RATCH,5.5,44.25,53.95,22,4,1,0,13,SET50,Resources,Energy & Utilities,151.58,0.71
-3,PTT,5.4,37.75,50.81,35,8,0,0,24,SET50,Resources,Energy & Utilities,2419.2,0.98
+0,BANPU,8.2,11.9,15.51,30,5,2,0,17,SET50,Resources,Energy & Utilities,1430.27,0.98
+1,PTTGC,6.3,49.5,57.28,16,7,1,1,19,SET50,Industrials,Petrochemicals & Chemicals,1036.6,1.03
+6,SC,5.8,3.9,4.48,15,6,0,0,18,SET999,Property & Construction,Property Development,38.64,0.82
+2,SCBB,5.7,83.25,152.4,83,9,0,0,27,SET50,Financials,Banking,1627.19,1.65
+5,ORI,5.7,11.1,13.72,24,8,1,0,25,SET100,Property & Construction,Property Development,116.27,1.32
+3,PTT,5.6,37.25,47.75,28,6,0,0,18,SET50,Resources,Energy & Utilities,2354.49,1.01
+4,RATCH,5.4,44.75,53.95,21,4,1,0,13,SET50,Resources,Energy & Utilities,149.87,0.73

@@ -16,7 +16,7 @@ end
 file_out = 'c:\A8\data\setindex.csv'
 fo = File.open(file_out, "w")
 
-url = "https://marketdata.set.or.th/mkt/marketsummary.do?language=en&country=US"
+url = "https://www.settrade.com/settrade/home"
 
 html_data = open(url).read
 doc = Nokogiri::HTML(html_data)
@@ -25,15 +25,16 @@ array = []
 ary_out = []
 ary_out[0] = Date.today
 
-elements = doc.xpath("//table//tr//td")
-#puts elements.length
+elements = doc.xpath("//div[@class='value']")
+puts elements
 i = 0
 elements.each do | element |
         puts i.to_s + ' ' + element.text
   case i
-    when 1 
+    when 0 
       ary_out[1] = strip(element.text)                       
   end
+  puts ary_out[i]
   i += 1
 
 end

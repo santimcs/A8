@@ -1,0 +1,13 @@
+price = //h1[@class='value text-white mb-0 me-2 lh-1']
+Beta = //div/label[text()='Beta*']
+min, max = //div[@class="date-range-week-value d-flex"]
+
+https://www.settrade.com/settrade/home
+SET index = 
+
+https://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=INTUCH
+stats = //div[@class="text-right col-xs-4"]
+
+dailies = //table[@class='table table-info']//tr//td
+
+date = //div[contains(text(),'ข้อมูลล่าสุด')]

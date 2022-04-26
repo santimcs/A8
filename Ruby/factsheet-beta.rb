@@ -16,6 +16,7 @@ puts "Name       Daily Vol Beta    Max     Min S"
 puts "------------------------------------------"
 fi.each do |line|
   ary_in = line.split(',')
+  printf line
   stock_name = ary_in[0]
   status = ary_in[1].chomp
 	url = "https://www.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=th&country=TH"
@@ -33,12 +34,12 @@ fi.each do |line|
 		if (i == 2)
 			maxmin = element.text.strip
 		end
-  		if ( element.text.strip  == 'มูลค่าซื้อขาย/วัน (ลบ.)' )
+  	if ( element.text.strip  == 'มูลค่าซื้อขาย/วัน (ลบ.)' )
 			k = i 
-  		end 
-  		if ( element.text.strip  == 'Beta' )
+  	end 
+  	if ( element.text.strip  == 'Beta' )
 			l = i 
-  		end 
+  	end 
 	end
 	i = 0
 	ary_out = []
