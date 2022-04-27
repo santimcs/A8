@@ -5,7 +5,7 @@ load './my_utils.rb'
 
 process = ARGV.shift
 
-file_in = '..\data\name-ttl.csv'
+file_in = '..\data\stocks-all.csv'
 file_out = '..\data\dailies.csv'
 file_temp = '..\data\name-tmp.csv'
 fo = File.open(file_out, "w")
@@ -35,9 +35,9 @@ end
 ft.close
 
 # Column Header
-header = 'Name|---Date---|Prv|Open|Max--|Min--|Avg--|Volume-|Value------|Par|Ceiling|Floor'
+header = 'Name,---Date---,Prv,Open ,High ,low  ,Close,Volume-,Value------,Par,Ceiling,Floor'
 header += "\n"
-fo.write(header) #   '..\data\stats.csv 
+fo.write(header) #   '..\data\dailies.csv 
 
 time = Time.new
 puts 'Start at: ' + time.strftime("%I:%M %p")
@@ -56,25 +56,29 @@ fi.each do |line|
 	tmp = elements.text
 	list = tmp.split(" ")
 	date1 = list[1]
-	#puts date1
 	list = date1.split("/")
 	date2 = list[2]+'-'+list[1]+'-'+list[0]
-	#puts date
+
+	elements = doc.xpath("//h1")
+	i, price = 0
+	elements.each do |element|	
+		if (i == 1)
+			price = element.text.strip 
+		end 
+		i += 1 
+	end
 
 	elements = doc.xpath("//table[@class='table table-info']//tr//td")
-
-	#puts elements
-
 	i, j = 0
 	array = []
 	array[0] = stock_name.upcase
 	array[1] = date2
-
 	offset = 1
 
 	elements.each do |element|	
 
 		if i.odd?
+
 			case i
 
 				when i
@@ -84,7 +88,6 @@ fi.each do |line|
 					array[offset+j] = tmp
 
 			end	 #case
-
 
 		end #odd
 		i += 1
@@ -98,26 +101,22 @@ fi.each do |line|
 	ary[3] = array[3]
 	ary[4] = array[4]
 	ary[5] = array[5]
-	ary[6] = array[6]
+	ary[6] = price
 	ary[7] = strip_comma(array[7])
 	ary[8] = strip_comma(array[8])
 	ary[9] = array[9]
 	ary[10] = array[10]
 	ary[11] = array[11]	
-#ary[12] = array[12]
-#ary[13] = array[13]		
-#ary[14] = array[14]
 
-
-	out_line = ary.join('|') 
+	out_line = ary.join(',') 
 	out_line += "\n"
 	puts out_line
 	fo.write out_line	
-	sleep(1)	
+	sleep(2)	
 	
 end #line
 
 time = Time.new
 puts 'End at: ' + time.strftime("%I:%M %p")
-
 fo.close
+fi.close
