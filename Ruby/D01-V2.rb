@@ -35,7 +35,7 @@ end
 ft.close
 
 # Column Header
-header = 'Name,---Date---,Prv,Open ,High ,low  ,Close,Volume-,Value------,Par,Ceiling,Floor'
+header = 'Name,---Date---,Prv,Open ,High ,low  ,Close,Volume-,Value------,Par,Ceiling,Floor,ChgAmt,ChgPct'
 header += "\n"
 fo.write(header) #   '..\data\dailies.csv 
 
@@ -61,9 +61,15 @@ fi.each do |line|
 
 	elements = doc.xpath("//h1")
 	i, price = 0
+	chgamt, chgpct = ''
 	elements.each do |element|	
-		if (i == 1)
-			price = element.text.strip 
+		case i
+			when 1
+				price = element.text.strip 
+			when 2
+				chgamt = element.text.strip 
+			when 3
+				chgpct = element.text.strip 
 		end 
 		i += 1 
 	end
@@ -107,6 +113,8 @@ fi.each do |line|
 	ary[9] = array[9]
 	ary[10] = array[10]
 	ary[11] = array[11]	
+	ary[12] = chgamt
+	ary[13] = chgpct
 
 	out_line = ary.join(',') 
 	out_line += "\n"
