@@ -1,8 +1,7 @@
 ,name,yield,price,target,upside,buy,hold,sell,score,mrkt,sector,subsector,volume,beta
-0,BANPU,8.2,11.9,15.51,30,5,2,0,17,SET50,Resources,Energy & Utilities,1430.27,0.98
-1,PTTGC,6.3,49.5,57.28,16,7,1,1,19,SET50,Industrials,Petrochemicals & Chemicals,1036.6,1.03
-6,SC,5.8,3.9,4.48,15,6,0,0,18,SET999,Property & Construction,Property Development,38.64,0.82
-2,SCBB,5.7,83.25,152.4,83,9,0,0,27,SET50,Financials,Banking,1627.19,1.65
-5,ORI,5.7,11.1,13.72,24,8,1,0,25,SET100,Property & Construction,Property Development,116.27,1.32
-3,PTT,5.6,37.25,47.75,28,6,0,0,18,SET50,Resources,Energy & Utilities,2354.49,1.01
-4,RATCH,5.4,44.75,53.95,21,4,1,0,13,SET50,Resources,Energy & Utilities,149.87,0.73
+0,SCB,6.5,73.0,151.2,107,10,0,0,30,SET50,Financials,Banking,1627.19,1.65
+1,PTTGC,6.1,49.0,60.05,23,8,1,1,22,SET50,Industrials,Petrochemicals & Chemicals,1036.6,1.03
+4,ORI,5.9,11.0,13.66,24,6,0,0,18,SET100,Property & Construction,Property Development,116.27,1.32
+5,SC,5.8,3.9,4.48,15,6,0,0,18,SET999,Property & Construction,Property Development,38.64,0.82
+2,PTTEP,5.5,144.5,165.8,15,12,4,0,40,SET50,Resources,Energy & Utilities,2421.91,0.59
+3,PTT,5.5,37.0,45.8,24,5,0,0,15,SET50,Resources,Energy & Utilities,2354.49,1.01

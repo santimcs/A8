@@ -1,2 +1,4 @@
 name,percent,status,fm_price,to_price,market,fm_date,bdays,max_price,min_price
-DOHOME,-5.41,I,22.2,21.0,SET100,2022-04-20,5,21.3,-3.6
+STA,3.91,S,24.3,25.25,SET100,2022-04-27,2,25.25,24.3
+MCS,3.36,B,11.9,12.3,SET,2022-04-21,8,12.5,11.9
+DOHOME,-9.46,B,22.2,20.1,SET100,2022-04-20,9,22.3,20.0

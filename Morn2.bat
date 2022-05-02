@@ -1,6 +1,6 @@
-cd\A8\ruby
+REM cd\A8\ruby
 
-ruby factsheet-beta.rb
+REM ruby factsheet-beta.rb 
 
 cd\ruby\port_lite
 

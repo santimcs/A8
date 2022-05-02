@@ -5,7 +5,7 @@ load './my_utils.rb'
 
 process = ARGV.shift
 
-file_in = '..\data\stocks-all.csv'
+file_in = '..\data\name-ttl.csv'
 file_out = '..\data\dailies.csv'
 file_temp = '..\data\name-tmp.csv'
 fo = File.open(file_out, "w")
@@ -35,7 +35,7 @@ end
 ft.close
 
 # Column Header
-header = 'Name,---Date---,Prv,Open ,High ,low  ,Close,Volume-,Value------,Par,Ceiling,Floor,ChgAmt,ChgPct'
+header = 'name,date,prv,open,high,low,price,volume,daily_volume,par,ceiling,floor,chg_amt,chg_pct'
 header += "\n"
 fo.write(header) #   '..\data\dailies.csv 
 
@@ -120,7 +120,7 @@ fi.each do |line|
 	out_line += "\n"
 	puts out_line
 	fo.write out_line	
-	sleep(2)	
+	sleep(1)	
 	
 end #line
 

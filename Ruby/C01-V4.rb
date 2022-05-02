@@ -35,7 +35,7 @@ end
 ft.close
 
 # Column Header
-header = 'Name|---Date---|P/E|Yield|EPS|Div|P/BV|Stk Div|Market Cap|Shares|MaxP|MinP|NVDR'
+header = 'name,date,pe,yield,eps,div,pbv,dividend,market_cap,shares,max_price,min_price,NVDR'
 header += "\n"
 fo.write(header) #   '..\data\stats.csv   
 
@@ -92,6 +92,9 @@ fi.each do |line|
 	ary = []
 	ary[0] = array[0]
 	ary[1] = array[1]
+	if (array[2] == '-')
+		array[2] = '0'
+	end
 	ary[2] = array[2]
 	ary[3] = array[3].chop
 	ary[4] = array[4]
@@ -111,7 +114,7 @@ fi.each do |line|
 
 	ary[12] = strip_comma(array[11])
 
-	out_line = ary.join('|') 
+	out_line = ary.join(',') 
 	out_line += "\n"
 	puts out_line
 	fo.write out_line	

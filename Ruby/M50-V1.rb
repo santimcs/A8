@@ -46,7 +46,8 @@ puts 'Start at: ' + time.strftime("%I:%M %p")
 
 		if (k == 10)
 			str = array[0].chop
-			list = str.split(/[<=>"\s]+/)
+	#		list = str.split(/[<="\s]+/)
+			list = str.split(/[[:space:]]/)
 	ary[0] = list[0].strip
 	ary[1] = array[1]
 	ary[2] = array[2]
