@@ -95,7 +95,7 @@ fi.each do |line|
 	if (array[2] == '-')
 		array[2] = '0'
 	end
-	ary[2] = array[2]
+	ary[2] = strip_comma(array[2])
 	ary[3] = array[3].chop
 	ary[4] = array[4]
 	ary[5] = array[5]
