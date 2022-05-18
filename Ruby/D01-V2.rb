@@ -109,12 +109,16 @@ fi.each do |line|
 	ary[5] = array[5]
 	ary[6] = price
 	ary[7] = strip_comma(array[7])
-	ary[8] = strip_comma(array[8])
+	float_field = strip_comma(array[8])
+	if (float_field == '-')
+		float_field = 0
+	end
+	ary[8] = float_field
 	ary[9] = array[9]
 	ary[10] = array[10]
 	ary[11] = array[11]	
 	ary[12] = chgamt
-	ary[13] = chgpct
+	ary[13] = chgpct.chop
 
 	out_line = ary.join(',') 
 	out_line += "\n"

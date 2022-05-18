@@ -99,6 +99,9 @@ fi.each do |line|
 	ary[3] = array[3].chop
 	ary[4] = array[4]
 	ary[5] = array[5]
+	if (array[6] == '-')      # pbv
+		array[6] = '9.99'
+	end
 	ary[6] = array[6]
 	ary[7] = array[7]
 	ary[8] = strip_comma(array[8])
@@ -108,7 +111,7 @@ fi.each do |line|
 	maxp = list[0]
 	x = list[1]
 	lngth = x.length
-	minp = x[1,lngth-1]
+	minp = x[0,lngth]
 	ary[10] = maxp 
 	ary[11] = minp
 
