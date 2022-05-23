@@ -1,7 +1,22 @@
 ,name,yield,price,target,upside,buy,hold,sell,score,mrkt,sector,subsector,volume,beta
-0,SCB,6.5,73.0,151.2,107,10,0,0,30,SET50,Financials,Banking,1627.19,1.65
-1,PTTGC,6.1,49.0,60.05,23,8,1,1,22,SET50,Industrials,Petrochemicals & Chemicals,1036.6,1.03
-4,ORI,5.9,11.0,13.66,24,6,0,0,18,SET100,Property & Construction,Property Development,116.27,1.32
-5,SC,5.8,3.9,4.48,15,6,0,0,18,SET999,Property & Construction,Property Development,38.64,0.82
-2,PTTEP,5.5,144.5,165.8,15,12,4,0,40,SET50,Resources,Energy & Utilities,2421.91,0.59
-3,PTT,5.5,37.0,45.8,24,5,0,0,15,SET50,Resources,Energy & Utilities,2354.49,1.01
+0,TISCO,8.4,89.5,111.5,25,12,1,0,37,SET50,Financials,Banking,314854.55,2.24
+12,SAT,8.3,18.4,24.69,34,9,0,1,24,SET999,Industrials,Automotive,12820.16,0.61
+1,BANPU,8.0,12.2,14.43,18,5,2,0,17,SET50,Resources,Energy & Utilities,2492007.7,1.52
+13,NER,7.0,6.6,9.59,45,7,0,0,21,SET999,Agro & Food Industry,Agribusiness,27154.12,0.27
+14,DCC,6.8,2.8,3.39,21,6,1,0,19,SET999,Property & Construction,Construction Materials,47107.94,0.06
+15,SC,6.6,3.4,4.41,30,7,1,0,22,SET999,Property & Construction,Property Development,8316.59,0.09
+2,LH,6.4,8.8,10.51,19,11,1,0,34,SET50,Property & Construction,Property Development,392238.14,0.16
+16,MC,6.4,9.0,11.5,28,6,0,0,18,SET999,Services,Commerce,1080.67,0.46
+6,ORI,6.3,9.8,13.54,38,10,1,0,31,SET100,Property & Construction,Property Development,93923.7,0.3
+3,RATCH,6.2,40.25,52.38,30,7,0,1,18,SET50,Resources,Energy & Utilities,128295.58,1.09
+17,SMPC,5.9,15.3,17.95,17,4,0,0,12,SET999,Industrials,Packaging,11975.83,0.54
+7,SPALI,5.9,20.5,26.0,27,9,3,0,30,SET100,Property & Construction,Property Development,91632.61,0.6
+18,SCCC,5.6,149.5,181.1,21,4,3,0,15,SET999,Property & Construction,Construction Materials,5131.46,2.69
+8,SIRI,5.6,1.09,1.32,21,2,4,0,10,SET100,Property & Construction,Property Development,62757.15,0.01
+9,KKP,5.6,70.25,82.38,17,12,1,0,37,SET100,Financials,Banking,207955.39,2.43
+10,STA,5.5,23.8,27.79,17,5,2,0,17,SET100,Agro & Food Industry,Agribusiness,201445.66,0.98
+19,SNC,5.4,20.0,22.92,15,4,0,0,12,SET999,Industrials,Industrial Materials & Machinery,49394.58,0.76
+11,AP,5.2,10.8,12.86,19,14,0,0,42,SET100,Property & Construction,Property Development,146939.87,0.55
+5,PTTGC,5.2,46.5,58.57,26,6,7,2,19,SET50,Industrials,Petrochemicals & Chemicals,470117.95,0.93
+4,PTT,5.2,36.75,49.02,33,12,1,0,37,SET50,Resources,Energy & Utilities,1146001.39,0.89
+20,ICHI,5.1,9.35,12.04,29,4,1,0,13,SET999,Agro & Food Industry,Food & Beverage,52642.82,0.08
