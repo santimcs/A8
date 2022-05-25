@@ -92,7 +92,7 @@ fi.each do |line|
 	ary = []
 	ary[0] = array[0]
 	ary[1] = array[1]
-	if (array[2] == '-')
+	if (array[2] == '-' || array[2] == 'N/A')
 		array[2] = '0'
 	end
 	ary[2] = strip_comma(array[2])
@@ -112,8 +112,18 @@ fi.each do |line|
 	x = list[1]
 	lngth = x.length
 	minp = x[0,lngth]
-	ary[10] = maxp 
+
+	if (maxp == 'N')
+		ary[10] = 99.99
+	else
+		ary[10] = maxp 
+	end
+
+	if (minp == 'A')
+		ary[11] = 9.99
+	else
 	ary[11] = minp
+	end
 
 	ary[12] = strip_comma(array[11])
 
