@@ -29,6 +29,9 @@ else
 end
 ft.close
 
+time = Time.new
+puts 'Start at: ' + time.strftime("%I:%M %p")
+
 fi = File.open(file_temp, "r")
 fi.each do |line|
     stock_name = CGI.escape(line.chomp)
@@ -79,5 +82,9 @@ fi.each do |line|
     end
     sleep(1)
 end
+
+time = Time.new
+puts 'End at: ' + time.strftime("%I:%M %p")
+
 fo.close
 fi.close
