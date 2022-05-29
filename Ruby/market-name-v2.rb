@@ -153,20 +153,16 @@ match = false
 inp_digit = 3
 order_price = 0
 last_trade = 0
-# jjj = 0
 
-fi = File.open(file_in, "r")
 puts   "T Name        Qty  Order  Price     Diff  Percent     Name"
 puts   "----------------------------------------------------------"
 
+fi = File.open(file_in, "r")
 fi.each do |line|
 
     ary_in = line.split(",")
-    # puts ary_in
     stock_name = ary_in[1]
-    # puts (stock_name)
-    # puts (inp_name)
-    # puts (stock_name == inp_name)
+
     if (stock_name == inp_name)
         match = true
         trade = ary_in[0].strip
@@ -192,69 +188,62 @@ fi.each do |line|
 
     end # stock_name == inp_name
 
-    # jjj += 1
-
 end # end of each line 
 
 if match
 
-                url = "http://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{inp_name}&ssoPageId=9&selectPage=1"
-            html_data = open(url).read
-            doc = Nokogiri::HTML(html_data)
+    url = "http://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{inp_name}&ssoPageId=9&selectPage=1"
+    html_data = open(url).read
+    doc = Nokogiri::HTML(html_data)
 
-            elements = doc.xpath("//h1")
-            i = 0
-            pct = ''
-            digit = ''
-            elements.each do |element|
-                i += 1      
-                case i
-                    when 2
-                        ary_out[4] = element.text.strip   # Last trade     
-                        last_trade = element.text.strip   # Last trade                                 
-                    when 3
-                        ary_out[5] = element.text.strip # Price Change
-                    when 4
-                        ary_out[6] = element.text.strip  # Percent Change
-                        pct = element.text.strip  # Percent Change                    
-                end
+    elements = doc.xpath("//h1")
+    i = 0
+    pct = ''
+    digit = ''
+
+    elements.each do |element|
+        i += 1      
+        case i
+            when 2
+                ary_out[4] = element.text.strip   # Last trade     
+                last_trade = element.text.strip   # Last trade                                 
+            when 3
+                ary_out[5] = element.text.strip # Price Change
+            when 4
+                ary_out[6] = element.text.strip  # Percent Change
+                pct = element.text.strip  # Percent Change                    
+        end
+    end
+
+    ary_out[7] = order_price.to_f - last_trade.to_f
+    ary_out[8] = number_of_spread(last_trade.to_f,order_price.to_f)
+
+    sign = pct[0]
+    if (sign != '0')
+        digit = pct[1...-1].to_f
+        show = true
+    else
+        show = true
+    end
+
+    # Price Change
+    diff = ary_out[5].to_f
+
+    if ary_out[4] != '-'
+
+        if (active < inp_digit)
+            #  puts show
+            if show
+
+                printf "%1s %-8s %6s %6.2f %6.2f %8s %8s %8s %1s %6.2f %3s %-8s %-6s %8s\n",
+                ary_out[0],ary_out[1],ary_out[2],ary_out[3],ary_out[4],ary_out[5],ary_out[6],ary_out[1],ary_out[11],ary_out[7],ary_out[8],ary_out[9],ary_out[10],ary_out[12]
+
             end
-            ary_out[7] = order_price.to_f - last_trade.to_f
-            ary_out[8] = number_of_spread(last_trade.to_f,order_price.to_f)
 
-            sign = pct[0]
-            if (sign != '0')
-                digit = pct[1...-1].to_f
-                show = true
-            else
-                show = true
-            end
+            sleep(5)
+        end # active >= inp_digit
 
-            # Price Change
-            diff = ary_out[5].to_f
-
-            #        if (sign == '+') && (trade == 'B')
-            #            show = false
-            #        end
-
-            #        if (sign == '-') && (trade == 'S')
-            #            show = false
-            #        end
-
-            if ary_out[4] != '-'
-                if (active < inp_digit)
-                    #  puts show
-                    if show
-
-                        printf "%1s %-8s %6s %6.2f %6.2f %8s %8s %8s %1s %6.2f %3s %-8s %-6s %8s\n",
-                        ary_out[0],ary_out[1],ary_out[2],ary_out[3],ary_out[4],ary_out[5],ary_out[6],ary_out[1],ary_out[11],ary_out[7],ary_out[8],ary_out[9],ary_out[10],ary_out[12]
-
-                    end
-
-                    sleep(5)
-
-                end # active >= inp_digit
-            end # ary_out  
+    end # ary_out  
 
 end # match = true
 
