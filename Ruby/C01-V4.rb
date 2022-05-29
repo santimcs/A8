@@ -124,7 +124,6 @@ fi.each do |line|
 	else
 	ary[11] = minp
 	end
-
 	ary[12] = strip_comma(array[11])
 
 	out_line = ary.join(',') 
