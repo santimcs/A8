@@ -13,9 +13,10 @@ ups = 0
 downs = 0
 sames = 0
 price, price_old = 0.0
-# signal = '-'
+
 counter = 0
 while true do
+
   counter += 1
   html_data = open(url).read
   doc = Nokogiri::HTML(html_data)
@@ -26,42 +27,50 @@ while true do
   array[0] = stock_name
   ary_out[0] = stock_name
   elements = doc.xpath("//h1")
+
   i = 0
   elements.each do |element|
+
     i += 1		
   	if (i == 2)
+
   		price = element.text.strip.to_f
   		ary_out[1] = price
+
   		if (counter == 1)
   		  price_old = price
   		end
+
   	end
+
   end
 
   tables = doc.css('table.table-info')
   rows = tables.css('tr')
+
   i = 0
   rows.each do | row |
+
     cols = row.css('td')
     cols.each do | col |
+
       i += 1
   #   puts i.to_s + ' ' + col.text.strip
       array[i] = col.text.strip
+
     end
+
   end
   	
   volume = strip_comma(array[12]).to_i
   ary_out[2] = volume
+
   if (counter == 1)
   	volume_old = volume
   end  		
 
   bid_price, bid_vol = array[22].split(" / ")
-#  puts bid_price
-#  puts bid_vol
   ofr_price, ofr_vol = array[24].split(" / ")
-#  puts ofr_price
-#  puts ofr_vol
 
 	ary_out[3] = bid_vol
   ary_out[4] = bid_price
@@ -90,10 +99,12 @@ while true do
   str_diff = separate_comma(diff)
 
   out_line = ary_out.join(' ')
-#  puts "#{out_line} | #{diff} | #{ups} #{downs} | #{signal}"
+
   printf "%-8s %.2f %13s %11s %6s %6s %11s %11s %2d %2d %s\n", stock_name, price, 
   array[12], ary_out[3], ary_out[4], ary_out[5], ary_out[6], str_diff, ups, downs, signal
+
 	volume_old = volume
 	price_old = price
-  sleep(60)
+  sleep(30)
+
 end
