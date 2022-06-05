@@ -1,24 +1,22 @@
 name,price,target_price,upside,buy,hold,sell,market,sector,subsector,dly_vol,beta,yield
-AIT,6.75,8.3,22.96,2,0,0,sSET,Technology,Information & Communication Technology,45443.18,0.16,6.9
-AP,11.0,12.86,16.91,14,0,0,SET100 / SETHD,Property & Construction,Property Development,259051.85,0.55,5.1
-ASK,41.5,50.79,22.39,4,0,0,SET,Financials,Finance & Securities,31836.67,0.67,4.7
-BANPU,12.2,14.69,20.41,6,2,0,SET50 / SETCLMV / SETTHSI,Resources,Energy & Utilities,560450.4,1.52,8.0
-BBL,128.0,163.1,27.42,12,1,0,SET50 / SETHD / SETTHSI,Financials,Banking,1003823.74,3.73,3.7
-BCPG,11.9,17.18,44.37,6,0,0,SET100 / SETCLMV / SETHD / SETTHSI,Resources,Energy & Utilities,93708.28,0.47,3.2
-BDMS,26.0,28.99,11.5,14,3,0,SET50 / SETCLMV / SETTHSI / SETWB,Services,Health Care Services,1842432.87,0.22,1.6
-BPP,16.0,18.43,15.19,2,2,0,SET100 / SETCLMV / SETHD / SETTHSI,Resources,Energy & Utilities,23384.08,0.96,4.4
-GLOBAL,20.6,25.82,25.34,9,1,0,SET50 / SETCLMV / SETTHSI / SETWB,Services,Commerce,151199.01,0.25,1.5
-GULF,47.5,54.39,14.51,9,2,0,SET50 / SETCLMV / SETTHSI,Resources,Energy & Utilities,633888.77,0.29,1.2
-IVL,49.0,60.11,22.67,14,0,0,SET50 / SETTHSI,Industrials,Petrochemicals & Chemicals,493723.44,2.47,3.4
-KBANK,144.5,180.8,25.12,14,0,0,SET50 / SETCLMV / SETTHSI,Financials,Banking,1898717.6,4.58,3.1
-KKP,70.0,82.38,17.69,12,1,0,SET100 / SETCLMV / SETHD / SETTHSI,Financials,Banking,307587.92,2.43,5.6
-MEGA,53.0,61.16,15.4,8,0,0,SET100 / SETCLMV / SETWB,Services,Commerce,105842.12,0.7,2.5
-RCL,46.5,55.25,18.82,1,0,1,SET100 / SETCLMV,Services,Transportation & Logistics,406969.7,9.92,15.8
-SINGER,52.25,60.85,16.46,5,0,0,SET100,Services,Commerce,167489.0,0.27,1.2
-SIS,30.5,42.5,39.34,1,1,0,sSET,Technology,Information & Communication Technology,39555.2,0.55,4.2
-SSP,9.75,16.08,64.92,5,0,0,sSET / SETCLMV,Resources,Energy & Utilities,29436.76,0.24,3.4
-STANLY,177.0,227.0,28.25,5,1,0,sSET,Industrials,Automotive,25139.35,19.85,4.8
-TISCO,89.75,111.5,24.23,12,1,0,SET50 / SETHD / SETTHSI,Financials,Banking,525268.96,2.24,8.4
-TOP,56.0,67.98,21.39,14,1,0,SET50 / SETCLMV / SETTHSI,Resources,Energy & Utilities,466223.32,3.52,5.6
-TPIPL,1.55,2.4,54.84,2,0,0,SET,Property & Construction,Construction Materials,32516.29,0.1,5.2
-TTB,1.24,1.54,24.19,9,4,0,SET50 / SETHD / SETTHSI,Financials,Banking,177394.83,0.03,4.9
+ASK,42.25,50.79,20.21,4,0,0,SET,Financials,Finance & Securities,53251.98,0.67,4.6
+BANPU,12.4,14.69,18.47,6,2,0,SET50 / SETCLMV / SETTHSI,Resources,Energy & Utilities,875324.16,1.52,7.9
+BBL,131.0,163.1,24.5,12,1,0,SET50 / SETHD / SETTHSI,Financials,Banking,391169.95,3.73,3.6
+BCPG,11.8,17.18,45.59,6,0,0,SET100 / SETCLMV / SETHD / SETTHSI,Resources,Energy & Utilities,104710.87,0.47,3.2
+BDMS,25.75,28.99,12.58,14,3,0,SET50 / SETCLMV / SETTHSI / SETWB,Services,Health Care Services,2296737.17,0.22,1.6
+BPP,15.9,18.43,15.91,2,2,0,SET100 / SETCLMV / SETHD / SETTHSI,Resources,Energy & Utilities,10972.22,0.96,4.4
+GLOBAL,21.2,25.82,21.79,9,1,0,SET50 / SETCLMV / SETTHSI / SETWB,Services,Commerce,203324.82,0.25,1.4
+GULF,48.5,54.39,12.14,9,2,0,SET50 / SETCLMV / SETTHSI,Resources,Energy & Utilities,525368.74,0.29,1.2
+IVL,49.25,60.11,22.05,14,0,0,SET50 / SETTHSI,Industrials,Petrochemicals & Chemicals,523015.85,2.47,3.4
+KBANK,147.0,180.8,22.99,14,0,0,SET50 / SETCLMV / SETTHSI,Financials,Banking,693515.22,4.58,3.0
+MEGA,52.0,61.16,17.62,7,1,0,SET100 / SETCLMV / SETWB,Services,Commerce,221628.74,0.7,2.6
+RCL,46.25,55.25,19.46,1,0,1,SET100 / SETCLMV,Services,Transportation & Logistics,131661.8,9.92,15.9
+SINGER,52.75,60.85,15.36,5,0,0,SET100,Services,Commerce,276822.18,0.27,1.2
+SIS,29.5,42.5,44.07,1,1,0,sSET,Technology,Information & Communication Technology,38866.03,0.55,4.3
+SNC,19.0,22.92,20.63,4,0,0,sSET / SETTHSI,Industrials,Industrial Materials & Machinery,20119.2,0.76,5.7
+SSP,9.9,16.08,62.42,5,0,0,sSET / SETCLMV,Resources,Energy & Utilities,18491.18,0.24,3.4
+STANLY,177.5,227.0,27.89,5,1,0,sSET,Industrials,Automotive,11155.73,19.85,5.0
+TISCO,91.75,111.5,21.53,12,1,0,SET50 / SETHD / SETTHSI,Financials,Banking,201576.53,2.24,8.2
+TOP,58.0,68.21,17.6,14,1,0,SET50 / SETCLMV / SETTHSI,Resources,Energy & Utilities,721423.24,3.52,5.4
+TPIPL,1.61,2.4,49.07,2,0,0,SET,Property & Construction,Construction Materials,26320.24,0.1,5.0
+TTB,1.27,1.54,21.26,9,4,0,SET50 / SETHD / SETTHSI,Financials,Banking,350591.54,0.03,4.8
