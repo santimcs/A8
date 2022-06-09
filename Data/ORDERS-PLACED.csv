@@ -1,4 +1,4 @@
 trans,name,qty,target,active,spd,current,change,percent,reason,market,xdate
-Buy,TMT,9000,9.3,2,0,9.3,-0.05,-0.53%,RD10pct,SET,2022-02-02
-Sell,SIS,3600,30.0,2,5,28.75,0.25,+0.88%,5pct,SET,2022-02-02
-Sell,TOP,3000,60.5,2,5,59.25,1.0,+1.72%,5pct,SET50,2022-02-02
+Buy,DIF,10000,13.5,2,-1,13.6,0.0,0.00%,RD05pct,SET,2022-05-17
+Sell,SIS,3600,30.0,2,1,29.75,1.5,+5.31%,5pct,SET,2022-02-02
+Sell,STA,1500,23.8,2,6,23.2,0.0,0.00%,C21.80,SET100,2022-02-02
