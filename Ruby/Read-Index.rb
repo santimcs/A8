@@ -16,7 +16,7 @@ end
 file_out = 'c:\A8\data\setindex.csv'
 fo = File.open(file_out, "w")
 
-url = "https://www.settrade.com/settrade/home"
+url = "https://classic.settrade.com/settrade/home"
 
 html_data = open(url).read
 doc = Nokogiri::HTML(html_data)

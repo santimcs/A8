@@ -4,7 +4,7 @@ load './my_utils.rb'
 
 puts "Enter stock name "
 stock_name = gets.chomp
-url = "http://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
+url = "http://classic.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
 volume = 0
 volume_old = 0
 diff = 0
@@ -27,7 +27,7 @@ while true do
   array[0] = stock_name
   ary_out[0] = stock_name
   elements = doc.xpath("//h1")
-
+  puts elements
   i = 0
   elements.each do |element|
 
@@ -35,6 +35,7 @@ while true do
   	if (i == 2)
 
   		price = element.text.strip.to_f
+      puts price
   		ary_out[1] = price
 
   		if (counter == 1)

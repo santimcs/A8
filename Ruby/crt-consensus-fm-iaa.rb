@@ -24,7 +24,7 @@ fi.each do |line|
 
   stock_name = line.chomp
   status = 'x'
-  url = "http://www.settrade.com/AnalystConsensus/C04_10_stock_saa_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=11&selectPage=10"
+  url = "http://classic.settrade.com/AnalystConsensus/C04_10_stock_saa_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=11&selectPage=10"
   html_data = open(url).read
   html_data = html_data.force_encoding("utf-8")
   doc = Nokogiri::HTML(html_data)

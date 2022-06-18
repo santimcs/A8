@@ -45,10 +45,9 @@ puts 'Start at: ' + time.strftime("%I:%M %p")
 fi = File.open(file_temp, "r")
 puts header
 fi.each do |line|
-
 	stock_name = line.chomp
 	# stock_name = CGI.escape(line.chomp)
-	url = "https://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}"
+	url = "http://classic.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
 	html_data = open(url).read
 	doc = Nokogiri::HTML(html_data)
 
@@ -56,7 +55,6 @@ fi.each do |line|
 	tmp = elements.text
 	list = tmp.split(" ")
 	date1 = list[2]
-	#puts date1
 	list = date1.split("/")
 	date2 = list[2]+'-'+list[1]+'-'+list[0]
 	#puts date2
