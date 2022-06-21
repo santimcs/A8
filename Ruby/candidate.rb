@@ -179,7 +179,7 @@ while true do
             ary_out[11] = active       
             ary_out[12] = ary_in[7].chop  # xdate      
 
-            url = "http://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
+            url = "http://classic.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
             html_data = open(url).read
             doc = Nokogiri::HTML(html_data)
             elements = doc.xpath("//h1")

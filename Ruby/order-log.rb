@@ -179,7 +179,7 @@ fi.each do |line|
         ary_out[10] = ary_in[4]
         ary_out[11] = ary_in[7].strip
   
-        url = "http://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
+        url = "http://classic.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=9&selectPage=1"
         html_data = open(url).read
         doc = Nokogiri::HTML(html_data)
 
