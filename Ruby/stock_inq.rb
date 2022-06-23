@@ -27,7 +27,6 @@ while true do
   array[0] = stock_name
   ary_out[0] = stock_name
   elements = doc.xpath("//h1")
-  puts elements
   i = 0
   elements.each do |element|
 
@@ -35,7 +34,6 @@ while true do
   	if (i == 2)
 
   		price = element.text.strip.to_f
-      puts price
   		ary_out[1] = price
 
   		if (counter == 1)
