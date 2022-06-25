@@ -1,19 +1,26 @@
 ,name,yield,price,target,upside,buy,hold,sell,score,mrkt,sector,subsector,volume,beta
-9,SAT,8.0,19.1,24.43,28,8,0,1,21,SET999,Industrials,Automotive,8337.1,0.61
-10,LALIN,7.1,9.4,12.62,34,4,0,0,12,SET999,Property & Construction,Property Development,1604.46,0.35
-12,NER,6.8,6.65,9.62,45,8,0,0,24,SET999,Agro & Food Industry,Agribusiness,59814.58,0.27
-11,DCC,6.8,2.82,3.39,20,6,1,0,19,SET999,Property & Construction,Construction Materials,14990.63,0.06
-13,SC,6.6,3.38,4.39,30,6,1,0,19,SET999,Property & Construction,Property Development,8978.58,0.09
-0,LH,6.3,8.95,10.51,17,11,1,0,34,SET50,Property & Construction,Property Development,297750.91,0.16
-1,RATCH,6.2,39.5,52.38,33,7,0,1,18,SET50,Resources,Energy & Utilities,250120.27,1.09
-14,MC,6.0,9.45,11.65,23,6,0,0,18,SET999,Services,Commerce,2503.95,0.46
-4,SPALI,5.9,20.4,26.02,28,8,3,0,27,SET100,Property & Construction,Property Development,207552.97,0.6
-15,SNC,5.9,18.4,22.92,25,4,0,0,12,SET999,Industrials,Industrial Materials & Machinery,27111.57,0.76
-5,ORI,5.8,10.7,13.61,27,9,1,0,28,SET100,Property & Construction,Property Development,24224.33,0.3
-6,KKP,5.7,70.5,83.44,18,9,0,0,27,SET100,Financials,Banking,602726.91,2.43
-7,STA,5.6,23.2,27.62,19,6,2,0,20,SET100,Agro & Food Industry,Agribusiness,200970.82,0.98
-16,SCCC,5.4,153.5,181.1,18,4,3,0,15,SET999,Property & Construction,Construction Materials,6392.5,2.69
-8,AP,5.0,11.1,12.82,15,13,0,0,39,SET100,Property & Construction,Property Development,309183.83,0.55
-3,PTTGC,5.0,48.5,58.32,20,6,7,2,19,SET50,Industrials,Petrochemicals & Chemicals,857697.49,0.93
-2,PTT,5.0,38.0,49.6,31,11,1,0,34,SET50,Resources,Energy & Utilities,1362202.4,0.89
-17,STANLY,5.0,180.0,227.0,26,5,1,0,16,SET999,Industrials,Automotive,20592.59,19.85
+0,TISCO,8.4,89.0,108.5,22,5,1,0,16,SET50,Financials,Banking,238761.91,2.24
+12,SAT,8.3,18.3,24.49,34,7,0,1,18,SET999,Industrials,Automotive,17359.08,0.61
+1,BANPU,8.1,12.4,14.91,20,6,2,0,20,SET50,Resources,Energy & Utilities,2354565.24,1.52
+13,LALIN,7.6,8.8,12.26,39,5,0,0,15,SET999,Property & Construction,Property Development,2099.07,0.35
+14,NER,7.5,6.05,9.62,59,8,0,0,24,SET999,Agro & Food Industry,Agribusiness,17410.44,0.27
+15,PSL,7.2,18.1,23.63,31,3,1,0,10,SET999,Services,Transportation & Logistics,122412.85,0.83
+16,SMPC,7.1,15.3,17.88,17,4,1,0,13,SET999,Industrials,Packaging,13751.99,0.54
+17,SC,6.9,3.22,4.39,36,6,1,0,19,SET999,Property & Construction,Property Development,5488.98,0.09
+2,LH,6.9,8.25,10.58,28,12,0,0,36,SET50,Property & Construction,Property Development,378722.31,0.16
+18,DCC,6.8,2.8,3.36,20,5,0,0,15,SET999,Property & Construction,Construction Materials,30773.16,0.06
+3,RATCH,6.7,36.0,51.89,44,8,0,1,21,SET50,Resources,Energy & Utilities,600083.82,1.09
+7,SPALI,6.3,19.2,26.02,36,9,2,0,29,SET100,Property & Construction,Property Development,291666.42,0.6
+4,TOP,6.3,50.25,67.51,34,12,3,0,39,SET50,Resources,Energy & Utilities,777383.32,3.52
+19,SNC,6.3,17.3,22.92,32,4,0,0,12,SET999,Industrials,Industrial Materials & Machinery,9193.41,0.76
+8,ORI,6.2,10.0,13.68,37,8,1,0,25,SET100,Property & Construction,Property Development,9573.83,0.3
+20,MC,6.2,9.4,11.91,27,7,0,0,21,SET999,Services,Commerce,11830.4,0.46
+9,STA,6.1,21.3,27.62,30,6,2,0,20,SET100,Agro & Food Industry,Agribusiness,171279.07,0.98
+10,BCP,6.0,31.5,37.93,20,10,3,0,33,SET100,Resources,Energy & Utilities,280700.93,3.12
+5,PTT,5.7,33.25,49.39,49,11,1,0,34,SET50,Resources,Energy & Utilities,3340838.02,0.89
+21,ICHI,5.7,8.0,10.9,36,4,1,0,13,SET999,Agro & Food Industry,Food & Beverage,28251.29,0.08
+11,AP,5.6,10.0,12.82,28,13,0,0,39,SET100,Property & Construction,Property Development,307356.43,0.55
+22,ASK,5.6,34.25,50.79,48,4,0,0,12,SET999,Financials,Finance & Securities,10011.81,0.67
+6,PTTGC,5.4,44.75,58.32,30,6,7,2,19,SET50,Industrials,Petrochemicals & Chemicals,503907.59,0.93
+23,SCCC,5.4,149.5,178.6,19,3,2,0,11,SET999,Property & Construction,Construction Materials,8561.36,2.69
+24,STANLY,5.0,178.0,226.0,27,6,1,0,19,SET999,Industrials,Automotive,9402.26,19.85
