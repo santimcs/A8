@@ -3,7 +3,7 @@ require 'nokogiri'
 require 'open-uri'
 load './my_utils.rb'
 
-active = 0
+# active = 0
 
 def number_of_spread(minp,maxp)
     div = 0.0
