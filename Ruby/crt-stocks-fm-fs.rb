@@ -48,7 +48,7 @@ fi.each do |line|
 
 	stock_name = line.chomp
 	# stock_name = CGI.escape(line.chomp)
-	url = "https://www.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=th&country=TH"
+	url = "https://classic.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=th&country=TH"
 	html_data = open(url).read
 	doc = Nokogiri::HTML(html_data)
 	elements = doc.xpath("//table[@class='table-factsheet-padding0']//td[@class='factsheet-noline']")
