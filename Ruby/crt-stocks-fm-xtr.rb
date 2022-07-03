@@ -47,7 +47,7 @@ puts 'Start at: ' + time.strftime("%I:%M %p")
 fi = File.open(file_temp, "r")
 fi.each do |line|
 	stock_name = line.chomp
-	url = "https://www.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=th&country=TH"
+	url = "https://classic.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=th&country=TH"
 	html_data = open(url).read
 	doc = Nokogiri::HTML(html_data)
 	elements = doc.xpath("//table[@class='table-factsheet-padding0']//td[@class='factsheet-noline']")
@@ -122,7 +122,7 @@ fi.each do |line|
 	ary[8] = strip_comma(array[7])
 	ary[9] = strip_comma(array[8])
 	ary[10] = array[9]
-	out_line = ary.join('|') 
+	out_line = ary.join(',') 
 	out_line += "\n"
 	puts out_line
 	fo.write out_line

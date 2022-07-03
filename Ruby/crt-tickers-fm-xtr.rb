@@ -47,7 +47,7 @@ fi.each do |line|
 	stock_name_old = line.chomp
 	stock_name = CGI.escape(line.chomp)
 	puts stock_name
-	url = "https://www.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=en&country=TH"
+	url = "https://classic.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=en&country=TH"
 	html_data = open(url).read
 	doc = Nokogiri::HTML(html_data)
 	elements = doc.xpath("//table[@class='table-factsheet-padding3']//tr[@align='left']//td[@valign='bottom']")
@@ -102,7 +102,7 @@ fi.each do |line|
 	arcs[5] = array[5]
 
 	arcs[0] = stock_name_old
-	out_line = arcs.join('|') 
+	out_line = arcs.join(',') 
 	out_line += "\n"
 	puts out_line
 	fo.write out_line

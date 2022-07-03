@@ -20,7 +20,7 @@ fi.each do |line|
 
     while (page < pages_nbr)
         
-        url = "http://www.settrade.com/C04_02_stock_historical_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=10&selectPage=2&max=15&offset=#{offset}"
+        url = "http://classic.settrade.com/C04_02_stock_historical_p1.jsp?txtSymbol=#{stock_name}&ssoPageId=10&selectPage=2&max=15&offset=#{offset}"
         html_data = open(url).read
         doc = Nokogiri::HTML(html_data)
 
