@@ -1,19 +1,12 @@
 name,price,target_price,upside,buy,hold,sell,market,sector,subsector,dly_vol,beta,yield
-AIT,5.6,9.2,64.29,1.0,0.0,0.0,sSET    ,Technology,Information & Communication Technology,92.7,1.32,8.6
-AP,9.5,12.72,33.89,10.0,0.0,0.0,SET100 / SETHD    ,Property & Construction,Property Development,180.16,0.89,5.9
-BANPU,12.9,16.55,28.29,2.0,0.0,0.0,SET50 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,1599.57,0.87,9.9
-BBL,131.5,161.4,22.74,11.0,0.0,0.0,SET50 / SETCLMV / SETHD / SETTHSI    ,Financials,Banking,1677.54,1.18,3.6
-BCPG,10.3,15.4,49.51,2.0,1.0,0.0,SET100 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,121.6,1.05,3.2
-ESSO,10.3,16.0,55.34,1.0,0.0,0.0,SET100    ,Resources,Energy & Utilities,244.84,0.93,9.7
-IVL,45.75,61.36,34.12,11.0,0.0,0.0,SET50 / SETTHSI    ,Industrials,Petrochemicals & Chemicals,984.77,1.2,4.6
-KKP,63.0,81.22,28.92,8.0,1.0,0.0,SET100 / SETCLMV / SETHD / SETTHSI    ,Financials,Banking,394.39,0.94,6.2
-MEGA,49.0,62.25,27.04,4.0,0.0,0.0,SET100 / SETCLMV / SETWB    ,Services,Commerce,200.96,0.84,2.8
-RBF,12.0,15.83,31.92,1.0,0.0,1.0,SET100 / SETCLMV / SETWB    ,Agro & Food Industry,Food & Beverage,125.75,1.44,1.5
-SCB,97.0,139.3,43.61,10.0,0.0,0.0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,1949.32,0.0,4.9
-SINGER,40.5,55.0,35.8,2.0,0.0,0.0,SET100 / SETWB    ,Services,Commerce,218.26,1.66,1.0
-SNC,17.8,23.5,32.02,1.0,0.0,0.0,sSET / SETTHSI    ,Industrials,Industrial Materials & Machinery,33.51,0.63,6.4
-SPRC,11.1,14.0,26.13,6.0,2.0,0.0,SET100 / SETCLMV    ,Resources,Energy & Utilities,376.22,0.85,11.5
-SSP,9.05,13.45,48.62,2.0,0.0,0.0,sSET / SETCLMV    ,Resources,Energy & Utilities,46.12,1.14,3.8
-STANLY,168.0,220.0,30.95,3.0,0.0,0.0,sSET    ,Industrials,Automotive,10.85,0.61,5.1
-TISCO,87.75,107.3,22.28,12.0,3.0,0.0,SET50 / SETHD / SETTHSI    ,Financials,Banking,502.93,0.45,8.5
-TTB,1.17,1.45,23.93,8.0,2.0,0.0,SET50 / SETHD / SETTHSI    ,Financials,Banking,558.93,1.33,4.7
+AIT,5.6,9.2,64.29,1.0,0.0,0.0,sSET    ,Technology,Information & Communication Technology,90.96,1.3,8.6
+AP,9.75,13.05,33.85,10.0,0.0,0.0,SET100 / SETHD    ,Property & Construction,Property Development,179.99,0.89,5.9
+BANPU,13.4,17.3,29.1,3.0,0.0,0.0,SET50 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,1593.61,0.86,11.9
+BCPG,10.2,15.4,50.98,2.0,1.0,0.0,SET100 / SETCLMV / SETHD / SETTHSI    ,Resources,Energy & Utilities,120.12,1.01,3.2
+ESSO,10.6,16.0,50.94,1.0,0.0,0.0,SET100    ,Resources,Energy & Utilities,242.92,0.92,9.4
+IVL,43.75,61.36,40.25,11.0,0.0,0.0,SET50 / SETTHSI    ,Industrials,Petrochemicals & Chemicals,989.18,1.17,4.8
+SINGER,41.5,56.33,35.73,3.0,0.0,0.0,SET100 / SETWB    ,Services,Commerce,216.01,1.65,1.3
+SNC,17.8,23.5,32.02,1.0,0.0,0.0,sSET / SETTHSI    ,Industrials,Industrial Materials & Machinery,33.03,0.65,6.4
+SSP,9.45,13.6,43.92,1.0,0.0,0.0,sSET / SETCLMV    ,Resources,Energy & Utilities,45.33,1.13,3.7
+TISCO,88.5,107.3,21.24,12.0,3.0,0.0,SET50 / SETHD / SETTHSI    ,Financials,Banking,498.66,0.44,8.5
+TTB,1.2,1.45,20.83,11.0,1.0,0.0,SET50 / SETHD / SETTHSI    ,Financials,Banking,551.82,1.33,4.7
