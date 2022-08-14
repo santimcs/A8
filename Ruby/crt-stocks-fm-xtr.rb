@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'certified'
+require 'cgi'
 load './my_utils.rb'
 
 process = ARGV.shift
@@ -11,6 +12,7 @@ file_out2 = 'c:\ruby\portlt\db\stocks.csv'
 file_out3 = 'c:\ruby\portmy\db\stocks.csv'
 file_out4 = 'c:\ruby\portpg\db\stocks.csv'
 file_temp = '..\data\name-tmp.csv'
+
 fo = File.open(file_out, "w")
 fp = File.open(file_out2, "w")
 fq = File.open(file_out3, "w")
@@ -19,18 +21,25 @@ ft = File.open(file_temp,"w")
 fi = File.open(file_in,"r")
 
 if (process == '-o')
+
 	puts "Enter stock name "
 	stock_name = gets.chomp
 	ft.write stock_name
+
 else
+
 	fi.each do |line|
+
 		array = line.chomp.split(",")
 		stock_name = array[0]
 		out_line = stock_name + "\n"
 	#	puts out_line
 		ft.write out_line
+
 	end
+
 end
+
 ft.close
 
 # Column Header
@@ -41,12 +50,13 @@ fp.write(header) #   'c:\ruby\portlt\db\stocks.csv'
 fq.write(header) #   'c:\ruby\portmy\db\stocks.csv'    
 fr.write(header) #   'c:\ruby\portpg\db\stocks.csv'  
 
-time = Time.new
-puts 'Start at: ' + time.strftime("%I:%M %p")
-
 fi = File.open(file_temp, "r")
+
 fi.each do |line|
-	stock_name = line.chomp
+
+	stock_name_old = line.chomp
+	stock_name = CGI.escape(line.chomp)
+	puts stock_name
 	url = "https://classic.set.or.th/set/factsheet.do?symbol=#{stock_name}&language=th&country=TH"
 	html_data = open(url).read
 	doc = Nokogiri::HTML(html_data)
@@ -54,6 +64,7 @@ fi.each do |line|
 
 	i = 0
 	array = []
+	
 	array[0] = stock_name.upcase
 	elements.each do |element|	
 		i += 1
@@ -131,9 +142,6 @@ fi.each do |line|
 	fr.write out_line		
 	sleep(2)	
 end
-
-time = Time.new
-puts 'End at: ' + time.strftime("%I:%M %p")
 
 fo.close
 fp.close

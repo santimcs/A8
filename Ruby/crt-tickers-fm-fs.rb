@@ -41,7 +41,7 @@ end
 ft.close
 
 # Column Header
-header = 'Name|Full Name|Sector|Sub Sector|Market|Website'
+header = 'Name,Full Name,Sector,Sub Sector,Market,Website'
 header += "\n"
 fo.write(header) #   '..\data\tickers.csv
 fp.write(header) #   'c:\ruby\portlt\db\tickers.csv'
