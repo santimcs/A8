@@ -1,0 +1,33 @@
+Process for IPO stock
+=====================
+I) On the day of IPO
+1) Insert stock name to AAB/data/name-ttl.csv
+	--So evening process can get the price to AAB\data\price.csv
+2) Call AAB/database/Stock-Addition.ipyrnb
+	-- To create records for tables nameall & stockname in MySql stock.db
+
+II) On the day after IPO
+1) Call AAB/ruby/crt-tickers-fm-fs.rb -o 
+2) Run following process for 3 databases to insert new ticker record:
+	3.1) Change dir to PortLt & rails runner db/crt_tickers.rb
+	3.2) Change dir to PortMy & rails runner db/crt_tickers.rb
+	3.3) Change dir to PortPg & rails runner db/crt_tickers.rb
+3) Call every morning process C:/AAB/Morn-Proc.bat
+
+Process for non-IPO stock
+=====================
+1) Insert stock name to AAB/data/name-ttl.csv
+	--So evening process can get the price to AAB\data\price.csv
+
+2) Call AAB/database/Stock-Addition.ipyrnb
+	-- To create records for tables nameall & stockname in MySql stock.db
+
+3) Call AAB/ruby/crt-tickers-fm-fs.rb -o
+ 
+4) Call Morn-Proc.bat
+ 
+5) Run following process for 3 databases to insert new ticker record to 
+   stock and consensus tables
+	3.1) Change dir to PortLt & rails runner db/crt_all.rb
+	3.2) Change dir to PortMy & rails runner db/crt_all.rb
+	3.3) Change dir to PortPg & rails runner db/crt_all.rb

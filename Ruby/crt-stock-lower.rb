@@ -127,7 +127,7 @@ fi.each do |line|
  end    # enf of file 
 
  				ary_out[0] = name
-               fm_date = Date.parse(fm_date)
+                fm_date = Date.parse(fm_date)
 				ary_out[1] = fm_date
 				to_date = Date.parse(to_date)	
 				ary_out[2] = to_date				

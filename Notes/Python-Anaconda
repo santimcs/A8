@@ -1,0 +1,19 @@
+Go to https://www.anaconda.com/download/
+
+Download Anaconda2 5.0.0 (32-bit)
+
+Run .exe file
+
+Using all default options
+
+conda config --add channels conda-forge
+conda install pdfminer
+conda search pdfminer --channel conda-forge
+
+conda install pandas-datareader
+conda install pymysql
+
+python -m pip install pdfminer==20110515 --upgrade
+
+Environment
+conda create -n py36 python=3.6 anaconda
