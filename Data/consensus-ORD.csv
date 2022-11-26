@@ -2,8 +2,6 @@ name,price,target_price,upside,buy,hold,sell,market,sector,subsector,dly_vol,bet
 CKP,4.9,6.62,35.1,6.0,0.0,0.0,SET100 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,86.4,1.09,2.0
 CPF,24.4,31.89,30.7,13.0,0.0,0.0,SET50 / SETCLMV / SETHD / SETTHSI / SETWB    ,Agro & Food Industry,Food & Beverage,629.07,0.81,3.1
 JMART,44.0,57.75,31.25,3.0,1.0,0.0,SET50    ,Technology,Information & Communication Technology,447.69,1.78,1.8
-KSL,3.72,5.4,45.16,2.0,0.0,0.0,sSET / SETCLMV    ,Agro & Food Industry,Food & Beverage,32.54,0.95,2.8
 SCB,105.5,141.1,33.74,15.0,0.0,0.0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,1673.11,1.42,4.4
-STARK,4.26,6.5,52.58,1.0,0.0,0.0,SET100    ,Industrials,Industrial Materials & Machinery,134.36,0.69,2.9
 SVI,9.4,13.47,43.3,6.0,0.0,0.0,SET    ,Technology,Electronic Components,76.18,1.99,2.5
 TFG,5.55,8.93,60.9,4.0,0.0,0.0,SET    ,Agro & Food Industry,Food & Beverage,74.32,1.02,4.2

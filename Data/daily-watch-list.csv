@@ -1,6 +1,1 @@
 name,percent,status,fm_price,to_price,market,fm_date,bdays,max_price,min_price
-DOHOME,8.53,I,12.9,14.0,SET100,2022-11-10,7,14.2,6.98
-JASIF,6.75,I,8.15,8.7,SET,2022-11-10,7,8.75,6.13
-KCE,-3.05,B,49.25,47.75,SET50,2022-11-15,2,48.75,-0.51
-PTTGC,-3.12,B,48.0,46.5,SET50,2022-11-14,3,47.25,-1.04
-JMART,-4.74,O,47.5,45.25,SET50,2022-11-15,2,46.0,-3.16
