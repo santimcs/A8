@@ -4,13 +4,13 @@ cd\A8\data
 
 1. mysql
 
-ruby db_backup.rb portfolio_development Nov-01
-ruby db_backup.rb stock Nov-01
+ruby db_backup.rb portfolio_development Nov-30
+ruby db_backup.rb stock Nov-30
 
-ruby db_backup.rb music_development Nov-01
-ruby db_backup.rb formula1_development Nov-01
-ruby db_backup.rb nfl_development Nov-01
-ruby db_backup.rb UCL_development Nov-01
+ruby db_backup.rb music_development Nov-30
+ruby db_backup.rb formula1_development Nov-30
+ruby db_backup.rb nfl_development Nov-30
+ruby db_backup.rb UCL_development Nov-30
 
 2. postgres password = admin
 
@@ -41,12 +41,12 @@ copy c:\ruby\sitepoint\db\development.sqlite3 c:\A8\data\sitepoint
 
 MySQL
 cd\A8\data
-mysql -u root -p stock < stock_Nov-01.sql
-mysql -u root -p portfolio_development < portfolio_development_Nov-01.sql
-mysql -u root -p music_development < music_development_Nov-01.sql
-mysql -u root -p nfl_development < nfl_development_Nov-01.sql
-mysql -u root -p ucl_development < ucl_development_Nov-01.sql
-mysql -u root -p bookstore_development < bookstore_development_Nov-01.sql
+mysql -u root -p stock < stock_Nov-30.sql
+mysql -u root -p portfolio_development < portfolio_development_Nov-30.sql
+mysql -u root -p music_development < music_development_Nov-30.sql
+mysql -u root -p nfl_development < nfl_development_Nov-30.sql
+mysql -u root -p ucl_development < ucl_development_Nov-30.sql
+mysql -u root -p bookstore_development < bookstore_development_Nov-30.sql
 
 Postgres
 psql -U postgres portpg_development < portpg.sql
