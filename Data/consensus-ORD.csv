@@ -1,7 +1,8 @@
 name,price,target_price,upside,buy,hold,sell,market,sector,subsector,dly_vol,beta,yield
-CKP,4.84,6.62,36.78,6.0,0.0,0.0,SET100 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,85.25,1.09,2.0
-CPF,23.6,32.13,36.14,12.0,0.0,0.0,SET50 / SETCLMV / SETHD / SETTHSI / SETWB    ,Agro & Food Industry,Food & Beverage,631.01,0.81,3.1
-JMART,43.0,58.0,34.88,4.0,1.0,0.0,SET50    ,Technology,Information & Communication Technology,446.07,1.81,1.8
-SCB,105.5,141.1,33.74,15.0,0.0,0.0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,1635.52,1.4,4.4
-SVI,9.55,13.47,41.05,6.0,0.0,0.0,SET    ,Technology,Electronic Components,76.59,1.98,2.5
-TFG,5.55,8.85,59.46,5.0,0.0,0.0,SET    ,Agro & Food Industry,Food & Beverage,74.49,1.04,6.2
+CKP,4.72,6.45,36.65,7.0,1.0,0.0,SET100 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,83.91,1.06,2.2
+CPF,23.6,31.54,33.64,13.0,1.0,0.0,SET50 / SETCLMV / SETHD / SETTHSI / SETWB    ,Agro & Food Industry,Food & Beverage,622.05,0.84,3.2
+GFPT,13.0,18.59,43.0,13.0,1.0,0.0,sSET / SETTHSI / SETWB    ,Agro & Food Industry,Agribusiness,103.65,0.55,2.8
+III,13.1,18.25,39.31,6.0,0.0,0.0,sSET    ,Services,Transportation & Logistics,83.56,0.93,3.2
+JMART,42.5,58.0,36.47,4.0,1.0,0.0,SET50    ,Technology,Information & Communication Technology,439.54,1.97,1.8
+SCB,103.0,143.4,39.22,8.0,0.0,0.0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,1586.63,1.37,4.4
+TFG,5.3,8.85,66.98,5.0,0.0,0.0,SET    ,Agro & Food Industry,Food & Beverage,73.22,1.11,6.4
