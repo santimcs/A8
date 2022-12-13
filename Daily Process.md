@@ -10,7 +10,7 @@
 
 > cd\\A8\\ruby
 
->ruby crt-consensus-fm-iaa.rb [[https://github.com/santimcs/A8/blob/main/Ruby/crt-consensus-fm-iaa.rb]]
+>[[https://github.com/santimcs/A8/blob/main/Ruby/crt-consensus-fm-iaa.rb | ruby crt-consensus-fm-iaa.rb]]
 
 > ruby crt-stocks-fm-fs.rb
 
@@ -20,5 +20,6 @@
 > cd\\ruby\\portpg
 
 > rails runner db/crt_all.rb
+
 
 [[Mornign Process]]
