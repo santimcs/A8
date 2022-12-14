@@ -1,3 +1,3 @@
-CD\A8\RUBY
+CD\A8\Ruby
 
-RUBY D01-V2.RB 
+ruby D01-V2.rb

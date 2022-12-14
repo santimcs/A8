@@ -1,3 +1,3 @@
-ruby c:\A8\ruby\Read-Index.rb
+ruby c:\A8\Ruby\Read-Index.rb
 
 C:\A8\importSetindex.bat
