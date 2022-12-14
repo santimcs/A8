@@ -1,6 +1,6 @@
-copy c:\a8\data\stocks.csv c:\ruby\portmy\db\
-copy c:\a8\data\consensus.csv c:\ruby\portmy\db\
+copy c:\A8\Data\stocks.csv c:\Ruby\Portmy\db\
+copy c:\A8\Data\consensus.csv c:\Ruby\Portmy\db\
 
-cd\ruby\portmy
+cd\Ruby\Portmy
 
 rails runner db/crt_all.rb
