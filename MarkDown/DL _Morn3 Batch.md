@@ -1,4 +1,6 @@
-## Morn3
+CD//A8
+
+## Morn3.bat
 
 copy c:\\a8\\data\\consensus.csv c:\\ruby\\port_lite\\db\
 
