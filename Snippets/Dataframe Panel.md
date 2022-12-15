@@ -16,4 +16,9 @@
 	show(df[['trans','name','spd','reason','qty','target','current','active']])
 
 
+[Medium](https://medium.com/spatial-data-science/styling-pandas-dataframe-elegantly-with-tabulator-c66f33b1905f)
+
+[Tabulator](https://pyviz-dev.github.io/panel/reference/widgets/Tabulator.html)
+
+
 [[Display Data without Create Dataframe]]
