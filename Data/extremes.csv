@@ -1,1 +1,5 @@
 name,pct,price_x,price_y,status,diff
+RCL,4.35,30.0,28.75,B,1.25
+SINGER,-3.51,27.5,28.5,B,-1.0
+SIRI,4.57,1.83,1.75,O,0.08
+ASK,-4.03,35.75,37.25,X,-1.5

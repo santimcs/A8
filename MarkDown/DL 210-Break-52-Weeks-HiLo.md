@@ -6,6 +6,6 @@
 
 4. Find stocks with voume greater than 5 days average & output to 5-day-average.csv
 
-5. Find stocks with high volatile than yesterday prices more than spefified criteria (3 percent) & output to extremes.csv
+5. Find stocks with price changes than yesterday prices more than absolute specified criteria (3 percent) & output to extremes.csv
 
 [[DL 220-Price in CSV Format]]

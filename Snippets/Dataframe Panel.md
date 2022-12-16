@@ -9,7 +9,7 @@
 	ORDER BY trade, name'''
 	df = pd.read_sql(sql, conlite)
 	
-	df_tab = pn.widgets.Tabulator(df)
+	df_tab = pn.widgets.Tabulator(orders, layout='fit_data', width=710)
 	df_tab
 
 
