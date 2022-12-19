@@ -1,8 +1,9 @@
 name,price,target_price,upside,buy,hold,sell,market,sector,subsector,dly_vol,beta,yield
-CKP,4.72,6.45,36.65,7.0,1.0,0.0,SET100 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,83.91,1.06,2.2
-CPF,23.6,31.54,33.64,13.0,1.0,0.0,SET50 / SETCLMV / SETHD / SETTHSI / SETWB    ,Agro & Food Industry,Food & Beverage,622.05,0.84,3.2
-GFPT,13.0,18.59,43.0,13.0,1.0,0.0,sSET / SETTHSI / SETWB    ,Agro & Food Industry,Agribusiness,103.65,0.55,2.8
-III,13.1,18.25,39.31,6.0,0.0,0.0,sSET    ,Services,Transportation & Logistics,83.56,0.93,3.2
-JMART,42.5,58.0,36.47,4.0,1.0,0.0,SET50    ,Technology,Information & Communication Technology,439.54,1.97,1.8
-SCB,103.0,143.4,39.22,8.0,0.0,0.0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,1586.63,1.37,4.4
-TFG,5.3,8.85,66.98,5.0,0.0,0.0,SET    ,Agro & Food Industry,Food & Beverage,73.22,1.11,6.4
+CKP,4.68,6.45,37.82,7.0,1.0,0.0,SET100 / SETCLMV / SETTHSI    ,Resources,Energy & Utilities,83.25,1.07,2.2
+CPF,24.4,31.54,29.26,13.0,1.0,0.0,SET50 / SETCLMV / SETHD / SETTHSI / SETWB    ,Agro & Food Industry,Food & Beverage,628.93,0.83,3.1
+GFPT,13.0,18.59,43.0,13.0,1.0,0.0,sSET / SETTHSI / SETWB    ,Agro & Food Industry,Agribusiness,102.59,0.56,2.8
+III,13.4,18.25,36.19,6.0,0.0,0.0,sSET    ,Services,Transportation & Logistics,82.61,0.92,3.1
+JMART,40.75,58.0,42.33,4.0,1.0,0.0,SET50    ,Technology,Information & Communication Technology,435.71,1.99,1.9
+MEGA,45.5,59.25,30.22,8.0,2.0,0.0,SET100 / SETCLMV / SETWB    ,Services,Commerce,166.88,1.04,3.1
+SCB,103.5,143.1,38.26,7.0,0.0,0.0,SET50 / SETCLMV / SETTHSI    ,Financials,Banking,1564.62,1.36,4.3
+TFG,5.2,8.85,70.19,5.0,0.0,0.0,SET    ,Agro & Food Industry,Food & Beverage,72.49,1.1,6.6
