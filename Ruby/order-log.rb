@@ -4,12 +4,15 @@ require 'open-uri'
 load './my_utils.rb'
 
 def number_of_spread(minp,maxp)
-    div = 0.0
-    gap = 0.0
-    spd = 0
+    div = 0.0 # divider for calculating the number of spreads
+    gap = 0.0 # gap between minp and maxp
+    spd = 0   # number of spreads
+    
+    # If maxp is greater than minp, calculate the gap and set mult to 1.
+    # Otherwise, swap the values of minp and maxp, and set mult to -1.
     if (maxp > minp) 
-        gap = maxp - minp
-        mult = 1
+        gap = maxp - minp # gap = max price - minimum price
+        mult = 1 # multiplier for adjusting the result based on the order of minp and maxp
     else
         tmpp = minp
         minp = maxp
@@ -17,13 +20,20 @@ def number_of_spread(minp,maxp)
         gap  = maxp - minp
         mult = -1
     end
+    
+    # If the gap is not 0, enter a case statement to determine the number of spreads
+    # based on the range that maxp falls into.
     if gap != 0
         case maxp
+            # Calculate the number of spreads using a divisor of 0.01.
             when 0.00..2.00 then 
             begin
                 div = 0.01 
                 spd = (gap/div).round()
             end
+            # Calculate the number of spreads using a divisor of 0.02.
+            # If minp is less than the boundary value (2.00), calculate the number of spreads
+            # in two parts: between minp and the boundary value, and between the boundary value and maxp.
             when 2.02..5.00 then 
             begin
                 div = 0.02
@@ -35,6 +45,9 @@ def number_of_spread(minp,maxp)
                     spd = (gap/div).round()
                 end
             end      
+            # Calculate the number of spreads using a divisor of 0.05.
+            # If minp is less than the boundary value (5.00), calculate the number of spreads
+            # in two parts: between minp and the boundary value, and between the boundary value and maxp.
             when 5.05..10.00 then  
             begin
                 div = 0.05
@@ -49,11 +62,15 @@ def number_of_spread(minp,maxp)
                     spd = (gap/div).round()
                 end            
             end      
+            # Calculate the number of spreads using a divisor of 0.10.
+            # If minp is less than the boundary value (10.00), calculate the number of spreads
+            # in two parts: between minp and the boundary value, and between the boundary value and maxp.
             when 10.10..25.00 then 
             begin
                 div = 0.10
                 boundary = div * 100
-                if minp < boundary
+
+                if minp < boundary    #continue
                     # spd = (boundary - minp) / 0.05
                     # spd += (maxp - boundary) / div
                     spd1 = ((boundary - minp) / 0.05).round()
